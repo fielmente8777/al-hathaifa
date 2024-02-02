@@ -1,10 +1,16 @@
 import React from "react";
 import NavBar from "../../components/Navebar/NavBar";
+import Footer from "../../components/Footer/Footer";
+import { Helmet } from "react-helmet";
 
-function About() {
+function About({SeoMetaData}) {
   return (
     <>
-      <NavBar />
+    <Helmet>
+        <meta name="description" content={SeoMetaData?.Description} />
+        <title>{SeoMetaData?.Title}</title>
+      </Helmet>
+      
       <main>
         <section>
           <div>
@@ -12,6 +18,7 @@ function About() {
           </div>
         </section>
       </main>
+     
     </>
   );
 }
