@@ -4,7 +4,7 @@ import AboutImage from "../assets/mage.png"
 const About = () => {
     return (
         <div className='about'>
-            <div className=" grid grid-cols-2 gap-4 max-md:grid-cols-1 max-md:px-5">
+            <div className=" grid grid-cols-2 gap-4 max-md:grid-cols-1 max-md:px-5 max-w-[1224px]">
                 <div className=" flex justify-end max-md:h-auto" style={{ height: "550px " }}>
                     <img className=" w-auto h-full object-cover " src={AboutImage} alt="Image" style={{ height: "100%" }} />
                 </div>
