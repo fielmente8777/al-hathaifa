@@ -1,7 +1,18 @@
 .management {
     background-image: url("../assets/Backgroung.png");
+<<<<<<< HEAD
     padding: 2rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
+=======
+    /* padding: 2rem 8.5rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.management h1 {
+    font-weight: 400;
+>>>>>>> origin/abhi2
 }
