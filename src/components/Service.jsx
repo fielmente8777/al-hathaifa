@@ -67,7 +67,7 @@ const Service = () => {
     },
   ];
   return (
-    <div className="service pt-10 lg:pb-16 flex flex-col justify-center items-center">
+    <div className="service bg-no-repeat bg-cover pt-10 lg:pb-16 flex flex-col justify-center items-center">
       <div className="" style={{ borderLeft: "6px solid #A52323" }}>
         <h1
           className="pl-2 text-5xl font-bold uppercase text-[#fff] max-md:text-4xl"
