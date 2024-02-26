@@ -22,7 +22,7 @@ const Mission = () => {
 
                 </div>
                 <div className=" flex justify-start ">
-                    <img className='w-auto h-full object-cover  ' src={MissonImage} alt="Image" style={{ height: "100%" }} />
+                    <img className='w-auto h-full object-cover' src={MissonImage} alt="Image" style={{ height: "100%" }} />
                 </div>
             </div>
         </div>
