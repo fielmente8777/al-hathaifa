@@ -40,9 +40,11 @@ const ServicePageCard = ({ serviceData, imageOrder }) => {
                                 {serviceData.point2}
                             </div>
                         </div>
-                        <div className="justify-center self-start px-8 py-4 mt-6 font-bold tracking-normal text-right text-white uppercase whitespace-nowrap bg-red-800 leading-[150%] max-md:px-5">
-                            contact us
-                        </div>
+                        <Link to="/contact">
+                            <div className="justify-center self-start px-8 py-4 mt-6 font-bold tracking-normal text-right text-white uppercase whitespace-nowrap bg-red-800 leading-[150%] max-md:px-5">
+                                contact us
+                            </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="flex flex-col max-md:ml-0 max-md:w-full">

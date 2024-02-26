@@ -1,5 +1,6 @@
 import React from 'react'
 import "../style/Banner.css"
+import { Link } from 'react-router-dom'
 const BannerCard = () => {
     return (
         <div className="banner flex overflow-hidden w-full relative flex-col justify-center text-lg font-semibold leading-7 text-white min-h-[712px] mt-0">
@@ -18,9 +19,11 @@ const BannerCard = () => {
                 <div className="mt-3 text-[16px] text-center leading-[167%] max-md:max-w-full">
                     <p>Innovation, integrity, impact – discover the Al HATHAIFA difference.</p>
                 </div>
-                <div className="justify-center px-8 py-4 mt-8 mb-32 text-base font-bold tracking-normal text-right uppercase whitespace-nowrap bg-red-800 max-md:px-5 max-md:mb-10">
-                    contact us
-                </div>
+                <Link to="/contact">
+                    <div className="justify-center px-8 py-4 mt-8 mb-32 text-base font-bold tracking-normal text-right uppercase whitespace-nowrap bg-red-800 max-md:px-5 max-md:mb-10">
+                        contact us
+                    </div>
+                </Link>
             </div>
         </div>
     )
