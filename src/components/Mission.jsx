@@ -14,7 +14,7 @@ const Mission = () => {
 
                     </div>
 
-                    <div className='mt-2 text-justify text-lg'>
+                    <div className='mt-2 text-justify'>
                         <p className=" mt-2 text-white ">Our mission is to empower our stakeholders by uniting the platform of Technology Advancements, Talent & Business Solutions, to provide innovative and cost-effective business solutions that can meet and exceed client expectations and craft future capabilities to develop the Oman economy.</p>
                         <p className='mt-2 text-white'>We want to be known as one of the best Talent Solutions Company in Oman, create a reputation as the most trusted, preferred and valued business partner for our clients and to be amongst the most desired companies for our internal and external partners.</p>
 

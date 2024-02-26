@@ -6,6 +6,7 @@ import OurGoals from '../components/OurGoals'
 import Partner from '../components/Partner'
 import Footer from "../components/Footer"
 const About = () => {
+
     return (
         <div>
             <Banner />

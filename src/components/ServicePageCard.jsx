@@ -24,7 +24,7 @@ const ServicePageCard = ({ serviceData, imageOrder }) => {
                             <img
                                 loading="lazy"
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d705407f0be3bbd6fc12e47deb5722856d449d74194f14ba1f2656bce0846e0?"
-                                className="self-start w-7 aspect-square"
+                                className="self-start w-[1.75rem] aspect-square"
                             />
                             <div className="flex-auto max-md:max-w-full">
                                 {serviceData.point1}
@@ -34,7 +34,7 @@ const ServicePageCard = ({ serviceData, imageOrder }) => {
                             <img
                                 loading="lazy"
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d705407f0be3bbd6fc12e47deb5722856d449d74194f14ba1f2656bce0846e0?"
-                                className="self-start w-7 aspect-square"
+                                className="self-start w-[1.75rem] aspect-square"
                             />
                             <div className="flex-auto max-md:max-w-full">
                                 {serviceData.point2}
