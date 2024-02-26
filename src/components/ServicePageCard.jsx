@@ -4,9 +4,9 @@ const ServicePageCard = ({ serviceData, imageOrder }) => {
 
     console.log(imageOrder)
     return (
-        <div className='flex justify-center items-center py-10'>
-            <div className="max-w-[1224px]  flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
-                <div className={`flex flex-col w-6/12  max-md:ml-0 max-md:w-full ${imageOrder === 1 ? 'order-2' : ''}`}>
+        <div className='flex justify-center items-center py-10 max-md:py-0 max-md:px-5 max-md:mt-0'>
+            <div className="max-w-[1224px] grid grid-cols-2 max-md:grid-cols-1 gap-5 max-md:">
+                <div className={`flex flex-col  max-md:ml-0 max-md:w-full max-md:order-2 ${imageOrder === 1 ? 'order-2' : ''}`}>
                     <div className="flex  uppercase leading-[60px] max-md:flex-wrap max-md:max-w-full">
                         <div className='pl-2' style={{ borderLeft: "6px solid #A52323" }}>
                             <h1 className="text-4xl uppercase text-[#363636]" style={{ fontWeight: "500" }}>{serviceData.heading}    <span style={{ color: "#A52323" }}></span></h1>
@@ -15,12 +15,12 @@ const ServicePageCard = ({ serviceData, imageOrder }) => {
                     </div>
                     <div className="flex flex-col justify-start grow text-base font-medium leading-6 text-justify text-neutral-400 max-md:mt-5 max-md:max-w-full">
 
-                        <div className="mt-6 max-md:max-w-full">
+                        <div className="mt-6 max-md:mt-0 max-md:max-w-full">
                             {serviceData.description1}
                             <br />
                             {serviceData.description2}
                         </div>
-                        <div className="flex gap-3 justify-between mt-6 max-md:flex-wrap max-md:max-w-full">
+                        <div className="flex gap-3 justify-between mt-6 max-md:mt-2 max-md:max-w-full">
                             <img
                                 loading="lazy"
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d705407f0be3bbd6fc12e47deb5722856d449d74194f14ba1f2656bce0846e0?"
@@ -30,7 +30,7 @@ const ServicePageCard = ({ serviceData, imageOrder }) => {
                                 {serviceData.point1}
                             </div>
                         </div>
-                        <div className="flex gap-3 justify-between mt-3 max-md:flex-wrap max-md:max-w-full">
+                        <div className="flex gap-3 justify-between mt-2 max-md:max-w-full">
                             <img
                                 loading="lazy"
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d705407f0be3bbd6fc12e47deb5722856d449d74194f14ba1f2656bce0846e0?"
@@ -45,7 +45,7 @@ const ServicePageCard = ({ serviceData, imageOrder }) => {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+                <div className="flex flex-col max-md:ml-0 max-md:w-full">
                     <img
                         loading="lazy"
                         src={Service}

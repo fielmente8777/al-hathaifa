@@ -3,12 +3,12 @@ import React from 'react'
 const CareerForm = () => {
     return (
         <div className='flex justify-center'>
-            <div className='py-10  max-w-[1224px]'>
+            <div className='pt-10 pb-10 max-md:pb-0  max-w-[1224px] max-md:px-5'>
                 <div className="flex flex-col text-base ">
                     <div className="flex gap-3 self-start text-4xl text-justify text-red-800 uppercase whitespace-nowrap leading-[60px]">
-                        <div className='p-2' style={{ borderLeft: "6px solid #A52323" }}>
-                            <h1 className="text-5xl font-bold uppercase text-[#363636]" style={{ fontWeight: "400" }}>
-                                LOREM <span style={{ color: "#A52323" }}>IPSUM </span></h1>
+                        <div className='pl-2' style={{ borderLeft: "6px solid #A52323" }}>
+                            <h1 className="text-5xl text-[#363636]  uppercase font-bold max-md:text-4xl ">Lorem    <span style={{ color: "#A52323" }}>ipsum</span></h1>
+
 
                         </div>
                     </div>
@@ -21,8 +21,8 @@ const CareerForm = () => {
                         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                         mollit anim id est laborum.
                     </div>
-                    <div className="flex flex-col px-11 py-8 mt-14 w-full bg-neutral-800 leading-[150%] max-md:px-5 max-md:mt-10 max-md:max-w-full">
-                        <div className="text-4xl text-red-800 uppercase leading-[60px] max-md:max-w-full">
+                    <div className="flex flex-col px-11 py-8 mt-14  w-full bg-neutral-800 leading-[150%] max-md:px-5 max-md:mt-10 max-md:max-w-full">
+                        <div className="text-4xl text-white font-bold uppercase leading-[60px] max-md:max-w-full">
                             join our <span className="text-red-800">team</span>
                         </div>
                         <div className="flex gap-2.5 justify-between mt-6 font-medium whitespace-nowrap text-neutral-400 max-md:flex-wrap max-md:max-w-full">
@@ -38,15 +38,15 @@ const CareerForm = () => {
                                 />
                             </div>
                         </div>
-                        <div className="flex gap-2.5 justify-between mt-2.5 font-medium text-neutral-400 max-md:flex-wrap max-md:max-w-full">
+                        <div className="flex gap-2.5 justify-between max-md:flex-col mt-2.5 font-medium text-neutral-400 max-md:max-w-full">
                             <div className="flex flex-col flex-1 justify-center whitespace-nowrap max-md:max-w-full">
                                 <input className="justify-center items-start py-4 pr-16 pl-7 bg-white max-md:px-5 max-md:max-w-full"
                                     placeholder=' Your Email'
                                 />
                             </div>
                             <div className="flex flex-col flex-1 justify-center max-md:max-w-full">
-                                <div className="flex flex-col justify-center bg-white max-md:px-5 max-md:max-w-full">
-                                    <div className="flex gap-5 justify-start max-md:flex-wrap max-md:max-w-full">
+                                <div className="flex flex-col justify-center bg-white max-md:pr-3 max-md:max-w-full">
+                                    <div className="flex gap-5 justify-start max-md:max-w-full">
                                         <input type='text' placeholder='Job Title' className="flex flex-col justify-center px-7 py-4 w-[90%] bg-white max-md:px-5 max-md:max-w-full" />
                                         <img
                                             loading="lazy"
@@ -76,7 +76,7 @@ const CareerForm = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="justify-center self-center px-8 py-4 mt-10 font-bold tracking-normal text-right text-white uppercase whitespace-nowrap bg-red-800 max-md:px-5">
+                        <div className="justify-center self-center max-md:self-start px-8 py-4 mt-10 font-bold tracking-normal text-right text-white uppercase whitespace-nowrap bg-red-800 max-md:px-5">
                             post your resume
                         </div>
                     </div>

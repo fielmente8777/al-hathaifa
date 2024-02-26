@@ -23,7 +23,7 @@ export default function Navbar() {
   return (
     <>
       <div className="bg-gray-800 text-white w-full ">
-        <div className="h-16 mx-auto  py-5 flex justify-between items-center px-4 lg:max-w-[1224px] md:max-w-[720px] max-w-full relative">
+        <div className="h-16 mx-auto  py-5 flex justify-between items-center px-5 lg:max-w-[1224px] md:max-w-[720px] max-w-full relative">
           <div className="lg:hidden block">
             <button className="" onClick={click}>
               <FaBars className="text-3xl" />

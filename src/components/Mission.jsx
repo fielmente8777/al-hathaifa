@@ -7,7 +7,7 @@ const Mission = () => {
     const location = useLocation()
     return (
         <div className='mission flex justify-center max-md:px-5 '>
-            <div className="py-10 grid grid-cols-2 gap-5 max-w-[1224px] max-md:grid-cols-1">
+            <div className="py-10 lg:grid lg:grid-cols-2 gap-5 max-w-[1224px]">
                 <div className={`flex flex-col justify-center border-3 max-md:order-1 ${location.pathname === "/about" ? "order-2" : ""}`}>
                     <div className='pl-2' style={{ borderLeft: "6px solid #A52323" }}>
                         <h1 className="text-5xl text-white uppercase font-bold max-md:text-4xl">OUR MISSION &    <span style={{ color: "#A52323" }}>VISION</span></h1>
