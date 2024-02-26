@@ -14,6 +14,7 @@ import OurGoals from '../components/OurGoals'
 import Solution from '../components/Solution'
 import OurSpeciality from '../components/OurSpeciality'
 import BenifitsForCLient from '../components/BenifitsForCLient'
+import MarketAnalysis from '../components/MarketAnalysis'
 
 const Home = () => {
     return (
@@ -27,6 +28,8 @@ const Home = () => {
             <WorkingProcess />
 
             <ChooseService />
+
+            <MarketAnalysis />
 
             <Skills />
 

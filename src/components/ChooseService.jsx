@@ -8,9 +8,12 @@ const ChooseService = () => {
     return (
 
         <div className="mission chooseService px-24 py-12 grid grid-cols-2 max-md:grid-cols-1 gap-4 max-md-px-5 max-md:py-5">
+            <div className='max-w-[1224px]'>
+
+            </div>
             <div className=" flex flex-col justify-center border-3" style={{ width: "600px" }}>
                 <div style={{ borderRight: "6px solid #A52323", width: '550px' }}>
-                    <h1 className="text-[40px] text-white uppercase" style={{ fontWeight: "600" }}>why you should choose our  <span style={{ color: "#A52323" }}> services? </span></h1>
+                    <h1 className="text-5xl max-md:text-4xl text-white uppercase" style={{ fontWeight: "600" }}>why you should choose our  <span style={{ color: "#A52323" }}> services? </span></h1>
                 </div>
 
                 <div className='mt-2 text-justify text-lg'>
