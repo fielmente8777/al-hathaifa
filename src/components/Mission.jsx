@@ -8,9 +8,9 @@ const Mission = () => {
     return (
         <div className='mission flex justify-center max-md:px-5 '>
             <div className="py-10 grid grid-cols-2 gap-5 max-w-[1224px] max-md:grid-cols-1">
-                <div className={`flex flex-col justify-center border-3 max-md:order-1 ${location.pathname === "/about" ? "order-2" : ""}`} style={{ width: "600px" }}>
+                <div className={`flex flex-col justify-center border-3 max-md:order-1 ${location.pathname === "/about" ? "order-2" : ""}`}>
                     <div className='pl-2' style={{ borderLeft: "6px solid #A52323" }}>
-                        <h1 className="text-5xl text-white uppercase" style={{ fontWeight: "500" }}>OUR MISSION &    <span style={{ color: "#A52323" }}>VISION</span></h1>
+                        <h1 className="text-5xl text-white uppercase font-bold max-md:text-4xl">OUR MISSION &    <span style={{ color: "#A52323" }}>VISION</span></h1>
 
                     </div>
 
@@ -21,7 +21,7 @@ const Mission = () => {
                     </div>
 
                 </div>
-                <div className=" flex justify-start " style={{ width: "600px" }}>
+                <div className=" flex justify-start ">
                     <img className='w-auto h-full object-cover  ' src={MissonImage} alt="Image" style={{ height: "100%" }} />
                 </div>
             </div>

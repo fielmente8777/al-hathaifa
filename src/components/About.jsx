@@ -4,14 +4,16 @@ import AboutImage from "../assets/mage.png"
 const About = () => {
     return (
         <div className='about'>
-            <div className=" grid grid-cols-2 gap-4 max-md:grid-cols-1 max-md:px-5">
-                <div className=" flex justify-end max-md:h-auto" style={{ height: "550px " }}>
+            <div className=" grid grid-cols-2 gap-4 max-md:grid-cols-1 max-md:px-5 max-w-[1224px]">
+                <div className=" flex justify-end" >
                     <img className=" w-auto h-full object-cover " src={AboutImage} alt="Image" style={{ height: "100%" }} />
                 </div>
-                <div className=" flex flex-col justify-start " style={{ width: "600px" }}>
-                    <div className='pl-2 ' style={{ borderLeft: "6px solid #A52323" }}>
-                        <h1 className="text-5xl" style={{ fontWeight: "400" }}>Lorem ipsum dolor consectetur ABOUT US LOREM <stronge style={{ color: "#A52323" }}>adipiscing elit</stronge></h1>
+                <div className=" flex flex-col justify-start ">
+                    <div className='' style={{ borderLeft: "6px solid #A52323" }}>
+                        <div className="pl-2 grow ">
+                            <h1 className="text-5xl max-md:text-4xl uppercase font-bold">Lorem ipsum dolor consectetur ABOUT US LOREM <stronge style={{ color: "#A52323" }}>adipiscing elit</stronge></h1>
 
+                        </div>
                     </div>
 
                     <div className='mt-3 text-justify text-lg'>
@@ -19,10 +21,10 @@ const About = () => {
                         <p className='mt-3'>AL HATHAIFA are a team of the best, innovative, skilled and passionate mindsets who offer customized, effective and result oriented business solutions designed to fit your business needs. Our innovative and proactive response services help promote customer satisfaction thereby increasing productivity of our clients.</p>
 
                     </div>
-                    <div className="mt-3 hidden md:block">
-                        <button className="flex items-center px-6 py-3 bg-[#a52323] hover:bg-red-700 transition-colors">
-                            <span className="text-white text-sm font-bold uppercase tracking-[0.16] leading-[24px]">
-                                About
+                    <div className="mt-3">
+                        <button className="flex items-center px-8 py-4 bg-[#a52323] hover:bg-red-700 transition-colors">
+                            <span className="text-white text-base font-bold uppercase tracking-[0.16] leading-[24px]">
+                                About Us
                             </span>
                         </button>
                     </div>

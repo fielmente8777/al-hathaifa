@@ -2,7 +2,7 @@ import React from 'react'
 
 const ServiceCard = () => {
     return (
-        <div className="flex flex-col px-8 py-8 text-base bg-white border-solid shadow-2xl border-[0.5px] border-[color:var(--Secondary,#A52323)] max-w-[295px]">
+        <div className="flex flex-col px-8 py-8 text-base bg-white border-solid shadow-2xl border-[0.5px] border-[color:var(--Secondary,#A52323)] max-w-[295px] max-wd:w-full">
             <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/6e6c6be5f268db06380b77da5802866019f752c156cd7fe4fee821ba7824dec7?"

@@ -13,14 +13,16 @@ const Skills = () => {
 
     return (
         <div className='about'>
-            <div className=" grid grid-cols-2 gap-4">
-                <div className=" flex justify-end " style={{ height: "550px ", width: "600px" }}>
+            <div className=" grid grid-cols-2 gap-4 max-w-[1224px] max-md:grid-cols-1 max-md:w-full max-md:px-5 ">
+                <div className=" flex justify-end ">
                     <img className=" w-auto h-full object-cover " src={MissonImage} alt="Image" style={{ height: "100%" }} />
                 </div>
-                <div className=" flex flex-col justify-center item-center " style={{ width: "600px" }}>
-                    <div className='p-2' style={{ borderLeft: "6px solid #A52323" }}>
-                        <h1 className="text-5xl font-bold uppercase text-[#363636]" style={{ fontWeight: "400" }}>OUR <stronge style={{ color: "#A52323" }}>SKills </stronge></h1>
+                <div className=" flex flex-col justify-center item-center ">
+                    <div className='' style={{ borderLeft: "6px solid #A52323" }}>
+                        <div className="pl-2 grow ">
+                            <h1 className="text-5xl font-bold uppercase text-[#363636] max-md:text-4xl" style={{ fontWeight: "400" }}>OUR <stronge style={{ color: "#A52323" }}>SKills </stronge></h1>
 
+                        </div>
                     </div>
 
                     <div className='mt-3 text-justify text-lg'>
