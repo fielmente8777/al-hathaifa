@@ -1,0 +1,10 @@
+.about {
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about h1 {
+    font-weight: 400;
+}

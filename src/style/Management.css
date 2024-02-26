@@ -1,0 +1,11 @@
+.management {
+    background-image: url("../assets/Backgroung.png");
+    /* padding: 2rem 8.5rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.management h1 {
+    font-weight: 400;
+}

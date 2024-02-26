@@ -1,0 +1,7 @@
+.mission {
+    background-image: url("../assets/Backgroung.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
