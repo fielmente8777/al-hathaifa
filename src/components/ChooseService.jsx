@@ -1,26 +1,12 @@
 import React from 'react'
-<<<<<<< HEAD
-import AboutImage from "../assets/Figure → Link → choose1-1.jpg.png"
-=======
 import "../style/ChooseService.css"
 import AboutImage from "../assets/mage.png"
->>>>>>> origin/abhi2
 import "../style/Mission.css"
 
 
 const ChooseService = () => {
     return (
 
-<<<<<<< HEAD
-        <div className="mission grid grid-cols-2 gap-4">
-            <div className=" flex flex-col justify-center border-3" style={{ width: "600px" }}>
-                <div className='p-2 ' style={{ borderLeft: "6px solid #A52323" }}>
-                    <h1 className="text-5xl text-white uppercase" style={{ fontWeight: "600" }}>why you should choose our  <stronge style={{ color: "#A52323" }}> services? </stronge></h1>
-                </div>
-
-                <div className='mt-2 text-justify text-lg'>
-                    <p className=" mt-2 text-white ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-=======
         <div className="mission chooseService px-24 py-12 grid grid-cols-2 max-md:grid-cols-1 gap-4 max-md-px-5 max-md:py-5">
             <div className='max-w-[1224px]'>
 
@@ -33,15 +19,11 @@ const ChooseService = () => {
                 <div className='mt-2 text-justify text-lg'>
                     <p className=" mt-2 text-white ">At AL HATHAIFA, we take pride in our exceptional team of experts who
                         possess the best skills, unwavering determination, and a forward-thinking mindset. Our primary goal is to provide customized, impact, and outcome-oriented business solutions that are perfectly tailored to suit your unique business needs.</p>
->>>>>>> origin/abhi2
                 </div>
                 <div className="flex gap-5 justify-between mt-12 font-semibold text-justify whitespace-nowrap leading-[150%] max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
                     <div className="flex gap-3 justify-between">
                         <img
-<<<<<<< HEAD
-=======
                             alt="Customer"
->>>>>>> origin/abhi2
                             loading="lazy"
                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e5b5fc3fb77e0f3e80d88bf8b1b440d6770994dd058682b693bc65e95727944?apiKey=c81aa461ed88497c9715fa37b92c8996&"
                             className="w-6 aspect-square fill-red-800"
@@ -49,11 +31,7 @@ const ChooseService = () => {
                         <div className=" grow text-white text-md">100% Customer Retention</div>
                     </div>
                     <div className="flex gap-3 justify-between">
-<<<<<<< HEAD
-                        <img
-=======
                         <img alt="icon"
->>>>>>> origin/abhi2
                             loading="lazy"
                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e5b5fc3fb77e0f3e80d88bf8b1b440d6770994dd058682b693bc65e95727944?apiKey=c81aa461ed88497c9715fa37b92c8996&"
                             className="w-6 aspect-square fill-red-800"
@@ -63,11 +41,7 @@ const ChooseService = () => {
                 </div>
                 <div className="flex gap-5 justify-between pr-20 mt-4 w-full font-semibold text-justify whitespace-nowrap leading-[150%] max-md:flex-wrap max-md:pr-5 max-md:max-w-full">
                     <div className="flex gap-3 justify-between">
-<<<<<<< HEAD
-                        <img
-=======
                         <img alt="ISO"
->>>>>>> origin/abhi2
                             loading="lazy"
                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e5b5fc3fb77e0f3e80d88bf8b1b440d6770994dd058682b693bc65e95727944?apiKey=c81aa461ed88497c9715fa37b92c8996&"
                             className="w-6 aspect-square fill-red-800"
@@ -75,11 +49,7 @@ const ChooseService = () => {
                         <div className="grow grow text-white text-md">ISO Certified</div>
                     </div>
                     <div className="flex gap-3 justify-between">
-<<<<<<< HEAD
-                        <img
-=======
                         <img alt="Diversity"
->>>>>>> origin/abhi2
                             loading="lazy"
                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e5b5fc3fb77e0f3e80d88bf8b1b440d6770994dd058682b693bc65e95727944?apiKey=c81aa461ed88497c9715fa37b92c8996&"
                             className="w-6 aspect-square fill-red-800"
@@ -89,11 +59,7 @@ const ChooseService = () => {
                 </div>
                 <div className="flex gap-5 justify-between mt-12 w-full text-2xl leading-7 uppercase max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
                     <div className="flex gap-5 justify-between">
-<<<<<<< HEAD
-                        <img
-=======
                         <img alt="Best"
->>>>>>> origin/abhi2
                             loading="lazy"
                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/b30a1196f6ff009953adcf757795840287fbb59dd2184c6dd4e1a4b70597057a?apiKey=c81aa461ed88497c9715fa37b92c8996&"
                             className="self-start aspect-square w-[54px]"
@@ -102,11 +68,7 @@ const ChooseService = () => {
                         <div className='text-white text-2xl font-bold'>Best Lorem ipsum</div>
                     </div>
                     <div className="flex gap-5 justify-between">
-<<<<<<< HEAD
-                        <img
-=======
                         <img alt="Lorem"
->>>>>>> origin/abhi2
                             loading="lazy"
                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/b30a1196f6ff009953adcf757795840287fbb59dd2184c6dd4e1a4b70597057a?apiKey=c81aa461ed88497c9715fa37b92c8996&"
                             className="self-start aspect-square w-[54px]"
@@ -117,11 +79,7 @@ const ChooseService = () => {
                 </div>
 
             </div>
-<<<<<<< HEAD
-            <div className="flex z-10 flex-col absolute left-100 self-stretch px-7 py-9 my-auto uppercase bg-white rounded-3xl h-[187px] w-[187px] max-md:px-5">
-=======
             <div className=" experiencecard flex z-10 flex-col left-[52%] self-stretch px-7 py-9 my-auto uppercase bg-white rounded-3xl h-[187px] w-[187px] max-md:px-5">
->>>>>>> origin/abhi2
                 <div className="text-6xl text-red-800 leading-[59.92px] max-md:text-4xl">
                     8+
                 </div>
@@ -130,17 +88,10 @@ const ChooseService = () => {
                 </div>
             </div>
             <div className=" flex justify-end" style={{ width: "600px" }}>
-<<<<<<< HEAD
-                <img className=" w-auto h-full object-cover overflow-hidden	 " src={AboutImage} alt="Image" style={{ height: "450px", width: "400px" }} />
-            </div>
-
-        </div >
-=======
                 <img className=" w-auto h-full object-cover overflow-hidden	 " src={AboutImage} alt="About" style={{ height: "550px", width: "460px" }} />
             </div>
 
         </div>
->>>>>>> origin/abhi2
 
     )
 }

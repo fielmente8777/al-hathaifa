@@ -10,14 +10,11 @@ import Management from '../components/Management'
 import Partner from '../components/Partner'
 import Footer from '../components/Footer'
 import FormMap from '../components/FormMap'
-<<<<<<< HEAD
-=======
 import OurGoals from '../components/OurGoals'
 import Solution from '../components/Solution'
 import OurSpeciality from '../components/OurSpeciality'
 import BenifitsForCLient from '../components/BenifitsForCLient'
 import MarketAnalysis from '../components/MarketAnalysis'
->>>>>>> origin/abhi2
 
 const Home = () => {
     return (
@@ -32,19 +29,12 @@ const Home = () => {
 
             <ChooseService />
 
-<<<<<<< HEAD
-=======
             <MarketAnalysis />
 
->>>>>>> origin/abhi2
             <Skills />
 
             <Service />
 
-<<<<<<< HEAD
-            <Management />
-
-=======
             <OurGoals />
 
             <Management />
@@ -58,7 +48,6 @@ const Home = () => {
 
             <BenifitsForCLient />
 
->>>>>>> origin/abhi2
             <Partner />
 
             <FormMap />

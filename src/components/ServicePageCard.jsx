@@ -1,5 +1,6 @@
 import React from 'react'
 import Service from "../assets/mage.png"
+import { Link } from 'react-router-dom'
 const ServicePageCard = ({ serviceData, imageOrder }) => {
 
     console.log(imageOrder)

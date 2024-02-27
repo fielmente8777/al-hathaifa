@@ -1,22 +1,22 @@
- .swiper {
+ /* .swiper { */
 
-     width: 100%;
+     /* width: 100%; */
      /* height: 100%; */
-     height: 600px;
- }
+     /* height: 600px; */
+ /* } */
 
- .swiper-slide {
+ /* .swiper-slide {
      text-align: center;
      font-size: 18px;
      background: #fff;
      display: flex;
      justify-content: center;
      align-items: center;
- }
+ } */
 
- .swiper-slide img {
+ /* .swiper-slide img {
      display: block;
      width: 100%;
      height: 100%;
      object-fit: cover;
- }
+ } */
