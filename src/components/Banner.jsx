@@ -10,7 +10,7 @@ export default function App({ heading, description }) {
                 className="object-cover absolute inset-0 size-full"
             />
             <div className="flex relative flex-col items-center  py-24 max-md:py-0 w-full bg-black bg-opacity-40 max-md:px-5 max-md:max-w-full">
-                <div className="mt-40 max-md:mt-20 uppercase whitespace-nowrap tracking-[4px]">
+                <div className="mt-40 max-md:mt-20 text-center uppercase tracking-[4px]">
                     <p>Welcome to al HATHAIFA</p>
                 </div>
                 <div className="mt-3 text-5xl max-w-[1224px]  font-outline-2 text-[#A52323] text-center uppercase leading-[60px]  max-md:max-w-full max-md:text-4xl max-md:leading-10">

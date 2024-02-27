@@ -42,7 +42,7 @@ const ServicePageCard = ({ serviceData, imageOrder }) => {
                             </div>
                         </div>
                         {/* <Link to="/contact"> */}
-                        <Link className="justify-center self-start px-8 py-4 mt-6 font-bold tracking-normal text-right text-white uppercase whitespace-nowrap bg-red-800 leading-[150%] max-md:px-5">
+                        <Link to='/contact' className="justify-center self-start px-8 py-4 mt-6 font-bold tracking-normal text-right text-white uppercase whitespace-nowrap bg-red-800 leading-[150%] max-md:px-5">
                             contact us
                         </Link>
                         {/* </Link> */}

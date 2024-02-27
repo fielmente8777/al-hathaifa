@@ -7,7 +7,7 @@ const FormMap = () => {
                 <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
                     <div className="flex flex-col w-[61%] max-md:ml-0 max-md:w-full">
                         <div className="flex relative flex-col self-stretch my-auto text-justify max-md:mt-10 max-md:max-w-full">
-                            <div className="flex gap-3 self-start text-red-800 uppercase whitespace-nowrap leading-[60px]">
+                            <div className="flex gap-3 self-start text-red-800 uppercase leading-[60px]">
                                 <div className='' style={{ borderLeft: "6px solid #A52323" }}>
                                     <div className="pl-2 grow text-5xl text-[#363636] font-bold max-md:text-4xl">
                                         <h1>WHERE TO FIND <span className="text-red-800">US</span></h1>

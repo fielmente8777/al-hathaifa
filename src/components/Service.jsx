@@ -80,7 +80,7 @@ const Service = () => {
       <div className="mt-5 mb-5 lg:max-w-[1224px] md:max-w[720px] max-w-[100%]">
         <div className="lg:grid lg:grid-cols-4 hidden justify-center  gap-[1rem] max-md:gap-5 max-md:px-5">
           {serviceData.map((serviceCardData, index) => (
-            <div key={index} className="bg-transparent">
+            <div key={index}>
               <ServiceCard
                 imgUrl={serviceCardData.url}
                 title={serviceCardData.heading}

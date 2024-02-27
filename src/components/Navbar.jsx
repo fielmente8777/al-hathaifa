@@ -3,6 +3,7 @@ import { FaBars } from "react-icons/fa6";
 import { useState } from "react";
 import Logo from "../assets/svg/Final-logo 1.svg"
 // import { FaTimes } from "react-icons/fa";
+import { FaTimes } from "react-icons/fa";
 
 import icon from "../assets/svg/phone.svg";
 
@@ -137,9 +138,14 @@ export default function Navbar() {
         </div>
       </div>
       {open && (
-        <div className="lg:hidden block px-4 py-3 bg-gray-800">
+        <div className="lg:hidden block px-4 py-3 bg-gray-800 h-[100vh] fixed top-0 w-full z-10 ">
+          <div>
+            <button className="border-0 bg-transparent" onClick={() => close(false)}>
+              <FaTimes className="text-3xl text-white " />
+            </button>
+          </div>
           <nav>
-            <ul className="flex flex-col gap-2">
+            <ul className="flex flex-col gap-5 py-5">
               {navLink.map((item, i) => (
                 <li key={i}>
                   <Link

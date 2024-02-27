@@ -22,10 +22,10 @@ const Bussiness = () => {
                         business solutions providers in the Technology, Staffing, and Talent
                         Management Sectors. Established in 2009, AL HATHAIFA has built strong
                         and trusted partnerships and feels proud to say that{" "}
-                        <span className="font-semibold text-neutral-700">
+                        <strong className="font-semibold text-neutral-700">
                             &quot;Our clients are more than just customers, they are our business
                             partners.&quot;
-                        </span>
+                        </strong>
                     </p>
                     <p className='mt-4'>
                         AL HATHAIFA comprises the best, skilled, determined, innovative, and

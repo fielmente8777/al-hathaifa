@@ -17,8 +17,8 @@ const OurGoals = () => {
         },
     ]
     return (
-        <div className="flex flex-col px-24 py-10 max-md:px-5">
-            <div className="flex gap-3 self-center max-md:self-start px-5 max-md:px-0 text-5xl text-justify text-red-800 uppercase whitespace-nowrap leading-[60px]">
+        <div className="flex flex-col items-center justify-center py-10 max-md:px-5">
+            <div className="flex gap-3 max-w-[1224px] self-center max-md:self-start px-5 max-md:px-0 text-5xl text-justify text-red-800 uppercase whitespace-nowrap leading-[60px]">
                 <div className='' style={{ borderLeft: "6px solid #A52323" }}>
                     <div className="pl-2 grow text-5xl text-[#363636] font-bold max-md:text-4xl">
                         <h1><span className="text-neutral-700">OUR </span>
@@ -27,10 +27,10 @@ const OurGoals = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex justify-center items-center mt-10 w-full max-md:max-w-full">
-                <div className='grid grid-cols-3 justify-center gap-10 max-md:gap-5 max-md:grid-cols-1'>
+            <div className="flex justify-center items-center  mt-10 max-md:max-w-full">
+                <div className='grid grid-cols-3 gap-5 max-w-[1224px] max-md:gap-5 max-md:grid-cols-1'>
                     {ourGoalsData.map((ourGoal, index) => (
-                        <div key={index} className='flex flex-col justify-center items-center py-8 px-2 border-2 border-[#A52323] w-[22.5rem] h-[14rem] max-md:w-full max-md:h-full'>
+                        <div key={index} className='flex flex-col justify-center items-center py-8 px-2 border-2 border-[#A52323] max-md:w-full max-md:h-full'>
                             <div className=''>
                                 <img src={ourGoal.imgUri} alt='light image' className='h-24 w-24' />
                             </div>
