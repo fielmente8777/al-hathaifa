@@ -7,7 +7,7 @@ const ServiceCard = ({ title, imgUrl, desc, btnName }) => {
         <img src={imgUrl} className="" alt="service-img" loading="lazy" />
       </div>
       <div className="mt-4 text-2xl leading-9 text-center uppercase text-neutral-700 lg:min-h-[7rem] min-h-[6rem]:">
-        {title}
+        <span>{title}</span>
       </div>
       <div className="mt-2 font-medium leading-6 text-justify text-neutral-400 min-h-[13rem]">
         {desc}

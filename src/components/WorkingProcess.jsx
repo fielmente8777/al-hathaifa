@@ -5,16 +5,16 @@ const WorkingProcess = () => {
 
     const WorkingCardData = [
         {
-            heading: "Customised",
-            description: "Lorem ipsum dolor sit amet consectetur adipiscing."
+            heading: "Customised Approach",
+            description: "Our approach is designed exclusively for your needs. Through examination and collaboration, we create tailor-made solutions for resounding success."
         },
         {
             heading: "Effective & innovative",
-            description: "Lorem ipsum dolor sit amet consectetur adipiscing."
+            description: "By utilizing cutting-edge techniques, we blend efficiency and creativity to fulfill your needs and propel your company towards success."
         },
         {
             heading: "result oriented",
-            description: "Lorem ipsum dolor sit amet consectetur adipiscing."
+            description: "Our tailored solutions are laser-focused on achieving tangible outcomes that make a real impact on your bottom line."
         }
     ]
     return (

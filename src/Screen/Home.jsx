@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Banner from '../components/Banner'
 import About from '../components/About'
 import Mission from '../components/Mission'
@@ -17,9 +17,15 @@ import BenifitsForCLient from '../components/BenifitsForCLient'
 import MarketAnalysis from '../components/MarketAnalysis'
 
 const Home = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll the window to the top
+    }, []);
     return (
         <div>
-            <Banner />
+            <Banner
+                heading="Where expertise meets opportunity"
+                description="Innovation, integrity, impact – discover the Al HATHAIFA difference."
+            />
 
             <About />
 

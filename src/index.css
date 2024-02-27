@@ -15,3 +15,12 @@ code {
 body::-webkit-scrollbar {
   display: none;
 }
+
+h1,
+span {
+  font-family: 'Bauhaus 93';
+}
+
+p {
+  font-family: 'Raleway';
+}

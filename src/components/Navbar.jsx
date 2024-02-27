@@ -1,7 +1,7 @@
-import { Link, NavLink } from "react-router-dom";
-import logo from "../assets/Final-logo-1.png";
+import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa6";
 import { useState } from "react";
+import Logo from "../assets/svg/Final-logo 1.svg"
 // import { FaTimes } from "react-icons/fa";
 
 import icon from "../assets/svg/phone.svg";
@@ -23,34 +23,56 @@ export default function Navbar() {
   return (
     <>
       <div className="bg-gray-800 text-white w-full ">
-        <div className="h-16 mx-auto  py-5 flex justify-between items-center px-5 lg:max-w-[1224px] md:max-w-[720px] max-w-full relative">
+        <div className="h-16 mx-auto  py-5 flex justify-between items-center max-md:px-5 lg:max-w-[1224px] md:max-w-[720px] max-w-full relative">
           <div className="lg:hidden block">
             <button className="" onClick={click}>
               <FaBars className="text-3xl" />
             </button>
           </div>
           <div className="lg:flex hidden space-x-6 items-center ">
-            <img src={logo} alt="Al Hathboor Group" class="h-24 top-0 z-10" />
-            <img
-              src="https://file.rendit.io/n/E5WYXaxWoq1Atl7xFkdq.svg"
-              alt="Facebook"
-              className="w-6"
-            />
-            <img
-              src="https://file.rendit.io/n/GZei1X17dnm9IES525QH.svg"
-              alt="Instagram"
-              className="w-6"
-            />
-            <img
-              src="https://file.rendit.io/n/6gaT3XiTsangAeN3Q7EP.svg"
-              alt="Flickr"
-              className="w-6"
-            />
-            <img
-              src="https://file.rendit.io/n/hNqrqEgtyCThGpYs8E1h.svg"
-              alt="LinkedIn"
-              className="w-6"
-            />
+            <img src={Logo} alt="Al Hathboor Group" class="h-24 top-0 z-10" />
+
+
+            <Link
+              to="/"
+              className="hover:text-red-600 transition-colors duration-300"
+            >
+              <img
+                src="https://file.rendit.io/n/E5WYXaxWoq1Atl7xFkdq.svg"
+                alt="Facebook"
+                className="w-6 "
+              />
+            </Link>
+            <Link
+              to="/"
+              className="hover:text-red-600 transition-colors duration-300"
+            >
+              <img
+                src="https://file.rendit.io/n/GZei1X17dnm9IES525QH.svg"
+                alt="Instagram"
+                className="w-6"
+              />
+            </Link>
+            <Link
+              to="/"
+              className="hover:text-red-600 transition-colors duration-300"
+            >
+              <img
+                src="https://file.rendit.io/n/6gaT3XiTsangAeN3Q7EP.svg"
+                alt="Flickr"
+                className="w-6"
+              />
+            </Link>
+            <Link
+              to="/"
+              className="hover:text-red-600 transition-colors duration-300"
+            >
+              <img
+                src="https://file.rendit.io/n/hNqrqEgtyCThGpYs8E1h.svg"
+                alt="LinkedIn"
+                className="w-6"
+              />
+            </Link>
           </div>
           <nav className="hidden lg:flex space-x-8">
             <Link
@@ -92,15 +114,19 @@ export default function Navbar() {
                 alt="Call to action"
                 className="w-6 h-6 mr-2"
               />
-              <span className="text-white text-sm font-bold uppercase tracking-[0.16] leading-[24px]">
+              <div className="text-white text-sm font-bold uppercase tracking-[0.16] leading-[24px]">
                 Let's Talk
-              </span>
+              </div>
             </button>
           </div>
 
           {/* phone view */}
           <div className="lg:hidden md:block absolute right-[40%] md:right-[45%] h-28 z-10">
-            <img src={logo} alt="Al Hathboor Group" class="h-28 top-0 z-10" />
+            <Link to='/'>
+
+              <img src={Logo} alt="Al Hathboor Group" class="h-28 top-0 z-10" />
+            </Link>
+
           </div>
 
           <div className="lg:hidden block">

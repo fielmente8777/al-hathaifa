@@ -10,7 +10,8 @@ const Bussiness = () => {
 
                     <div className='' style={{ borderLeft: "6px solid #A52323" }}>
                         <h1 className="pl-2 text-5xl max-md:text-4xl font-bold uppercase text-[#363636]" >
-                            LOREM IPSUM DOLOR CONSECTETUR ABOUT US LOREM <span style={{ color: "#A52323" }}>ADIPISCING ELIT </span></h1>
+                            A new era of business standards shaped by the fusion of
+                            passion and purpose<span style={{ color: "#A52323" }}></span></h1>
 
                     </div>
 
@@ -25,7 +26,8 @@ const Bussiness = () => {
                             &quot;Our clients are more than just customers, they are our business
                             partners.&quot;
                         </span>
-                        <br />
+                    </p>
+                    <p className='mt-4'>
                         AL HATHAIFA comprises the best, skilled, determined, innovative, and
                         focused mindsets offering customized, effective, and result-oriented
                         business solutions designed to fit your business needs.
@@ -50,13 +52,8 @@ const Bussiness = () => {
                     </div>
                 </div>
                 <div className="mt-12 w-full text-base font-medium leading-6 text-justify text-neutral-400 max-md:mt-10 max-md:max-w-full">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum.
+                    With a commitment to excellence, integrity, and professionalism, our vision is to set new standards for growth and honesty in the industry. At Al Hathaifa, our customers always come first, and we continuously strive to exceed their expectations, ensuring 100% satisfaction with every interaction.
+
                 </div>
             </div>
         </div>

@@ -1,10 +1,4 @@
 import React from 'react'
-import Hp from "../assets/Picture10.png"
-import SultanCenter from "../assets/Picture19.png"
-import MCD from "../assets/Picture23.png"
-import Microsoft from "../assets/Picture21.png"
-import ZADEA from "../assets/Picture11.png"
-import GenetCo from "../assets/Picture1.png"
 import PartnerImage from "../assets/Partner.png"
 const Partner = () => {
     return (

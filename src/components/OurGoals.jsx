@@ -5,11 +5,11 @@ const OurGoals = () => {
     const ourGoalsData = [
         {
             imgUri: 'https://cdn.builder.io/api/v1/image/assets/TEMP/d2edc4e1e5f2eaec396728b7839544dc51c6032951724eab733e266a079bae1c?',
-            description: 'We want to create a legacy, with customized services,effective and innovative technology and result-oriented outputs.'
+            description: `To bring positive change and contribute to Oman's economic empowerment by  offering Talent & Business Solutions.`
         },
         {
             imgUri: 'https://cdn.builder.io/api/v1/image/assets/TEMP/d2edc4e1e5f2eaec396728b7839544dc51c6032951724eab733e266a079bae1c?',
-            description: 'We want to create a legacy, with customized services,effective and innovative technology and result-oriented outputs.'
+            description: 'We want our services to define new benchmarks for growth, honesty, and professionalism. Be devoted to keep our customers first.'
         },
         {
             imgUri: 'https://cdn.builder.io/api/v1/image/assets/TEMP/d2edc4e1e5f2eaec396728b7839544dc51c6032951724eab733e266a079bae1c?',
@@ -21,8 +21,9 @@ const OurGoals = () => {
             <div className="flex gap-3 self-center max-md:self-start px-5 max-md:px-0 text-5xl text-justify text-red-800 uppercase whitespace-nowrap leading-[60px]">
                 <div className='' style={{ borderLeft: "6px solid #A52323" }}>
                     <div className="pl-2 grow text-5xl text-[#363636] font-bold max-md:text-4xl">
-                        <span className="text-neutral-700">OUR </span>
-                        <span className="text-red-800">goals</span>
+                        <h1><span className="text-neutral-700">OUR </span>
+                            <span className="text-red-800">goals</span>
+                        </h1>
                     </div>
                 </div>
             </div>

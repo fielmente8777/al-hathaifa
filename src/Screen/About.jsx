@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Banner from "../components/Banner"
 import Bussiness from '../components/Bussiness'
 import Mission from '../components/Mission'
@@ -6,10 +6,15 @@ import OurGoals from '../components/OurGoals'
 import Partner from '../components/Partner'
 import Footer from "../components/Footer"
 const About = () => {
-
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll the window to the top
+    }, []);
     return (
         <div>
-            <Banner />
+            <Banner
+                heading="about us"
+                description="Building lasting partnerships through trust, integrity, and excellence"
+            />
 
             <Bussiness />
 

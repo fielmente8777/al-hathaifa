@@ -1,6 +1,13 @@
 import * as React from "react";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 
 const Footer = () => {
+
+    const navigate = useNavigate();
+
+    const navigateToHome = () => {
+        navigate("/")
+    }
     return (
         <>
             <div className=" flex flex-col items-center bg-neutral-800 max-md:mt-0" style={{ marginTop: "4rem" }}>
@@ -17,6 +24,7 @@ const Footer = () => {
                                                         loading="lazy"
                                                         srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/4c75412367e19309ebb49bfe4fb19d7bce9443cbe49486b30aeacff8266d77cf?apiKey=4f715c38c9a243509cd636cba1d41f1d&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/4c75412367e19309ebb49bfe4fb19d7bce9443cbe49486b30aeacff8266d77cf?apiKey=4f715c38c9a243509cd636cba1d41f1d&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/4c75412367e19309ebb49bfe4fb19d7bce9443cbe49486b30aeacff8266d77cf?apiKey=4f715c38c9a243509cd636cba1d41f1d&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/4c75412367e19309ebb49bfe4fb19d7bce9443cbe49486b30aeacff8266d77cf?apiKey=4f715c38c9a243509cd636cba1d41f1d&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/4c75412367e19309ebb49bfe4fb19d7bce9443cbe49486b30aeacff8266d77cf?apiKey=4f715c38c9a243509cd636cba1d41f1d&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/4c75412367e19309ebb49bfe4fb19d7bce9443cbe49486b30aeacff8266d77cf?apiKey=4f715c38c9a243509cd636cba1d41f1d&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/4c75412367e19309ebb49bfe4fb19d7bce9443cbe49486b30aeacff8266d77cf?apiKey=4f715c38c9a243509cd636cba1d41f1d&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/4c75412367e19309ebb49bfe4fb19d7bce9443cbe49486b30aeacff8266d77cf?apiKey=4f715c38c9a243509cd636cba1d41f1d&"
                                                         className="self-center max-w-full aspect-[1.01] w-[257px] max-md:w-[150px]"
+                                                        onClick={navigateToHome}
                                                     />
                                                     <div className="mt-4">
                                                         <p>
@@ -45,6 +53,12 @@ const Footer = () => {
                                                     <div className="mt-4 whitespace-nowrap">
                                                         Facility Management Services
                                                     </div>
+                                                    <div className="mt-4 whitespace-nowrap">
+                                                        Field Force Management
+                                                    </div>
+                                                    <div className="mt-4 whitespace-nowrap">
+                                                        Corporate Event Management
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -59,11 +73,11 @@ const Footer = () => {
                                                         <span className="text-white">Useful</span>{" "}
                                                         <span className="text-red-800">Links</span>
                                                     </div>
-                                                    <div className="mt-4">Home</div>
-                                                    <div className="mt-4">About Us</div>
-                                                    <div className="mt-4">Services</div>
-                                                    <div className="mt-4">Careers</div>
-                                                    <div className="mt-4">Contact Us</div>
+                                                    <Link to="/"><div className="mt-4">Home</div></Link>
+                                                    <Link to="/about"><div className="mt-4">About Us</div></Link>
+                                                    <Link to="/service"><div className="mt-4">Services</div></Link>
+                                                    <Link to="/careers"><div className="mt-4">Careers</div></Link>
+                                                    <Link to="/contact"><div className="mt-4">Contact Us</div></Link>
                                                 </div>
                                             </div>
                                             <div className="flex flex-col ml-5 w-3/5 max-md:ml-0 max-md:w-full">
@@ -104,21 +118,27 @@ const Footer = () => {
                                                         <span className="text-red-800">US</span>
                                                     </div>
                                                     <div className="flex gap-4 pr-20 mt-4 max-md:pr-5">
-                                                        <img
-                                                            loading="lazy"
-                                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/31b9e5bf743de7dd8d65c6c38ad4a7481082a7a42018039a787d1ebd138a6165?apiKey=4f715c38c9a243509cd636cba1d41f1d&"
-                                                            className="w-10 aspect-square"
-                                                        />
-                                                        <img
-                                                            loading="lazy"
-                                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/8fa6a0524559a4b045ab82d955dbfe4bb730cb6e2a614dac396def10f5108cc7?apiKey=4f715c38c9a243509cd636cba1d41f1d&"
-                                                            className="w-10 aspect-square"
-                                                        />
-                                                        <img
-                                                            loading="lazy"
-                                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/7ecb4332deaa2051a9f6c738a58b64fcf3c1d3de1fea69f2de6d6f938cf6527b?apiKey=4f715c38c9a243509cd636cba1d41f1d&"
-                                                            className="w-10 aspect-square"
-                                                        />
+                                                        <Link to="">
+                                                            <img
+                                                                loading="lazy"
+                                                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/31b9e5bf743de7dd8d65c6c38ad4a7481082a7a42018039a787d1ebd138a6165?apiKey=4f715c38c9a243509cd636cba1d41f1d&"
+                                                                className="w-10 aspect-square"
+                                                            />
+                                                        </Link>
+                                                        <Link to="">
+                                                            <img
+                                                                loading="lazy"
+                                                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/8fa6a0524559a4b045ab82d955dbfe4bb730cb6e2a614dac396def10f5108cc7?apiKey=4f715c38c9a243509cd636cba1d41f1d&"
+                                                                className="w-10 aspect-square"
+                                                            />
+                                                        </Link>
+                                                        <Link to="">
+                                                            <img
+                                                                loading="lazy"
+                                                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/7ecb4332deaa2051a9f6c738a58b64fcf3c1d3de1fea69f2de6d6f938cf6527b?apiKey=4f715c38c9a243509cd636cba1d41f1d&"
+                                                                className="w-10 aspect-square"
+                                                            />
+                                                        </Link>
                                                     </div>
                                                 </div>
                                             </div>

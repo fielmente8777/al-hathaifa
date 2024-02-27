@@ -29,16 +29,16 @@ const BenifitsForCLient = () => {
                             />
                             <div className="grow">Ensuring Sellout and Productivity</div>
                         </div>
-                        <div className="flex text-neutral-500 mt-4 max-md:max-w-full">
+                        <div className="flex text-neutral-400 mt-4 max-md:max-w-full">
                             <li></li>
                             We work with Daily/Weekly/Monthly Targets.
                         </div>
-                        <div className="flex text-neutral-500 mt-2 max-md:max-w-full">
+                        <div className="flex text-neutral-400 mt-2 max-md:max-w-full">
                             {" "}
                             <li></li>
                             Discuss, Agree and Work with Customer defined KPIs.
                         </div>
-                        <div className=" flex text-neutral-500  mt-2 max-md:max-w-full">
+                        <div className=" flex text-neutral-400  mt-2 max-md:max-w-full">
                             <li></li>
                             Complete Management of SalesForce by Al-Hathaifa.
                         </div>
@@ -50,12 +50,12 @@ const BenifitsForCLient = () => {
                             />
                             <div className="grow">Target-Based Payment (TBP)</div>
                         </div>
-                        <div className="flex text-neutral-500 mt-4 leading-6 max-md:max-w-full">
+                        <div className="flex text-neutral-400 mt-4 leading-6 max-md:max-w-full">
                             <li> </li>
                             Compensation directly tied to targets, ensuring a clear and fair
                             link between results and pay.
                         </div>
-                        <div className="flex text-neutral-500 mt-2 max-md:max-w-full">
+                        <div className="flex text-neutral-400 mt-2 max-md:max-w-full">
                             <li> </li>
                             Simplified Payment Structures
                         </div>
@@ -67,13 +67,13 @@ const BenifitsForCLient = () => {
                             />
                             <div className="grow">Comprehensive Retail Network</div>
                         </div>
-                        <div className="flex text-neutral-500 mt-4 leading-6 max-md:max-w-full">
+                        <div className="flex text-neutral-400 mt-4 leading-6 max-md:max-w-full">
                             {" "}
                             <li> </li>
                             Strong Retail Partnerships: Effective product placement in major
                             hypermarkets and malls.
                         </div>
-                        <div className="flex text-neutral-500 mt-2 max-md:max-w-full">
+                        <div className="flex text-neutral-400 mt-2 max-md:max-w-full">
                             <li></li>
                             Efficient Documentation Management: Handling all necessary
                             paperwork.
@@ -86,7 +86,7 @@ const BenifitsForCLient = () => {
                             />
                             <div className="grow"> FlexiblePromoter Scheduling</div>
                         </div>
-                        <div className="flex text-neutral-500 mt-4 leading-6 max-md:max-w-full">
+                        <div className="flex text-neutral-400 mt-4 leading-6 max-md:max-w-full">
                             <li></li>
                             Customizable Hours: Availability for 9-hour shifts, weekends, peak
                             hours, or as required.
@@ -99,7 +99,7 @@ const BenifitsForCLient = () => {
                             />
                             <div className="grow">Contract Flexibility</div>
                         </div>
-                        <div className="flex text-neutral-500 mt-4 leading-6 max-md:max-w-full">
+                        <div className="flex text-neutral-400 mt-4 leading-6 max-md:max-w-full">
                             {" "}
                             <li></li>
                             Fixed and On-Demand Basis: Catering to ongoing or specific

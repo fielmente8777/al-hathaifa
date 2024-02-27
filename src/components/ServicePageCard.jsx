@@ -1,5 +1,6 @@
 import React from 'react'
 import Service from "../assets/mage.png"
+import { Link } from 'react-router-dom'
 const ServicePageCard = ({ serviceData, imageOrder }) => {
 
     console.log(imageOrder)
@@ -40,17 +41,17 @@ const ServicePageCard = ({ serviceData, imageOrder }) => {
                                 {serviceData.point2}
                             </div>
                         </div>
-                        <Link to="/contact">
-                            <div className="justify-center self-start px-8 py-4 mt-6 font-bold tracking-normal text-right text-white uppercase whitespace-nowrap bg-red-800 leading-[150%] max-md:px-5">
-                                contact us
-                            </div>
+                        {/* <Link to="/contact"> */}
+                        <Link className="justify-center self-start px-8 py-4 mt-6 font-bold tracking-normal text-right text-white uppercase whitespace-nowrap bg-red-800 leading-[150%] max-md:px-5">
+                            contact us
                         </Link>
+                        {/* </Link> */}
                     </div>
                 </div>
                 <div className="flex flex-col max-md:ml-0 max-md:w-full">
                     <img
                         loading="lazy"
-                        src={Service}
+                        src={serviceData.image}
                         className="self-stretch my-auto overflow-hidden object-cover h-[100%] w-full  max-md:mt-9 max-md:max-w-full"
                     />
                 </div>
