@@ -1,5 +1,9 @@
 import React from 'react'
+<<<<<<< HEAD
+import MissonImage from "../assets/Figure → faq1-1.jpg.png"
+=======
 import MissonImage from "../assets/mage.png"
+>>>>>>> origin/abhi2
 
 const Skills = () => {
 
@@ -13,6 +17,16 @@ const Skills = () => {
 
     return (
         <div className='about'>
+<<<<<<< HEAD
+            <div className=" grid grid-cols-2 gap-4">
+                <div className=" flex justify-end " style={{ height: "550px ", width: "600px" }}>
+                    <img className=" w-auto h-full object-cover " src={MissonImage} alt="Image" style={{ height: "100%" }} />
+                </div>
+                <div className=" flex flex-col justify-center item-center " style={{ width: "600px" }}>
+                    <div className='p-2 ' style={{ borderLeft: "6px solid #A52323" }}>
+                        <h1 className="text-5xl" style={{ fontWeight: "600" }}>OUR <stronge style={{ color: "#A52323" }}>Skills </stronge></h1>
+
+=======
             <div className=" grid grid-cols-2 gap-4 max-w-[1224px] max-md:grid-cols-1 max-md:w-full max-md:px-5 ">
                 <div className=" flex justify-end ">
                     <img className=" w-auto h-full object-cover " src={MissonImage} alt="Image" style={{ height: "100%" }} />
@@ -23,6 +37,7 @@ const Skills = () => {
                             <h1 className="text-5xl font-bold uppercase text-[#363636] max-md:text-4xl" style={{ fontWeight: "400" }}>OUR <stronge style={{ color: "#A52323" }}>SKills </stronge></h1>
 
                         </div>
+>>>>>>> origin/abhi2
                     </div>
 
                     <div className='mt-3 text-justify text-lg'>
