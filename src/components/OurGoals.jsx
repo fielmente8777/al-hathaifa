@@ -20,7 +20,7 @@ const OurGoals = () => {
         <div className="flex flex-col items-center justify-center py-10 max-md:px-5">
             <div className="flex gap-3 max-w-[1224px] self-center max-md:self-start px-5 max-md:px-0 text-justify text-red-800 uppercase whitespace-nowrap leading-[60px]">
                 <div className='' style={{ borderLeft: "6px solid #A52323" }}>
-                    <div className="pl-2 grow text-[#363636]   max-md:text-4xl">
+                    <div className="pl-2 grow text-[#363636] text-[40px]   max-md:text-4xl">
                         <h1><span className="text-neutral-700">OUR </span>
                             <span className="text-red-800">goals</span>
                         </h1>

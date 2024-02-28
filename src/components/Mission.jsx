@@ -19,7 +19,7 @@ const Mission = () => {
             <div className="py-10 lg:grid lg:grid-cols-2 gap-5 max-w-[1224px]">
                 <div className={`flex flex-col justify-center border-3 max-md:order-1 ${location.pathname === "/about" ? "order-2" : ""}`}>
                     <div className='' style={{ borderLeft: "6px solid #A52323" }}>
-                        <div className="pl-2 grow uppercase max-md:text-4xl">
+                        <div className="pl-2 text-[40px] grow uppercase max-md:text-4xl">
                             <h1><span className="text-white ">OUR MISSION &  </span>
                                 <span className="text-red-800">VISION</span>
                             </h1>

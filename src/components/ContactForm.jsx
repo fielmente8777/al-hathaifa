@@ -8,7 +8,7 @@ const ContactForm = () => {
                 <div className="flex flex-col w-[61%]  max-md:ml-0 max-md:w-full">
                     <div className="flex flex-col items-start leading-[60px]  max-md:mt-10 max-md:max-w-full">
                         <div className='' style={{ borderLeft: "6px solid #A52323" }}>
-                            <div className="pl-2 grow text-[#363636] uppercase  max-md:text-4xl">
+                            <div className="pl-2 grow text-[40px] text-[#363636] uppercase  max-md:text-4xl">
                                 <h1>
                                     Where to Find <span style={{ color: "#A52323" }}>US </span></h1>
 

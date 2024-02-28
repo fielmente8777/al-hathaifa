@@ -12,7 +12,7 @@ const ChooseService = () => {
 
                 <div className='max-md:order-2 max-md:mt-24'>
                     <div className=" flex flex-col justify-center border-3 ">
-                        <div className='border-[#A52323] max-md:border-l-[6px] lg:border-r-[6px]'>
+                        <div className='border-[#A52323] text-[40px] max-md:border-l-[6px] lg:border-r-[6px]'>
                             <h1 className=" max-md:pl-2 max-md:text-4xl text-white uppercase  ">why you should choose our  <span style={{ color: "#A52323" }}> services? </span></h1>
                         </div>
 

@@ -17,7 +17,7 @@ export default function App({ heading, description }) {
                 <div className="mt-40 text-[18px] max-md:mt-20 text-center uppercase tracking-[4px]">
                     <p>Welcome to al HATHAIFA</p>
                 </div>
-                <div className={`mt-3 max-w-[1224px]  font-outline-2 ${location.pathname === "/" ? "text-[#A52323] stroke stroke-zinc-100" : "text-white"} text-center uppercase leading-[60px]  max-md:max-w-full max-md:text-4xl max-md:leading-10`}>
+                <div className={`mt-3 max-w-[1224px] text-[40px] font-outline-2 ${location.pathname === "/" ? "text-[#A52323] bannerStroke" : "text-white"} text-center uppercase leading-[60px]  max-md:max-w-full max-md:text-4xl max-md:leading-10`}>
                     <h1>{heading}</h1>
                 </div>
                 <div className="mt-3 text-[18px] text-center leading-[167%] max-md:max-w-full">

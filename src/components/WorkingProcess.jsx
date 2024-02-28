@@ -21,7 +21,7 @@ const WorkingProcess = () => {
         <div className='py-[3rem] '>
             <div className='flex justify-center mb-5 pb-5 max-md:px-5'>
                 <div className='' style={{ borderLeft: "6px solid #A52323" }}>
-                    <div className="pl-2 grow uppercase max-md:text-4xl">
+                    <div className="pl-2 text-[40px] grow uppercase max-md:text-4xl">
                         <h1><span className="text-[#363636] ">OUR Working  </span>
                             <span className="text-red-800">process</span>
                         </h1>

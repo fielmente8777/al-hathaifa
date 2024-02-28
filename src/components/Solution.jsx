@@ -5,7 +5,7 @@ const Solution = () => {
         <div className="flex flex-col justify-center  pt-10 pb-0 items-center px-24 max-md:px-5">
             <div className="flex gap-3 px-5 max-md:px-0 self-center text-red-800 uppercase leading-[60px] max-md:flex-wrap max-md:max-w-full">
                 <div className='' style={{ borderLeft: "6px solid #A52323" }}>
-                    <div className="pl-2 grow text-[#363636]   max-md:text-4xl">
+                    <div className="pl-2 grow text-[40px] text-[#363636]   max-md:text-4xl">
                         <h1>  omani sales force <span className="text-red-800">solutions</span></h1>
                     </div>
                 </div>
@@ -14,9 +14,9 @@ const Solution = () => {
                 <div className=' grid grid-cols-2 max-md:grid-cols-1 justify-center w-full max-w-[1224px]'>
                     <div className="flex flex-col max-md:ml-0 max-md:w-full max-md:order-2">
                         <div className="flex flex-col self-stretch my-auto text-base font-medium leading-6 text-justify text-neutral-400 max-md:mt-0 max-md:max-w-full">
-                            <div className="flex gap-3 self-start text-4xl text-red-800 uppercase whitespace-nowrap leading-[60px] max-md:mt-5">
+                            <div className="flex gap-3 self-start text-4xl text-red-800 uppercase leading-[60px] max-md:mt-5">
                                 <div className='' style={{ borderLeft: "6px solid #A52323" }}>
-                                    <div className="pl-2 grow text-[#363636]   max-md:text-2xl">
+                                    <div className="pl-2 grow text-[40px] text-[#363636]   max-md:text-2xl">
                                         <h1><span className="text-neutral-700">WHAT we </span>
                                             <span className="text-red-800">offer</span>
                                         </h1>
