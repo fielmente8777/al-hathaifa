@@ -3,6 +3,17 @@
 }
 
 .experiencecard {
-    /* position: absolute; */
-    /* top: 30%; */
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 768px) {
+    .experiencecard {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }

@@ -28,7 +28,7 @@ const WorkingProcess = () => {
             </div>
             <div className='flex justify-center items-center mt-5'>
 
-                <div className='flex justify-center items-center w-3/4 max-md:w-full max-md:flex-wrap gap-10 max-md:px-5'>
+                <div className='flex  max-w-[1224px] justify-center items-center w-3/4 max-md:w-full max-md:flex-wrap gap-10 max-md:px-5'>
                     {WorkingCardData.map((workingcarddata, index) => (
                         <WorkingCard
                             key={index}

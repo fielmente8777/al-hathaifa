@@ -89,17 +89,17 @@ const ChooseService = () => {
 
                     </div>
                 </div>
-                <div className='max-md:mb-5 lg:flex relative justify-end'>
-                    <div className="absolute flex z-10 flex-col lg:left-[5%] lg:top-[0%] bottom-[-15%] left-[20%] self-stretch h-max px-7 py-9 my-auto uppercase bg-white rounded-3xl max-md:px-5">
-                        <div className=" text-red-800   leading-[59.92px] max-md:text-4xl">
+                <div className='max-md:flex max-md:justify-center mb-5 lg:flex relative justify-end'>
+                    <div className="absolute experiencecard flex z-10 flex-col object-center self-stretch h-max px-7 py-9 my-auto uppercase bg-white rounded-3xl max-md:px-5">
+                        <div className="text-red-800 leading-[59.92px] max-md:text-4xl">
                             <p className='text-6xl'>8+</p>
                         </div>
-                        <div className="mt-2 text-2xl   leading-7 text-black">
+                        <div className="mt-2 text-2xl leading-7 text-black">
                             <p>Years of  <br /> experience</p>
                         </div>
                     </div>
-                    <div className=" flex justify-end items-center max-md:mb-5 h-full">
-                        <img className=" object-cover overflow-hidden	w-[460px] max-md:w-full max-md:h-full " src={ChooseServiceImage} alt="About" />
+                    <div className="flex justify-end items-center max-md:mb-5 h-full">
+                        <img className="object-cover overflow-hidden w-[460px] max-md:w-full max-md:h-full" src={ChooseServiceImage} alt="About" />
                     </div>
                 </div>
 
