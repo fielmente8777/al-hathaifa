@@ -1,10 +1,19 @@
 import React from 'react'
 import MissonImage from "../assets/mage.png"
+import MissionVision from "../assets/missionvision.png"
 import "../style/Mission.css"
 import { useLocation } from 'react-router-dom'
 const Mission = () => {
 
     const location = useLocation()
+
+
+    let image;
+    if (location.pathname === '/') {
+        image = MissonImage;
+    } else {
+        image = MissionVision;
+    }
     return (
         <div className='mission flex justify-center max-md:px-5 '>
             <div className="py-10 lg:grid lg:grid-cols-2 gap-5 max-w-[1224px]">
@@ -23,7 +32,7 @@ const Mission = () => {
 
                 </div>
                 <div className=" flex justify-start ">
-                    <img className='w-auto h-full object-cover' src={MissonImage} alt="Image" style={{ height: "100%" }} />
+                    <img className='w-auto h-full object-cover' src={image} alt="Image" style={{ height: "100%" }} />
                 </div>
             </div>
         </div>

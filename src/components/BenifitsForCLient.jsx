@@ -31,16 +31,16 @@ const BenifitsForCLient = () => {
                                 <p>Ensuring Sellout and Productivity</p>
                             </div>
                         </div>
-                        <div className="flex text-neutral-400 mt-4 max-md:max-w-full">
+                        <div className="flex pl-2  text-neutral-400 mt-4 max-md:max-w-full">
                             <li></li>
                             <p>We work with Daily/Weekly/Monthly Targets.</p>
                         </div>
-                        <div className="flex text-neutral-400 mt-2 max-md:max-w-full">
+                        <div className="flex pl-2  text-neutral-400 mt-2 max-md:max-w-full">
                             {" "}
                             <li></li>
                             <p> Discuss, Agree and Work with Customer defined KPIs.</p>
                         </div>
-                        <div className=" flex text-neutral-400  mt-2 max-md:max-w-full">
+                        <div className=" flex pl-2  text-neutral-400  mt-2 max-md:max-w-full">
                             <li></li>
                             <p> Complete Management of SalesForce by Al-Hathaifa.</p>
                         </div>
@@ -52,12 +52,12 @@ const BenifitsForCLient = () => {
                             />
                             <div className="grow"><p>Target-Based Payment (TBP)</p></div>
                         </div>
-                        <div className="flex text-neutral-400 mt-4 leading-6 max-md:max-w-full">
+                        <div className="flex pl-2  text-neutral-400 mt-4 leading-6 max-md:max-w-full">
                             <li> </li>
                             <p> Compensation directly tied to targets, ensuring a clear and fair
                                 link between results and pay.</p>
                         </div>
-                        <div className="flex text-neutral-400 mt-2 max-md:max-w-full">
+                        <div className="flex pl-2  text-neutral-400 mt-2 max-md:max-w-full">
                             <li> </li>
                             <p>  Simplified Payment Structures</p>
                         </div>
@@ -69,13 +69,13 @@ const BenifitsForCLient = () => {
                             />
                             <div className="grow"><p>Comprehensive Retail Network</p></div>
                         </div>
-                        <div className="flex text-neutral-400 mt-4 leading-6 max-md:max-w-full">
+                        <div className="flex pl-2  text-neutral-400 mt-4 leading-6 max-md:max-w-full">
                             {" "}
                             <li> </li>
                             <p> Strong Retail Partnerships: Effective product placement in major
                                 hypermarkets and malls.</p>
                         </div>
-                        <div className="flex text-neutral-400 mt-2 max-md:max-w-full">
+                        <div className="flex pl-2  text-neutral-400 mt-2 max-md:max-w-full">
                             <li></li>
                             <p> Efficient Documentation Management: Handling all necessary
                                 paperwork.</p>
@@ -88,7 +88,7 @@ const BenifitsForCLient = () => {
                             />
                             <div className="grow"> <p>FlexiblePromoter Scheduling</p></div>
                         </div>
-                        <div className="flex text-neutral-400 mt-4 leading-6 max-md:max-w-full">
+                        <div className="flex pl-2  text-neutral-400 mt-4 leading-6 max-md:max-w-full">
                             <li></li>
                             <p> Customizable Hours: Availability for 9-hour shifts, weekends, peak
                                 hours, or as required.</p>
@@ -101,7 +101,7 @@ const BenifitsForCLient = () => {
                             />
                             <div className="grow"><p>Contract Flexibility</p></div>
                         </div>
-                        <div className="flex text-neutral-400 mt-4 leading-6 max-md:max-w-full">
+                        <div className="flex pl-2  text-neutral-400 mt-4 leading-6 max-md:max-w-full">
                             {" "}
                             <li></li>
                             <p> Fixed and On-Demand Basis: Catering to ongoing or specific
