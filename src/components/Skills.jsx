@@ -13,7 +13,7 @@ const Skills = () => {
     };
 
     return (
-        <div className='skill py-14 max-md:py-5'>
+        <div className='skill bg-cover bg-center bg-no-repeat py-14 max-md:py-5'>
             <div className=" grid grid-cols-2 gap-4 max-w-[1224px] max-md:grid-cols-1 max-md:w-full max-md:px-5 ">
                 <div className=" flex justify-end ">
                     <img className=" w-auto h-full object-cover " src={SkillsImage} alt="Image" style={{ height: "100%" }} />
