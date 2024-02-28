@@ -2,7 +2,7 @@ import React from 'react'
 import "../style/Management.css"
 const Management = () => {
     return (
-        <div className="management">
+        <div className="management bg-cover bg-center bg-no-repeat">
             <div className=" flex flex-col justify-center border-3 w-full max-w-[1224px] py-14 max-md:px-5 max-md:py-8">
                 <div className='' style={{ borderLeft: "6px solid #A52323" }}>
                     <div className="pl-2 grow  ">
