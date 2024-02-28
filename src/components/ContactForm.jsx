@@ -15,7 +15,7 @@ const ContactForm = () => {
                             </div>
                         </div>
                         <div className="self-stretch text mt-6 leading-6 text-justify max-md:max-w-full">
-                            <p className='text text-neutral-400'> Always happy to help! We are building our goodwill around just one
+                            <p className='text text-black'> Always happy to help! We are building our goodwill around just one
                                 word in Oman, &quot;Trust&quot;. We offer competitive talent
                                 solutions in the business, technology, and staffing sectors. We
                                 are a dynamic team, always ready to help our clients with all
@@ -25,7 +25,7 @@ const ContactForm = () => {
                             <span className="text-[#363636]">CONTACT</span>{" "}
                             <span className="text-red-800">US</span>
                         </div>
-                        <div className="flex gap-3 mt-6 leading-6 text-neutral-400">
+                        <div className="flex gap-3 mt-6 leading-6 text-black">
                             <img
                                 loading="lazy"
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/9ee66c3ec2f864c6bff3c1548e3963684af70d7a3c428538c7b92441e7a8d570?"
@@ -36,7 +36,7 @@ const ContactForm = () => {
                                     Hyper Market, Muscat, Oman</p>
                             </div>
                         </div>
-                        <div className="flex gap-3 mt-4 leading-[150%] text-neutral-400">
+                        <div className="flex gap-3 mt-4 leading-[150%] text-black">
                             <img
                                 loading="lazy"
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/917a940c774083ca1863be5bf8c351bfdf74ed2192ab7fc726cfb9f17b0481ef?"
@@ -44,7 +44,7 @@ const ContactForm = () => {
                             />
                             <div className="flex-auto"><p>+968 2460 0572</p></div>
                         </div>
-                        <div className="flex gap-3 mt-4 whitespace-nowrap leading-[150%] text-neutral-400">
+                        <div className="flex gap-3 mt-4 whitespace-nowrap leading-[150%] text-black">
                             <img
                                 loading="lazy"
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/f0c7acea966ab8cde2b011bc9748c4e06f1cfbbd8e2300ba55195759e08c7eae?"
@@ -58,7 +58,7 @@ const ContactForm = () => {
             </div>
             <iframe className=" w-full max-w-[1224px] h-[458px] max-md:h-[229px] aspect-[2.7] max-md:mt-5 max-md:max-w-full max-md:px-5" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7312.364105690263!2d58.446202!3d23.597803!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1707988951047!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-        </div >
+        </div>
     )
 }
 

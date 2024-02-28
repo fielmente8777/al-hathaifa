@@ -33,3 +33,14 @@ Link,
   font-style: normal;
   font-family: "Raleway", sans-serif;
 }
+
+input[type="text"]::placeholder,
+textarea[type="text"]::placeholder,
+input[type="email"]::placeholder {
+  color: black;
+  /* Placeholder color */
+}
+
+textarea::-webkit-scrollbar {
+  display: none;
+}

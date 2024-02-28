@@ -21,17 +21,17 @@ const Bussiness = () => {
 
 
                 </div>
-                <div className="mt-12 w-full text-base font-medium leading-6 text-justify text-neutral-400 max-md:mt-10 max-md:max-w-full">
+                <div className="mt-12 w-full text-base font-medium leading-6 text-justify text-black max-md:mt-10 max-md:max-w-full">
                     <p>Al HATHAIFA is a trusted brand in Oman with a decade-plus of competitive
                         business solutions providers in the Technology, Staffing, and Talent
                         Management Sectors. Established in 2009, AL HATHAIFA has built strong
                         and trusted partnerships and feels proud to say that{" "}
-                        <strong className="font-semibold text-neutral-700">
+                        <strong className="font-semibold text-neutral-900">
                             &quot;Our clients are more than just customers, they are our business
                             partners.&quot;
                         </strong>
                     </p>
-                    <p className='mt-4'>
+                    <p className='mt-4 '>
                         AL HATHAIFA comprises the best, skilled, determined, innovative, and
                         focused mindsets offering customized, effective, and result-oriented
                         business solutions designed to fit your business needs.
@@ -55,7 +55,7 @@ const Bussiness = () => {
                         </div>
                     </div>
                 </div>
-                <div className="mt-12 w-full text-base font-medium leading-6 text-justify text-neutral-400 max-md:mt-10 max-md:max-w-full">
+                <div className="mt-12 w-full text-base font-medium leading-6 text-justify text-black max-md:mt-10 max-md:max-w-full">
                     <p> With a commitment to excellence, integrity, and professionalism, our vision is to set new standards for growth and honesty in the industry. At Al Hathaifa, our customers always come first, and we continuously strive to exceed their expectations, ensuring 100% satisfaction with every interaction.</p>
                 </div>
             </div>

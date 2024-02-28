@@ -13,7 +13,7 @@ const MarketAnalysis = () => {
                         </div>
                     </div>
                 </div>
-                <div className="mt-10 w-full font-medium leading-6 text-center max-md:text-justify text-neutral-400 max-md:max-w-full">
+                <div className="mt-10 w-full font-medium leading-6 text-center max-md:text-justify  text-black max-md:max-w-full">
                     <p>Oman’s economy is growing exponentially, and with each business comes a
                         professional problem. AL HATHAIFA offers complete business solutions to
                         ensure that we can contribute and boost Oman’s market to new heights of

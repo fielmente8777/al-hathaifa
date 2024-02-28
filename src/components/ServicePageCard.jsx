@@ -19,7 +19,7 @@ const ServicePageCard = ({ serviceData, imageOrder }) => {
                     </div>
                     <div className="flex flex-col justify-start grow text-base font-medium leading-6 text-justify text-neutral-400 max-md:mt-5 max-md:max-w-full">
 
-                        <div className="mt-6 max-md:mt-0 max-md:max-w-full">
+                        <div className="mt-6 max-md:mt-0 max-md:max-w-full text-black">
                             <p>{serviceData.description1}</p>
                             <br />
                             <p>{serviceData.description2}</p>
@@ -30,7 +30,7 @@ const ServicePageCard = ({ serviceData, imageOrder }) => {
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d705407f0be3bbd6fc12e47deb5722856d449d74194f14ba1f2656bce0846e0?"
                                 className="self-start w-[1.75rem] aspect-square"
                             />
-                            <div className="flex-auto max-md:max-w-full">
+                            <div className="flex-auto max-md:max-w-full  text-black">
                                 <p>{serviceData.point1}</p>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ const ServicePageCard = ({ serviceData, imageOrder }) => {
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d705407f0be3bbd6fc12e47deb5722856d449d74194f14ba1f2656bce0846e0?"
                                 className="self-start w-[1.75rem] aspect-square"
                             />
-                            <div className="flex-auto max-md:max-w-full">
+                            <div className="flex-auto max-md:max-w-full  text-black">
                                 <p> {serviceData.point2}</p>
                             </div>
                         </div>

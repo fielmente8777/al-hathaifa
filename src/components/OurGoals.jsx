@@ -34,7 +34,7 @@ const OurGoals = () => {
                             <div className=''>
                                 <img src={ourGoal.imgUri} alt='light image' className='h-24 w-24' />
                             </div>
-                            <div className='text-md mt-5 text-center text-[#969698] '>
+                            <div className='text-md mt-5 text-center  text-black '>
                                 <p>{ourGoal.description}</p>
                             </div>
                         </div>

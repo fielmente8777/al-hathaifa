@@ -19,8 +19,8 @@ const About = () => {
 
 
                     <div className='mt-3 text-justify'>
-                        <p className=" mt-3  text-neutral-400">AL HATHAIFA is a trusted brand in Oman with a decade-plus of competitive business solutions providers in the Technology, Staffing, and Talent Management Sectors. Established in 2009, AL HATHAIFA has built strong and trusted partnerships and feels proud to say that "Our clients are more than just customers, they are our business partners."</p>
-                        <p className=" mt-3  text-neutral-400">AL HATHAIFA comprises the best, skilled, determined, innovative, and focused mindsets offering customized, effective, and result-oriented business solutions designed to fit your business needs.</p>
+                        <p className=" mt-3  text-black">AL HATHAIFA is a trusted brand in Oman with a decade-plus of competitive business solutions providers in the Technology, Staffing, and Talent Management Sectors. Established in 2009, AL HATHAIFA has built strong and trusted partnerships and feels proud to say that "Our clients are more than just customers, they are our business partners."</p>
+                        <p className=" mt-3  text-black">AL HATHAIFA comprises the best, skilled, determined, innovative, and focused mindsets offering customized, effective, and result-oriented business solutions designed to fit your business needs.</p>
 
                     </div>
                     <Link to="/about" className="mt-3">

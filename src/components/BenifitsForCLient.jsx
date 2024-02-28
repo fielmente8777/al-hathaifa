@@ -21,30 +21,30 @@ const BenifitsForCLient = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex gap-3 self-start mt-6 font-semibold text-justify whitespace-nowrap text-neutral-700">
+                        <div className="flex gap-3 self-start mt-6 font-bold text-justify whitespace-nowrap text-black">
                             <img
                                 loading="lazy"
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e5b5fc3fb77e0f3e80d88bf8b1b440d6770994dd058682b693bc65e95727944?"
                                 className="w-6 aspect-square fill-red-800"
                             />
-                            <div className="grow">
+                            <div className="grow ">
                                 <p>Ensuring Sellout and Productivity</p>
                             </div>
                         </div>
-                        <div className="flex pl-2  text-neutral-400 mt-4 max-md:max-w-full">
+                        <div className="flex pl-2  text-black mt-4 max-md:max-w-full">
                             <li></li>
                             <p>We work with Daily/Weekly/Monthly Targets.</p>
                         </div>
-                        <div className="flex pl-2  text-neutral-400 mt-2 max-md:max-w-full">
+                        <div className="flex pl-2  text-black  mt-2 max-md:max-w-full">
                             {" "}
                             <li></li>
                             <p> Discuss, Agree and Work with Customer defined KPIs.</p>
                         </div>
-                        <div className=" flex pl-2  text-neutral-400  mt-2 max-md:max-w-full">
+                        <div className=" flex pl-2   text-black   mt-2 max-md:max-w-full">
                             <li></li>
                             <p> Complete Management of SalesForce by Al-Hathaifa.</p>
                         </div>
-                        <div className="flex gap-3 self-start mt-4 font-semibold text-justify whitespace-nowrap text-neutral-700">
+                        <div className="flex gap-3 self-start mt-4 font-semibold text-justify whitespace-nowrap  text-black">
                             <img
                                 loading="lazy"
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e5b5fc3fb77e0f3e80d88bf8b1b440d6770994dd058682b693bc65e95727944?"
@@ -52,16 +52,16 @@ const BenifitsForCLient = () => {
                             />
                             <div className="grow"><p>Target-Based Payment (TBP)</p></div>
                         </div>
-                        <div className="flex pl-2  text-neutral-400 mt-4 leading-6 max-md:max-w-full">
+                        <div className="flex pl-2   text-black  mt-4 leading-6 max-md:max-w-full">
                             <li> </li>
                             <p> Compensation directly tied to targets, ensuring a clear and fair
                                 link between results and pay.</p>
                         </div>
-                        <div className="flex pl-2  text-neutral-400 mt-2 max-md:max-w-full">
+                        <div className="flex pl-2   text-black  mt-2 max-md:max-w-full">
                             <li> </li>
                             <p>  Simplified Payment Structures</p>
                         </div>
-                        <div className="flex gap-3 self-start mt-4 font-semibold text-justify whitespace-nowrap text-neutral-700">
+                        <div className="flex gap-3 self-start mt-4 font-semibold text-justify whitespace-nowrap  text-black">
                             <img
                                 loading="lazy"
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e5b5fc3fb77e0f3e80d88bf8b1b440d6770994dd058682b693bc65e95727944?"
@@ -69,18 +69,18 @@ const BenifitsForCLient = () => {
                             />
                             <div className="grow"><p>Comprehensive Retail Network</p></div>
                         </div>
-                        <div className="flex pl-2  text-neutral-400 mt-4 leading-6 max-md:max-w-full">
+                        <div className="flex pl-2  text-black  mt-4 leading-6 max-md:max-w-full">
                             {" "}
                             <li> </li>
                             <p> Strong Retail Partnerships: Effective product placement in major
                                 hypermarkets and malls.</p>
                         </div>
-                        <div className="flex pl-2  text-neutral-400 mt-2 max-md:max-w-full">
+                        <div className="flex pl-2  text-black  mt-2 max-md:max-w-full">
                             <li></li>
                             <p> Efficient Documentation Management: Handling all necessary
                                 paperwork.</p>
                         </div>
-                        <div className="flex gap-3 self-start mt-4 font-semibold text-justify whitespace-nowrap text-neutral-700">
+                        <div className="flex gap-3 self-start mt-4 font-semibold text-justify whitespace-nowrap  text-black">
                             <img
                                 loading="lazy"
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e5b5fc3fb77e0f3e80d88bf8b1b440d6770994dd058682b693bc65e95727944?"
@@ -88,12 +88,12 @@ const BenifitsForCLient = () => {
                             />
                             <div className="grow"> <p>FlexiblePromoter Scheduling</p></div>
                         </div>
-                        <div className="flex pl-2  text-neutral-400 mt-4 leading-6 max-md:max-w-full">
+                        <div className="flex pl-2   text-black  mt-4 leading-6 max-md:max-w-full">
                             <li></li>
                             <p> Customizable Hours: Availability for 9-hour shifts, weekends, peak
                                 hours, or as required.</p>
                         </div>
-                        <div className="flex gap-3 self-start mt-4 font-semibold text-justify whitespace-nowrap text-neutral-700">
+                        <div className="flex gap-3 self-start mt-4 font-semibold text-justify whitespace-nowrap  text-black">
                             <img
                                 loading="lazy"
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e5b5fc3fb77e0f3e80d88bf8b1b440d6770994dd058682b693bc65e95727944?"
@@ -101,7 +101,7 @@ const BenifitsForCLient = () => {
                             />
                             <div className="grow"><p>Contract Flexibility</p></div>
                         </div>
-                        <div className="flex pl-2  text-neutral-400 mt-4 leading-6 max-md:max-w-full">
+                        <div className="flex pl-2   text-black  mt-4 leading-6 max-md:max-w-full">
                             {" "}
                             <li></li>
                             <p> Fixed and On-Demand Basis: Catering to ongoing or specific

@@ -28,7 +28,7 @@ const Skills = () => {
                     </div>
 
                     <div className='mt-3 text-justify text-lg'>
-                        <p className=" mt-3  text-neutral-400 ">AL HATHAIFA is a trusted name in Oman with over a decade of offering competitive Business solutions in Technology, Staffing and Talent Sectors. Established in 2009, we at AL HATHAIFA believe in maintaining strong trusted partnerships within and outside our organisation and hence we proudly say that ‘Our Clients are our Partners’.</p>
+                        <p className=" mt-3   text-black ">AL HATHAIFA is a trusted name in Oman with over a decade of offering competitive Business solutions in Technology, Staffing and Talent Sectors. Established in 2009, we at AL HATHAIFA believe in maintaining strong trusted partnerships within and outside our organisation and hence we proudly say that ‘Our Clients are our Partners’.</p>
                     </div>
 
                     <div className='mt-5'>

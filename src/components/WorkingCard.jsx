@@ -10,7 +10,7 @@ const WorkingCard = ({ WorkingCardData }) => {
             <div className='py-4 text-2xl   uppercase text-[#363636]'>
                 <h2 >{WorkingCardData.heading}</h2>
             </div>
-            <div className='text-md text-center text-[#969698] '>
+            <div className='text-md text-center  text-black '>
                 <p>{WorkingCardData.description}</p>
             </div>
         </div>

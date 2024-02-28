@@ -35,22 +35,22 @@ const Service = () => {
             "point2": "Whether you're a small startup or a large enterprise, our expertise and resources are at your disposal to help you achieve operational excellence and drive long-term success."
 
         },
-        {
-            "image": logis,
-            "heading": "Logistics Services",
-            "description1": "Our team at AL HATHAIFA utilizes advanced technology and top-notch strategies to guarantee the efficient and affordable transportation of your goods. Whether you are sending items domestically or internationally, you can trust us to manage all your logistics requirements with accuracy and expertise. With us supporting you, you can concentrate on your main operations while we manage the rest, giving you peace of mind and the assurance to expand your business effortlessly.            ",
-            "point1": "From warehousing and distribution to transportation and inventory management, our comprehensive suite of services is designed to streamline your operations and improve your bottom line.",
-            "point2": "Our goal is to optimize your supply chain and drive efficiency through end-to-end solutions."
+        // {
+        //     "image": logis,
+        //     "heading": "Logistics Services",
+        //     "description1": "Our team at AL HATHAIFA utilizes advanced technology and top-notch strategies to guarantee the efficient and affordable transportation of your goods. Whether you are sending items domestically or internationally, you can trust us to manage all your logistics requirements with accuracy and expertise. With us supporting you, you can concentrate on your main operations while we manage the rest, giving you peace of mind and the assurance to expand your business effortlessly.            ",
+        //     "point1": "From warehousing and distribution to transportation and inventory management, our comprehensive suite of services is designed to streamline your operations and improve your bottom line.",
+        //     "point2": "Our goal is to optimize your supply chain and drive efficiency through end-to-end solutions."
 
-        },
-        {
-            "image": Delivery,
-            "heading": "DELIVERY Services",
-            "description1": "Designed to cater to the diverse needs of businesses operating in different sectors, our comprehensive delivery solutions are equipped to handle a wide range of shipment sizes and types. Whether it's small parcels or heavy freight, our team is committed to delivering with precision and attention to detail. Stay updated throughout the entire process with our advanced tracking technology and instant updates.",
-            "point1": "Experience the convenience and reliability of AL HATHAIFA Delivery Services as we simplify the shipping process for you.",
-            "point2": " Experience the convenience and reliability of AL HATHAIFA Delivery Services today."
+        // },
+        // {
+        //     "image": Delivery,
+        //     "heading": "DELIVERY Services",
+        //     "description1": "Designed to cater to the diverse needs of businesses operating in different sectors, our comprehensive delivery solutions are equipped to handle a wide range of shipment sizes and types. Whether it's small parcels or heavy freight, our team is committed to delivering with precision and attention to detail. Stay updated throughout the entire process with our advanced tracking technology and instant updates.",
+        //     "point1": "Experience the convenience and reliability of AL HATHAIFA Delivery Services as we simplify the shipping process for you.",
+        //     "point2": " Experience the convenience and reliability of AL HATHAIFA Delivery Services today."
 
-        },
+        // },
         {
             "image": recruit,
             "heading": "Recruitment Services",

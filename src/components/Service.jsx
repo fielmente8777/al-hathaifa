@@ -25,16 +25,16 @@ const Service = () => {
       heading: "Operations Management",
       description: `AL Hathaifa offers comprehensive operations management solutions tailored to your business needs. Our seasoned professionals fine-tune processes and enhance productivity for seamless operations.`,
     },
-    {
-      url: img3,
-      heading: "Logistics Services",
-      description: `At AL Hathaifa, we provide customized solutions to meet the unique needs of each business, optimizing transportation routes, managing inventory, and enhancing distribution channels. Our focus on adaptability and innovation empowers businesses to thrive in today's competitive marketplace.`,
-    },
-    {
-      url: img4,
-      heading: "DELIVERY Services",
-      description: `Our comprehensive delivery services ensure timely arrivals without compromising safety. Whether you're sending small parcels or large cargo, rely on AL Hathaifa for secure and efficient delivery. Focus on what matters to you while we handle your shipments with dedication and professionalism.`,
-    },
+    // {
+    //   url: img3,
+    //   heading: "Logistics Services",
+    //   description: `At AL Hathaifa, we provide customized solutions to meet the unique needs of each business, optimizing transportation routes, managing inventory, and enhancing distribution channels. Our focus on adaptability and innovation empowers businesses to thrive in today's competitive marketplace.`,
+    // },
+    // {
+    //   url: img4,
+    //   heading: "DELIVERY Services",
+    //   description: `Our comprehensive delivery services ensure timely arrivals without compromising safety. Whether you're sending small parcels or large cargo, rely on AL Hathaifa for secure and efficient delivery. Focus on what matters to you while we handle your shipments with dedication and professionalism.`,
+    // },
     {
       url: img1,
       heading: "Recruitment Services",

@@ -17,7 +17,7 @@ const FormMap = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="mt-6 text-base font-medium leading-6 text-neutral-500 max-md:max-w-full">
+                            <div className="mt-6 text-base font-medium leading-6  text-black max-md:max-w-full">
                                 <p> Always happy to help! We are building our goodwill around just
                                     one word in Oman, &quot;Trust&quot;. We offer competitive talent
                                     solutions in the business, technology, and staffing sectors. We

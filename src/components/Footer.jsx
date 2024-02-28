@@ -47,36 +47,36 @@ const Footer = () => {
                                                             SERVICES
                                                         </span>
                                                     </div>
-                                                    <div className="mt-4">
+                                                    <Link to="/service" className="mt-4 hover:text-red-600 transition-colors duration-300">
                                                         <p>Sales And Marketing</p>
-                                                    </div>
-                                                    <div className="mt-4">
+                                                    </Link>
+                                                    <Link to="/service" className="mt-4 hover:text-red-600 transition-colors duration-300">
                                                         <p>Operations Management</p>
-                                                    </div>
-                                                    <div className="mt-4">
+                                                    </Link>
+                                                    {/* <div className="mt-4 hover:text-red-600 transition-colors duration-300">
                                                         <p>Logistics Services</p>
                                                     </div>
-                                                    <div className="mt-4">
+                                                    <div className="mt-4 hover:text-red-600 transition-colors duration-300">
                                                         <p>Delivery Services</p>
-                                                    </div>
-                                                    <div className="mt-4">
+                                                    </div> */}
+                                                    <Link to="/service" className="mt-4 hover:text-red-600 transition-colors duration-300">
                                                         <p>Recruitment Services</p>
-                                                    </div>
-                                                    <div className="mt-4">
+                                                    </Link>
+                                                    <Link to="/service" className="mt-4 hover:text-red-600 transition-colors duration-300">
                                                         <p>F&B Support Services</p>
-                                                    </div>
-                                                    <div className="mt-4 whitespace-nowrap">
+                                                    </Link>
+                                                    <Link to="/service" className="mt-4  hover:text-red-600 transition-colors duration-300">
                                                         <p> Industrial Technical Services</p>
-                                                    </div>
-                                                    <div className="mt-4 whitespace-nowrap">
+                                                    </Link>
+                                                    <Link to="/service" className="mt-4  hover:text-red-600 transition-colors duration-300">
                                                         <p> Facility Management Services</p>
-                                                    </div>
-                                                    <div className="mt-4 whitespace-nowrap">
+                                                    </Link>
+                                                    <Link to="/service" className="mt-4 hover:text-red-600 transition-colors duration-300">
                                                         <p> Field Force Management</p>
-                                                    </div>
-                                                    <div className="mt-4 whitespace-nowrap">
+                                                    </Link>
+                                                    <Link to="/service" className="mt-4  hover:text-red-600 transition-colors duration-300">
                                                         <p> Corporate Event Management</p>
-                                                    </div>
+                                                    </Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -87,7 +87,7 @@ const Footer = () => {
                                         <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
                                             <div className="flex flex-col w-2/5 max-md:ml-0 max-md:w-full">
                                                 <div className="flex flex-col text-base font-medium leading-6 text-white max-md:mt-2">
-                                                    <div className="text-2xl leading-9 text-justify text-red-800 uppercase whitespace-nowrap">
+                                                    <div className="text-2xl leading-9 text-justify text-red-800 uppercase ">
                                                         <span className="text-white  text-[24px]">
                                                             Useful
                                                         </span>{" "}
@@ -96,19 +96,19 @@ const Footer = () => {
                                                         </span>
                                                     </div>
                                                     <Link to="/">
-                                                        <p className="mt-4">Home</p>
+                                                        <p className="mt-4 hover:text-red-600 transition-colors duration-300">Home</p>
                                                     </Link>
                                                     <Link to="/about">
-                                                        <p className="mt-4">About Us</p>
+                                                        <p className="mt-4 hover:text-[#A52323] transition-colors duration-300">About Us</p>
                                                     </Link>
                                                     <Link to="/service">
-                                                        <p className="mt-4">Services</p>
+                                                        <p className="mt-4 hover:text-[#A52323] transition-colors duration-300">Services</p>
                                                     </Link>
                                                     <Link to="/careers">
-                                                        <p className="mt-4">Careers</p>
+                                                        <p className="mt-4 hover:text-[#A52323] transition-colors duration-300">Careers</p>
                                                     </Link>
                                                     <Link to="/contact">
-                                                        <p className="mt-4">Contact Us</p>
+                                                        <p className="mt-4 hover:text-[#A52323] transition-colors duration-300 ">Contact Us</p>
                                                     </Link>
                                                 </div>
                                             </div>
@@ -143,7 +143,7 @@ const Footer = () => {
                                                             className="my-auto aspect-[0.71] fill-white w-[15px]"
                                                         />
                                                         <div className="flex-auto">
-                                                            <Link to="tel:+968 2460 0572"><p>+968 2460 0572</p></Link>
+                                                            <Link to="tel:+968 2460 0572" className="hover:text-red-600 transition-colors duration-300"><p>+968 2460 0572</p></Link>
                                                         </div>
                                                     </div>
                                                     <div className="flex gap-3 justify-between mt-4 text-base font-medium leading-6 text-white whitespace-nowrap">
@@ -153,7 +153,7 @@ const Footer = () => {
                                                             className="my-auto w-5 aspect-[1.25] fill-white"
                                                         />
                                                         <div className="flex-auto">
-                                                            <Link to="mailto:hr@al-hathaifa.com"><p>hr@al-hathaifa.com</p></Link>
+                                                            <Link to="mailto:hr@al-hathaifa.com" className="hover:text-red-600 transition-colors duration-300"><p>hr@al-hathaifa.com</p></Link>
                                                         </div>
                                                     </div>
                                                     <div className="mt-6 text-2xl leading-9 text-justify text-red-800 uppercase">

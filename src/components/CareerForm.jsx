@@ -12,7 +12,7 @@ const CareerForm = () => {
 
                         </div>
                     </div>
-                    <div className="mt-6 w-full font-medium leading-6 text-justify text-neutral-500 max-md:max-w-full">
+                    <div className="mt-6 w-full font-medium leading-6 text-justify text-black max-md:max-w-full">
                         <p>If you are seeking a fulfilling career opportunity with a prominent business solutions provider in Oman, we encourage you to take a look at the job positions available at Al HATHAIFA and submit your application today.
                         </p>
                     </div>
@@ -20,7 +20,7 @@ const CareerForm = () => {
                         <div className=" text-white   uppercase leading-[60px] max-md:max-w-full">
                             <h1><span>join our </span><span className="text-red-800">team</span></h1>
                         </div>
-                        <div className="flex gap-2.5 justify-between mt-6 font-medium whitespace-nowrap text-neutral-400 max-md:flex-wrap max-md:max-w-full">
+                        <div className="flex gap-2.5 justify-between mt-6 font-medium whitespace-nowrap text-black max-md:flex-wrap max-md:max-w-full">
                             <div className="flex flex-col flex-1 justify-center max-md:max-w-full">
                                 <input type='text' className="justify-center items-start py-4 pr-16 pl-7 bg-white max-md:px-5 max-md:max-w-full"
                                     placeholder='Your Name'
@@ -33,7 +33,7 @@ const CareerForm = () => {
                                 />
                             </div>
                         </div>
-                        <div className="flex gap-2.5 justify-between max-md:flex-col mt-2.5 font-medium text-neutral-400 max-md:max-w-full">
+                        <div className="flex gap-2.5 justify-between max-md:flex-col mt-2.5 font-medium text-black max-md:max-w-full">
                             <div className="flex flex-col flex-1 justify-center whitespace-nowrap max-md:max-w-full">
                                 <input className="justify-center items-start py-4 pr-16 pl-7 bg-white max-md:px-5 max-md:max-w-full"
                                     placeholder=' Your Email'
@@ -53,7 +53,7 @@ const CareerForm = () => {
                             </div>
                         </div>
                         <div className="flex gap-2.5 justify-between mt-2.5 max-md:flex-wrap max-md:max-w-full">
-                            <div className="flex flex-col flex-1 justify-center font-medium whitespace-nowrap text-neutral-400 max-md:max-w-full">
+                            <div className="flex flex-col flex-1 justify-center font-medium whitespace-nowrap text-black max-md:max-w-full">
                                 <input type='text' placeholder='Linkdin' className="justify-center items-start py-4 pr-16 pl-7 bg-white max-md:px-5 max-md:max-w-full"
 
                                 />
