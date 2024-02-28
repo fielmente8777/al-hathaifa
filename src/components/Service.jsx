@@ -128,7 +128,7 @@ const Service = () => {
             ))}
           </Swiper>
           <div className="flex justify-center items-center gap-3 mt-6">
-            <button className="next bg-transparent border-none active:scale-95">
+            <button className=" prev bg-transparent border-none active:scale-95">
               <svg
                 width="40"
                 height="40"
@@ -142,7 +142,7 @@ const Service = () => {
                 />
               </svg>
             </button>
-            <button className="prev bg-transparent border-none active:scale-95">
+            <button className=" next bg-transparent border-none active:scale-95">
               <svg
                 width="40"
                 height="40"
