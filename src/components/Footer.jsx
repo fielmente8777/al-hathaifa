@@ -143,7 +143,7 @@ const Footer = () => {
                                                             className="my-auto aspect-[0.71] fill-white w-[15px]"
                                                         />
                                                         <div className="flex-auto">
-                                                            <p>+968 2460 0572</p>
+                                                            <Link to="tel:+968 2460 0572"><p>+968 2460 0572</p></Link>
                                                         </div>
                                                     </div>
                                                     <div className="flex gap-3 justify-between mt-4 text-base font-medium leading-6 text-white whitespace-nowrap">
@@ -153,7 +153,7 @@ const Footer = () => {
                                                             className="my-auto w-5 aspect-[1.25] fill-white"
                                                         />
                                                         <div className="flex-auto">
-                                                            <p>hr@al-hathaifa.com</p>
+                                                            <Link to="mailto:hr@al-hathaifa.com"><p>hr@al-hathaifa.com</p></Link>
                                                         </div>
                                                     </div>
                                                     <div className="mt-6 text-2xl leading-9 text-justify text-red-800 uppercase">

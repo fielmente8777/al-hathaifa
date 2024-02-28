@@ -62,7 +62,7 @@ const Partner = () => {
           <div className="pl-2 grow text-[40px] text-[#363636] uppercase   max-md:text-4xl">
             <h1>
               OUR partners &
-              <span className="text-red-800">clients</span>
+              <span className="text-red-800"> clients</span>
             </h1>
           </div>
         </div>
