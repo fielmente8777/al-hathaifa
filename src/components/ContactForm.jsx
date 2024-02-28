@@ -8,8 +8,11 @@ const ContactForm = () => {
                 <div className="flex flex-col w-[61%]  max-md:ml-0 max-md:w-full">
                     <div className="flex flex-col items-start leading-[60px]  max-md:mt-10 max-md:max-w-full">
                         <div className='' style={{ borderLeft: "6px solid #A52323" }}>
-                            <h1 className="pl-2  uppercase text-[#363636] max-md:text-4xl">Where to Find <span style={{ color: "#A52323" }}>US </span></h1>
+                            <div className="pl-2 grow text-[#363636] uppercase  max-md:text-4xl">
+                                <h1>
+                                    Where to Find <span style={{ color: "#A52323" }}>US </span></h1>
 
+                            </div>
                         </div>
                         <div className="self-stretch text mt-6 leading-6 text-justify max-md:max-w-full">
                             <p className='text text-neutral-400'> Always happy to help! We are building our goodwill around just one
@@ -55,7 +58,7 @@ const ContactForm = () => {
             </div>
             <iframe className=" w-full max-w-[1224px] h-[458px] max-md:h-[229px] aspect-[2.7] max-md:mt-5 max-md:max-w-full max-md:px-5" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7312.364105690263!2d58.446202!3d23.597803!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1707988951047!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-        </div>
+        </div >
     )
 }
 

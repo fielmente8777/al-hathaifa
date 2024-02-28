@@ -18,7 +18,7 @@ const CareerForm = () => {
                     </div>
                     <div className="flex flex-col px-11 py-8 mt-14  w-full bg-neutral-800 leading-[150%] max-md:px-5 max-md:mt-10 max-md:max-w-full">
                         <div className=" text-white   uppercase leading-[60px] max-md:max-w-full">
-                            <h1>join our <span className="text-red-800">team</span></h1>
+                            <h1><span>join our </span><span className="text-red-800">team</span></h1>
                         </div>
                         <div className="flex gap-2.5 justify-between mt-6 font-medium whitespace-nowrap text-neutral-400 max-md:flex-wrap max-md:max-w-full">
                             <div className="flex flex-col flex-1 justify-center max-md:max-w-full">

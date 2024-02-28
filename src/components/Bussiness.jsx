@@ -9,10 +9,14 @@ const Bussiness = () => {
                 <div className="flex justify-between text-red-800 uppercase leading-[60px] max-md:flex-wrap max-md:max-w-full">
 
                     <div className='' style={{ borderLeft: "6px solid #A52323" }}>
-                        <h1 className="pl-2 max-md:text-4xl   uppercase text-[#363636]" >
-                            A new era of business standards shaped by the fusion of
-                            passion and purpose<span style={{ color: "#A52323" }}></span></h1>
+                        <div className="pl-2 grow text-[#363636] uppercase   max-md:text-4xl">
+                            <h1>
+                                <span> A new era of business standards shaped by the fusion of
+                                    passion and purpose</span>
 
+                                <span style={{ color: "#A52323" }}></span></h1>
+
+                        </div>
                     </div>
 
 

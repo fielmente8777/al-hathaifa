@@ -18,9 +18,12 @@ const Mission = () => {
         <div className='mission bg-cover bg-center bg-no-repeat flex justify-center max-md:px-5 '>
             <div className="py-10 lg:grid lg:grid-cols-2 gap-5 max-w-[1224px]">
                 <div className={`flex flex-col justify-center border-3 max-md:order-1 ${location.pathname === "/about" ? "order-2" : ""}`}>
-                    <div className='pl-2' style={{ borderLeft: "6px solid #A52323" }}>
-                        <h1 className="text-white uppercase max-md:text-4xl">OUR MISSION &    <span style={{ color: "#A52323" }}>VISION</span></h1>
-
+                    <div className='' style={{ borderLeft: "6px solid #A52323" }}>
+                        <div className="pl-2 grow uppercase max-md:text-4xl">
+                            <h1><span className="text-white ">OUR MISSION &  </span>
+                                <span className="text-red-800">VISION</span>
+                            </h1>
+                        </div>
                     </div>
 
                     <div className='mt-2 text-justify'>

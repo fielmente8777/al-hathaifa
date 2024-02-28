@@ -10,7 +10,10 @@ const FormMap = () => {
                             <div className="flex gap-3 self-start text-red-800 uppercase leading-[60px]">
                                 <div className='' style={{ borderLeft: "6px solid #A52323" }}>
                                     <div className="pl-2 grow text-[#363636]   max-md:text-4xl">
-                                        <h1>WHERE TO FIND <span className="text-red-800">US</span></h1>
+                                        <h1>
+                                            <span>WHERE TO FIND</span>
+                                            <span className="text-red-800">US</span>
+                                        </h1>
                                     </div>
                                 </div>
                             </div>

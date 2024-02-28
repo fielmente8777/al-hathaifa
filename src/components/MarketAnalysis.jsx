@@ -6,8 +6,8 @@ const MarketAnalysis = () => {
             <div className='max-w-[1224px] flex flex-col'>
                 <div className="flex gap-3 self-center pr-5 max-md:pr-0 text-4xl text-justify text-red-800 uppercase leading-[60px]">
                     <div className='' style={{ borderLeft: "6px solid #A52323" }}>
-                        <div className="pl-2 grow text-[#363636]   max-md:text-4xl">
-                            <h1><span className="text-neutral-700">market </span>
+                        <div className="pl-2 grow text-[#363636] uppercase  max-md:text-4xl">
+                            <h1><span className="">market </span>
                                 <span className="text-red-800">analysis</span>
                             </h1>
                         </div>

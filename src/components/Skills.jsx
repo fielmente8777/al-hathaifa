@@ -20,9 +20,10 @@ const Skills = () => {
                 </div>
                 <div className=" flex flex-col justify-center item-center ">
                     <div className='' style={{ borderLeft: "6px solid #A52323" }}>
-                        <div className="pl-2 grow ">
-                            <h1 className="   uppercase text-[#363636] max-md:text-4xl">OUR <span style={{ color: "#A52323" }}>SKills </span></h1>
-
+                        <div className="pl-2 grow uppercase max-md:text-4xl">
+                            <h1><span className=" text-[#363636]">OUR </span>
+                                <span className="text-red-800">SKills</span>
+                            </h1>
                         </div>
                     </div>
 

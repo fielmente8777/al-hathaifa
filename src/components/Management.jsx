@@ -5,9 +5,10 @@ const Management = () => {
         <div className="management bg-cover bg-center bg-no-repeat">
             <div className=" flex flex-col justify-center border-3 w-full max-w-[1224px] py-14 max-md:px-5 max-md:py-8">
                 <div className='' style={{ borderLeft: "6px solid #A52323" }}>
-                    <div className="pl-2 grow  ">
-                        <h1 className=" text-white uppercase   max-md:text-4xl">Message from  <span style={{ color: "#A52323" }}>management</span></h1>
-
+                    <div className="pl-2 grow  uppercase max-md:text-4xl">
+                        <h1><span className="text-white    ">Message from </span>
+                            <span className="text-red-800">management</span>
+                        </h1>
                     </div>
                 </div>
 

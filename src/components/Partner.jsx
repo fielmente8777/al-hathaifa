@@ -59,13 +59,12 @@ const Partner = () => {
     <section>
       <div className="flex flex-col justify-center items-center w-100 py-10 max-md:px-5 max-md:py-0 max-md:mt-10">
         <div className="" style={{ borderLeft: "6px solid #A52323" }}>
-          <h1
-            className="pl-2 text-[#363636] uppercase max-md:text-4xl"
-
-          >
-            OUR partners &{" "}
-            <span style={{ color: "#A52323" }}>clients</span>
-          </h1>
+          <div className="pl-2 grow text-[#363636] uppercase   max-md:text-4xl">
+            <h1>
+              OUR partners &
+              <span className="text-red-800">clients</span>
+            </h1>
+          </div>
         </div>
         <div
           className="h-100 w-full lg:flex hidden justify-center items-center mt-16 "

@@ -9,9 +9,12 @@ const ServicePageCard = ({ serviceData, imageOrder }) => {
             <div className="max-w-[1224px] grid grid-cols-2 max-md:grid-cols-1 gap-5 max-md:">
                 <div className={`flex flex-col  max-md:ml-0 max-md:w-full max-md:order-2 ${imageOrder === 1 ? 'order-2' : ''}`}>
                     <div className="flex  uppercase leading-[60px] max-md:flex-wrap max-md:max-w-full">
-                        <div className='pl-2' style={{ borderLeft: "6px solid #A52323" }}>
-                            <h1 className=" uppercase text-[#363636]">{serviceData.heading}    <span style={{ color: "#A52323" }}></span></h1>
-
+                        <div className='' style={{ borderLeft: "6px solid #A52323" }}>
+                            <div className="pl-2 grow text-[#363636] uppercase  max-md:text-4xl">
+                                <h1>
+                                    <span>{serviceData.heading} </span>
+                                </h1>
+                            </div>
                         </div>
                     </div>
                     <div className="flex flex-col justify-start grow text-base font-medium leading-6 text-justify text-neutral-400 max-md:mt-5 max-md:max-w-full">

@@ -12,7 +12,7 @@ const About = () => {
                 <div className=" flex flex-col justify-start ">
                     <div className='' style={{ borderLeft: "6px solid #A52323" }}>
                         <div className="pl-2 grow ">
-                            <h1 className=" max-md:text-4xl uppercase text-[#363636]">Where vision meets reality, we are at your service!<span style={{ color: "#A52323" }}></span></h1>
+                            <h1> <span className=" max-md:text-4xl uppercase text-[#363636]">Where vision meets reality, we are at your service!</span></h1>
 
                         </div>
                     </div>
