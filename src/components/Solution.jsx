@@ -5,8 +5,8 @@ const Solution = () => {
         <div className="flex flex-col justify-center  pt-10 pb-0 items-center px-24 max-md:px-5">
             <div className="flex gap-3 px-5 max-md:px-0 self-center text-red-800 uppercase leading-[60px] max-md:flex-wrap max-md:max-w-full">
                 <div className='' style={{ borderLeft: "6px solid #A52323" }}>
-                    <div className="pl-2 grow text-5xl text-[#363636] font-bold max-md:text-4xl">
-                        <h1 style={{ fontWeight: '600' }}>  omani sales force <span className="text-red-800">solutions</span></h1>
+                    <div className="pl-2 grow text-[#363636]   max-md:text-4xl">
+                        <h1>  omani sales force <span className="text-red-800">solutions</span></h1>
                     </div>
                 </div>
             </div>
@@ -16,7 +16,7 @@ const Solution = () => {
                         <div className="flex flex-col self-stretch my-auto text-base font-medium leading-6 text-justify text-neutral-400 max-md:mt-0 max-md:max-w-full">
                             <div className="flex gap-3 self-start text-4xl text-red-800 uppercase whitespace-nowrap leading-[60px] max-md:mt-5">
                                 <div className='' style={{ borderLeft: "6px solid #A52323" }}>
-                                    <div className="pl-2 grow text-5xl text-[#363636] font-bold max-md:text-2xl">
+                                    <div className="pl-2 grow text-[#363636]   max-md:text-2xl">
                                         <h1><span className="text-neutral-700">WHAT we </span>
                                             <span className="text-red-800">offer</span>
                                         </h1>
@@ -30,7 +30,7 @@ const Solution = () => {
                                     className="w-7 aspect-square"
                                 />
                                 <div className="grow max-md:max-w-full">
-                                    Omani Sales Promoters for Business To Customers (B2C) Models.
+                                    <p> Omani Sales Promoters for Business To Customers (B2C) Models.</p>
                                 </div>
                             </div>
                             <div className="flex gap-3 mt-4 leading-6 max-md:max-w-full">
@@ -40,8 +40,8 @@ const Solution = () => {
                                     className="self-start w-7 aspect-square"
                                 />
                                 <div className="max-md:max-w-full">
-                                    Omani Business Development Executives for Business to Business
-                                    (B2B) Model.
+                                    <p>  Omani Business Development Executives for Business to Business
+                                        (B2B) Model.</p>
                                 </div>
                             </div>
                             <div className="flex gap-3 mt-4  max-md:max-w-full">
@@ -51,7 +51,7 @@ const Solution = () => {
                                     className="w-7 aspect-square"
                                 />
                                 <div className="grow max-md:max-w-full">
-                                    Flexible Timings for our services across Oman
+                                    <p> Flexible Timings for our services across Oman</p>
                                 </div>
                             </div>
                             <div className="flex gap-3 mt-4  max-md:max-w-full">
@@ -61,7 +61,7 @@ const Solution = () => {
                                     className="w-7 aspect-square"
                                 />
                                 <div className="grow max-md:max-w-full">
-                                    Solutions with Targets Based Payment(TBP) Models
+                                    <p>  Solutions with Targets Based Payment(TBP) Models</p>
                                 </div>
                             </div>
                             <div className="flex gap-3 mt-4 leading-6  max-md:max-w-full">
@@ -71,8 +71,8 @@ const Solution = () => {
                                     className="self-start w-7 aspect-square"
                                 />
                                 <div className="max-md:max-w-full">
-                                    Supervision to achieve Targets with Daily/Monthly reports as
-                                    per Client’s Requirements
+                                    <p> Supervision to achieve Targets with Daily/Monthly reports as
+                                        per Client’s Requirements</p>
                                 </div>
                             </div>
                         </div>

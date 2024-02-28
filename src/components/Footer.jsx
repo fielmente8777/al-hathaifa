@@ -38,26 +38,26 @@ const Footer = () => {
                                             <div className="flex flex-col ml-5 w-[38%] max-md:ml-0 max-md:w-full">
                                                 <div className="flex flex-col text-base font-medium leading-6 text-white max-md:mt-4">
                                                     <div className="text-2xl leading-9 text-justify text-red-800 uppercase">
-                                                        <span className="text-white">Our</span>{" "}
-                                                        <span className="text-red-800">SERVICES</span>
+                                                        <span className="text-white text-[24px]">Our</span>{" "}
+                                                        <span className="text-red-800  text-[24px]">SERVICES</span>
                                                     </div>
-                                                    <div className="mt-4">Sales And Marketing</div>
-                                                    <div className="mt-4">Operations Management</div>
-                                                    <div className="mt-4">Logistics Services</div>
-                                                    <div className="mt-4">Delivery Services</div>
-                                                    <div className="mt-4">Recruitment Services</div>
-                                                    <div className="mt-4">F&B Support Services</div>
+                                                    <div className="mt-4"><p>Sales And Marketing</p></div>
+                                                    <div className="mt-4"><p>Operations Management</p></div>
+                                                    <div className="mt-4"><p>Logistics Services</p></div>
+                                                    <div className="mt-4"><p>Delivery Services</p></div>
+                                                    <div className="mt-4"><p>Recruitment Services</p></div>
+                                                    <div className="mt-4"><p>F&B Support Services</p></div>
                                                     <div className="mt-4 whitespace-nowrap">
-                                                        Industrial Technical Services
-                                                    </div>
-                                                    <div className="mt-4 whitespace-nowrap">
-                                                        Facility Management Services
+                                                        <p>  Industrial Technical Services</p>
                                                     </div>
                                                     <div className="mt-4 whitespace-nowrap">
-                                                        Field Force Management
+                                                        <p>   Facility Management Services</p>
                                                     </div>
                                                     <div className="mt-4 whitespace-nowrap">
-                                                        Corporate Event Management
+                                                        <p>  Field Force Management</p>
+                                                    </div>
+                                                    <div className="mt-4 whitespace-nowrap">
+                                                        <p>  Corporate Event Management</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -70,21 +70,21 @@ const Footer = () => {
                                             <div className="flex flex-col w-2/5 max-md:ml-0 max-md:w-full">
                                                 <div className="flex flex-col text-base font-medium leading-6 text-white max-md:mt-2">
                                                     <div className="text-2xl leading-9 text-justify text-red-800 uppercase whitespace-nowrap">
-                                                        <span className="text-white">Useful</span>{" "}
-                                                        <span className="text-red-800">Links</span>
+                                                        <span className="text-white  text-[24px]">Useful</span>{" "}
+                                                        <span className="text-red-800  text-[24px]">Links</span>
                                                     </div>
-                                                    <Link to="/"><div className="mt-4">Home</div></Link>
-                                                    <Link to="/about"><div className="mt-4">About Us</div></Link>
-                                                    <Link to="/service"><div className="mt-4">Services</div></Link>
-                                                    <Link to="/careers"><div className="mt-4">Careers</div></Link>
-                                                    <Link to="/contact"><div className="mt-4">Contact Us</div></Link>
+                                                    <Link to="/"><p className="mt-4">Home</p></Link>
+                                                    <Link to="/about"><p className="mt-4">About Us</p></Link>
+                                                    <Link to="/service"><p className="mt-4">Services</p></Link>
+                                                    <Link to="/careers"><p className="mt-4">Careers</p></Link>
+                                                    <Link to="/contact"><p className="mt-4">Contact Us</p></Link>
                                                 </div>
                                             </div>
                                             <div className="flex flex-col ml-5 w-3/5 max-md:ml-0 max-md:w-full">
                                                 <div className="flex flex-col grow max-md:mt-4">
                                                     <div className="text-2xl leading-9 text-justify text-red-800 uppercase">
-                                                        <span className="text-white">CONTACT</span>{" "}
-                                                        <span className="text-red-800">US</span>
+                                                        <span className="text-white  text-[24px]">CONTACT</span>{" "}
+                                                        <span className="text-red-800  text-[24px]">US</span>
                                                     </div>
                                                     <div className="flex gap-3 justify-between mt-4 text-base font-medium leading-6 text-white">
                                                         <img
@@ -93,8 +93,8 @@ const Footer = () => {
                                                             className="self-start aspect-[0.71] fill-white w-[17px]"
                                                         />
                                                         <div>
-                                                            AL HATHAIFA GROUP , 3rd floor, Majan Tower, Goubra,
-                                                            Near Spar Hyper Market, Muscat, Oman
+                                                            <p> AL HATHAIFA GROUP , 3rd floor, Majan Tower, Goubra,
+                                                                Near Spar Hyper Market, Muscat, Oman</p>
                                                         </div>
                                                     </div>
                                                     <div className="flex gap-3 justify-between mt-4 text-base font-medium leading-6 text-white">
@@ -103,7 +103,7 @@ const Footer = () => {
                                                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/d0316f874f3a84e2e7c5b432fb43bfd0d2e58fa5e79565db8e7c722c71e9f2b6?apiKey=4f715c38c9a243509cd636cba1d41f1d&"
                                                             className="my-auto aspect-[0.71] fill-white w-[15px]"
                                                         />
-                                                        <div className="flex-auto">+968 2460 0572</div>
+                                                        <div className="flex-auto"><p>+968 2460 0572</p></div>
                                                     </div>
                                                     <div className="flex gap-3 justify-between mt-4 text-base font-medium leading-6 text-white whitespace-nowrap">
                                                         <img
@@ -111,11 +111,11 @@ const Footer = () => {
                                                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/41b1bdc33e0fc065815d17a911ad1afbeff5467618b346d8703e9bf710672b28?apiKey=4f715c38c9a243509cd636cba1d41f1d&"
                                                             className="my-auto w-5 aspect-[1.25] fill-white"
                                                         />
-                                                        <div className="flex-auto">hr@al-hathaifa.com</div>
+                                                        <div className="flex-auto"><p>hr@al-hathaifa.com</p></div>
                                                     </div>
                                                     <div className="mt-6 text-2xl leading-9 text-justify text-red-800 uppercase">
-                                                        <span className="text-white">FOLLOW</span>{" "}
-                                                        <span className="text-red-800">US</span>
+                                                        <span className="text-white  text-[24px]">FOLLOW</span>{" "}
+                                                        <span className="text-red-800  text-[24px]">US</span>
                                                     </div>
                                                     <div className="flex gap-4 pr-20 mt-4 max-md:pr-5">
                                                         <Link to="">
@@ -158,12 +158,12 @@ const Footer = () => {
                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/5d265a3b580bd5657bcc592a7fbb2d6ca4aa7a6a8aaa2ce70df5126fbda80b6e?apiKey=4f715c38c9a243509cd636cba1d41f1d&"
                             className="my-auto w-3 aspect-square fill-white"
                         />
-                        <div className="flex-auto">Copyright Lorium Ipsum</div>
-                        <div className="grow whitespace-nowrap">All Rights Reserved</div>
+                        <p className="flex-auto">Copyright Lorium Ipsum</p>
+                        <p className="grow whitespace-nowrap">All Rights Reserved</p>
                     </div>
                     <div className="flex gap-5 justify-between max-md:justify-evenly">
-                        <div>Privacy Policy</div>
-                        <div className="flex-auto">Terms & Conditions</div>
+                        <p>Privacy Policy</p>
+                        <p className="flex-auto">Terms & Conditions</p>
                     </div>
                 </div>
             </div>

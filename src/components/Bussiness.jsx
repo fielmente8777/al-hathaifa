@@ -9,7 +9,7 @@ const Bussiness = () => {
                 <div className="flex justify-between text-red-800 uppercase leading-[60px] max-md:flex-wrap max-md:max-w-full">
 
                     <div className='' style={{ borderLeft: "6px solid #A52323" }}>
-                        <h1 className="pl-2 text-5xl max-md:text-4xl font-bold uppercase text-[#363636]" >
+                        <h1 className="pl-2 max-md:text-4xl   uppercase text-[#363636]" >
                             A new era of business standards shaped by the fusion of
                             passion and purpose<span style={{ color: "#A52323" }}></span></h1>
 
@@ -52,8 +52,7 @@ const Bussiness = () => {
                     </div>
                 </div>
                 <div className="mt-12 w-full text-base font-medium leading-6 text-justify text-neutral-400 max-md:mt-10 max-md:max-w-full">
-                    With a commitment to excellence, integrity, and professionalism, our vision is to set new standards for growth and honesty in the industry. At Al Hathaifa, our customers always come first, and we continuously strive to exceed their expectations, ensuring 100% satisfaction with every interaction.
-
+                    <p> With a commitment to excellence, integrity, and professionalism, our vision is to set new standards for growth and honesty in the industry. At Al Hathaifa, our customers always come first, and we continuously strive to exceed their expectations, ensuring 100% satisfaction with every interaction.</p>
                 </div>
             </div>
         </div>

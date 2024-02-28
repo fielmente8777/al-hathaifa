@@ -10,16 +10,16 @@ const ServicePageCard = ({ serviceData, imageOrder }) => {
                 <div className={`flex flex-col  max-md:ml-0 max-md:w-full max-md:order-2 ${imageOrder === 1 ? 'order-2' : ''}`}>
                     <div className="flex  uppercase leading-[60px] max-md:flex-wrap max-md:max-w-full">
                         <div className='pl-2' style={{ borderLeft: "6px solid #A52323" }}>
-                            <h1 className="text-4xl uppercase text-[#363636]" style={{ fontWeight: "500" }}>{serviceData.heading}    <span style={{ color: "#A52323" }}></span></h1>
+                            <h1 className=" uppercase text-[#363636]">{serviceData.heading}    <span style={{ color: "#A52323" }}></span></h1>
 
                         </div>
                     </div>
                     <div className="flex flex-col justify-start grow text-base font-medium leading-6 text-justify text-neutral-400 max-md:mt-5 max-md:max-w-full">
 
                         <div className="mt-6 max-md:mt-0 max-md:max-w-full">
-                            {serviceData.description1}
+                            <p>{serviceData.description1}</p>
                             <br />
-                            {serviceData.description2}
+                            <p>{serviceData.description2}</p>
                         </div>
                         <div className="flex gap-3 justify-between mt-6 max-md:mt-2 max-md:max-w-full">
                             <img
@@ -28,7 +28,7 @@ const ServicePageCard = ({ serviceData, imageOrder }) => {
                                 className="self-start w-[1.75rem] aspect-square"
                             />
                             <div className="flex-auto max-md:max-w-full">
-                                {serviceData.point1}
+                                <p>{serviceData.point1}</p>
                             </div>
                         </div>
                         <div className="flex gap-3 justify-between mt-2 max-md:max-w-full">
@@ -38,12 +38,12 @@ const ServicePageCard = ({ serviceData, imageOrder }) => {
                                 className="self-start w-[1.75rem] aspect-square"
                             />
                             <div className="flex-auto max-md:max-w-full">
-                                {serviceData.point2}
+                                <p> {serviceData.point2}</p>
                             </div>
                         </div>
                         {/* <Link to="/contact"> */}
-                        <Link to='/contact' className="justify-center self-start px-8 py-4 mt-6 font-bold tracking-normal text-right text-white uppercase whitespace-nowrap bg-red-800 leading-[150%] max-md:px-5">
-                            contact us
+                        <Link to='/service' className="justify-center self-start px-8 py-4 mt-6   tracking-normal text-right text-white uppercase whitespace-nowrap bg-red-800 leading-[150%] max-md:px-5">
+                            <p>Learn More</p>
                         </Link>
                         {/* </Link> */}
                     </div>

@@ -24,7 +24,7 @@ const Home = () => {
         <div>
             <Banner
                 heading="Where expertise meets opportunity"
-                description="Innovation, integrity, impact – discover the Al HATHAIFA difference."
+                description="Innovation, integrity, impact – discover the AL HATHAIFA difference."
             />
 
             <About />

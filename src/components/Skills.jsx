@@ -1,5 +1,6 @@
 import React from 'react'
 import SkillsImage from "../assets/OurSkills.png"
+import "../style/skills.css"
 
 const Skills = () => {
 
@@ -12,7 +13,7 @@ const Skills = () => {
     };
 
     return (
-        <div className='about'>
+        <div className='skill py-14 max-md:py-5'>
             <div className=" grid grid-cols-2 gap-4 max-w-[1224px] max-md:grid-cols-1 max-md:w-full max-md:px-5 ">
                 <div className=" flex justify-end ">
                     <img className=" w-auto h-full object-cover " src={SkillsImage} alt="Image" style={{ height: "100%" }} />
@@ -20,7 +21,7 @@ const Skills = () => {
                 <div className=" flex flex-col justify-center item-center ">
                     <div className='' style={{ borderLeft: "6px solid #A52323" }}>
                         <div className="pl-2 grow ">
-                            <h1 className="text-5xl font-bold uppercase text-[#363636] max-md:text-4xl">OUR <stronge style={{ color: "#A52323" }}>SKills </stronge></h1>
+                            <h1 className="   uppercase text-[#363636] max-md:text-4xl">OUR <span style={{ color: "#A52323" }}>SKills </span></h1>
 
                         </div>
                     </div>
@@ -34,7 +35,7 @@ const Skills = () => {
                             <div className="flex flex-col justify-center mt-2">
                                 <div className='flex justify-between'>
                                     <p className='text-md'>Business Solution</p>
-                                    <span className="ml-2">{businessSuccessRate}% </span>
+                                    <p className="ml-2">{businessSuccessRate}% </p>
                                 </div>
                                 <div className="w-full h-2 bg-gray-200 rounded-lg overflow-hidden">
                                     <div className={`${getProgressBarColor(businessSuccessRate)} h-full`} style={{ width: `${businessSuccessRate}%` }}></div>
@@ -43,7 +44,7 @@ const Skills = () => {
                             <div className="flex flex-col justify-center mt-2">
                                 <div className='flex justify-between'>
                                     <p className='text-md'>Technology Solutions</p>
-                                    <span className="ml-2">{technologySuccessRate}% </span>
+                                    <p className="ml-2">{technologySuccessRate}% </p>
                                 </div>
                                 <div className="w-full h-2 bg-gray-200 rounded-lg overflow-hidden">
                                     <div className={`${getProgressBarColor(technologySuccessRate)} h-full`} style={{ width: `${technologySuccessRate}%` }}></div>
@@ -52,7 +53,7 @@ const Skills = () => {
                             <div className="flex flex-col justify-center mt-2">
                                 <div className='flex justify-between'>
                                     <p className='text-md'>Talent Solutions</p>
-                                    <span className="ml-2">{talentSuccessRate}% </span>
+                                    <p className="ml-2">{talentSuccessRate}% </p>
                                 </div>
                                 <div className="w-full h-2 bg-gray-200 rounded-lg overflow-hidden">
                                     <div className={`${getProgressBarColor(talentSuccessRate)} h-full`} style={{ width: `${talentSuccessRate}%` }}></div>

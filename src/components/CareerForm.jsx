@@ -7,16 +7,17 @@ const CareerForm = () => {
                 <div className="flex flex-col text-base ">
                     <div className="flex gap-3 self-start text-4xl text-red-800 uppercase leading-[60px]">
                         <div className='pl-2' style={{ borderLeft: "6px solid #A52323" }}>
-                            <h1 className="text-5xl text-[#363636]  uppercase font-bold max-md:text-4xl ">Unlock your potential  with  Al HATHAIFA    <span style={{ color: "#A52323" }}></span></h1>
+                            <h1 className=" text-[#363636]  uppercase   max-md:text-4xl ">Unlock your potential  with  Al HATHAIFA    <span style={{ color: "#A52323" }}></span></h1>
 
 
                         </div>
                     </div>
                     <div className="mt-6 w-full font-medium leading-6 text-justify text-neutral-500 max-md:max-w-full">
-                        If you are seeking a fulfilling career opportunity with a prominent business solutions provider in Oman, we encourage you to take a look at the job positions available at Al HATHAIFA and submit your application today.
+                        <p>If you are seeking a fulfilling career opportunity with a prominent business solutions provider in Oman, we encourage you to take a look at the job positions available at Al HATHAIFA and submit your application today.
+                        </p>
                     </div>
                     <div className="flex flex-col px-11 py-8 mt-14  w-full bg-neutral-800 leading-[150%] max-md:px-5 max-md:mt-10 max-md:max-w-full">
-                        <div className="text-4xl text-white font-bold uppercase leading-[60px] max-md:max-w-full">
+                        <div className=" text-white   uppercase leading-[60px] max-md:max-w-full">
                             <h1>join our <span className="text-red-800">team</span></h1>
                         </div>
                         <div className="flex gap-2.5 justify-between mt-6 font-medium whitespace-nowrap text-neutral-400 max-md:flex-wrap max-md:max-w-full">
@@ -61,17 +62,17 @@ const CareerForm = () => {
                                 <div className="flex flex-col justify-center px-7 py-2.5 bg-white max-md:px-5 max-md:max-w-full">
                                     <div className="flex gap-5 justify-between max-md:flex-wrap max-md:max-w-full">
                                         <div className="flex-auto my-auto font-medium text-neutral-400">
-                                            Upload Resume
+                                            <p>Upload Resume</p>
                                         </div>
-                                        <div className="justify-center px-4 py-1.5 font-bold tracking-normal text-right text-white uppercase whitespace-nowrap bg-red-800">
-                                            choose file
+                                        <div className="justify-center px-4 py-1.5   tracking-normal text-right text-white uppercase whitespace-nowrap bg-red-800">
+                                            <p> choose file</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="justify-center self-center max-md:self-start px-8 py-4 mt-10 font-bold tracking-normal text-right text-white uppercase whitespace-nowrap bg-red-800 max-md:px-5">
-                            post your resume
+                        <div className="justify-center self-center max-md:self-start px-8 py-4 mt-10   tracking-normal text-right text-white uppercase whitespace-nowrap bg-red-800 max-md:px-5">
+                            <p>post your resume</p>
                         </div>
                     </div>
                 </div>

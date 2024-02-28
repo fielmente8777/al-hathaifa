@@ -18,9 +18,17 @@ body::-webkit-scrollbar {
 
 h1,
 span {
-  font-family: 'Bauhaus 93';
+  font-family: "Baumans", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
 }
 
-p {
-  font-family: 'Raleway';
+
+p,
+Link {
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-family: "Raleway", sans-serif;
 }

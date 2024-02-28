@@ -60,11 +60,11 @@ const Partner = () => {
       <div className="flex flex-col justify-center items-center w-100 py-10 max-md:px-5 max-md:py-0 max-md:mt-10">
         <div className="" style={{ borderLeft: "6px solid #A52323" }}>
           <h1
-            className="pl-2 text-5xl text-[#363636] uppercase max-md:text-4xl"
-            style={{ fontWeight: "600" }}
+            className="pl-2 text-[#363636] uppercase max-md:text-4xl"
+
           >
             OUR partners &{" "}
-            <stronge style={{ color: "#A52323" }}>clients</stronge>
+            <span style={{ color: "#A52323" }}>clients</span>
           </h1>
         </div>
         <div
@@ -145,25 +145,6 @@ const Partner = () => {
         </div>
       </div>
     </section>
-    // <section className="py-5">
-    //   <div className="lg:max-w-[1224px] mx-auto">
-    //     <div className="py-3">
-    //       <h2 className="pl-2 text-center text-5xl text-[#363636] uppercase max-md:text-4xl">
-    //         OUR partners &{" "}
-    //         <stronge style={{ color: "#A52323" }}>clients</stronge>
-    //       </h2>
-    //     </div>
-    //     <div className="lg:grid lg:grid-cols-6 gap-3 hidden justify-center items-center">
-    //       {clints.map((item, i) => (
-    //         <div key={i} className="flex items-center justify-center">
-    //           <img src={item.img} className="h-[4rem]" alt="clint-img" />
-    //         </div>
-    //       ))}
-    //     </div>
-    //
-    //
-    //   </div>
-    // </section>
   );
 };
 
