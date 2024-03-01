@@ -1,9 +1,10 @@
+import axios from 'axios';
 import React, { useState } from 'react'
 
 const Form = () => {
 
     const [formData, setFormData] = useState({
-        name: '',
+        username: '',
         phone: '',
         email: '',
         message: '',
@@ -18,23 +19,41 @@ const Form = () => {
 
         })
     }
-    const handleSubmit = (e) => {
+
+    const url = "https://eazotel.eazotel.com/api/dashboard/editcontact"
+
+    const handleSubmit = async (e) => {
         e.preventDefault();
+        try {
+
+            const preparedData = {
+                Domain: "a13259932",
+                email: formData.email,
+                Name: formData.username,
+                Contact: formData.phone,
+                Description: formData.message,
+            }
+            const response = await axios.post(url, preparedData);
+
+            console.log(response.data)
+
+        } catch (error) {
+            console.log("Error: ", error)
+        }
         setFormData(formData)
+
 
 
         console.log("form Data saved", formData)
 
-        setFormData({
-            name: '',
-            phone: '',
-            email: '',
-            message: '',
-        })
+        // setFormData({
+        //     name: '',
+        //     phone: '',
+        //     email: '',
+        //     message: '',
+        // })
 
     }
-    console.log(formData)
-
 
     return (
         <div className="flex flex-col ml-5 w-[39%] max-md:ml-0 max-md:w-full">
@@ -45,9 +64,9 @@ const Form = () => {
                     </div>
                     <input className="flex flex-col justify-center items-start py-3 pr-6 pl-6 mt-6 w-full bg-white border-solid border-[0.5px] border-[color:var(--Secondary,#A52323)] max-md:px-5"
                         type='text'
-                        name='name'
+                        name='username'
                         placeholder='Your name'
-                        value={formData.name}
+                        value={formData.username}
                         onChange={handleChnage}
                     />
                     <input className="flex flex-col justify-center items-start py-3 pr-6 pl-6 mt-6 w-full bg-white border-solid border-[0.5px] border-[color:var(--Secondary,#A52323)] max-md:px-5"

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom'
 import "../style/Banner.css"
 
-export default function App({ heading, description }) {
+const Banner = ({ heading, description }) => {
 
     const location = useLocation()
     return (
@@ -23,12 +23,27 @@ export default function App({ heading, description }) {
                 <div className="mt-3 text-[18px] text-center leading-[167%] max-md:max-w-full">
                     <p>{description}</p>
                 </div>
-                <Link to="/contact">
-                    <div className="justify-center px-8 py-4 mt-8 mb-32 text-base   tracking-normal text-right uppercase whitespace-nowrap bg-[#a52323] max-md:px-5 max-md:mb-10">
-                        <p>contact us</p>
-                    </div>
-                </Link>
+
+                {
+                    !location.pathname === '/disclaimer' ||
+                        !location.pathname === '/privacypolicy' ||
+                        !location.pathname === '/termscondition' ?
+                        (
+                            <Link to="/contact">
+                                <div className="justify-center px-8 py-4 mt-8 mb-32 text-base   tracking-normal text-right uppercase whitespace-nowrap bg-[#a52323] max-md:px-5 max-md:mb-10">
+                                    <p>contact us</p>
+                                </div>
+                            </Link>
+                        ) :
+                        (
+                            <div className="justify-center px-8 py-4 mt-8 mb-32 text-base   tracking-normal text-right uppercase whitespace-nowrap bg-transparent max-md:px-5 max-md:mb-10">
+                            </div>
+                        )
+
+                }
+
             </div>
         </div>
     );
 }
+export default Banner

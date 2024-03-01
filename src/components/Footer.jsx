@@ -202,12 +202,19 @@ const Footer = () => {
                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/5d265a3b580bd5657bcc592a7fbb2d6ca4aa7a6a8aaa2ce70df5126fbda80b6e?apiKey=4f715c38c9a243509cd636cba1d41f1d&"
                             className="my-auto w-3 aspect-square fill-white"
                         />
-                        <p className="flex-auto">Copyright <Link to="https://www.eazotel.com" target="_blank">Eazotel</Link></p>
+                        <p className="flex-auto">Copyright <Link to="https://www.eazotel.com" target="_blank" className="flex-auto hover:opacity-50">Eazotel</Link></p>
                         <p className="grow whitespace-nowrap">All Rights Reserved</p>
                     </div>
                     <div className="flex gap-5 justify-between max-md:justify-evenly">
-                        <p>Privacy Policy</p>
-                        <p className="flex-auto">Terms & Conditions</p>
+                        <Link to="/disclaimer">
+                            <p className="flex-auto hover:opacity-50">Disclaimer</p>
+                        </Link>
+                        <Link to="/privacypolicy">
+                            <p className="flex-auto hover:opacity-50">Privacy Policy</p>
+                        </Link>
+                        <Link to="/termscondition">
+                            <p className="flex-auto hover:opacity-50">Terms & Conditions</p>
+                        </Link>
                     </div>
                 </div>
             </div>

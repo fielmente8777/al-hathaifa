@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import Banner from "../components/Banner"
 import CareerForm from '../components/CareerForm'
 import Footer from "../components/Footer"
-export const Careers = () => {
+const Careers = () => {
     useEffect(() => {
         window.scrollTo(0, 0); // Scroll the window to the top
     }, []);
@@ -20,3 +20,4 @@ export const Careers = () => {
     )
 }
 
+export default Careers
