@@ -41,7 +41,7 @@ const Home = () => {
 
             <Service />
 
-            <OurGoals />
+            {/* <OurGoals /> */}
 
             <Management />
 

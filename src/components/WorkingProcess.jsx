@@ -1,5 +1,5 @@
 import React from 'react'
-import light1 from "../assets/Vector (1).png"
+import light1 from "../assets/svg/Vector.svg"
 import light2 from "../assets/svg/setting_4251324 1.svg"
 import light3 from "../assets/svg/profits_4664266 1.svg"
 
@@ -9,12 +9,12 @@ const WorkingProcess = () => {
 
     const WorkingCardData = [
         {
-            img: light1,
+            img: light2,
             heading: "Customised Approach",
             description: "Our approach is designed exclusively for your needs. Through examination and collaboration, we create tailor-made solutions for resounding success."
         },
         {
-            img: light2,
+            img: light1,
             heading: "Effective & innovative",
             description: "By utilizing cutting-edge techniques, we blend efficiency and creativity to fulfill your needs and propel your company towards success."
         },
