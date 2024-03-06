@@ -59,8 +59,6 @@ const CareerForm = () => {
                     <div className="flex gap-3 self-start text-4xl text-red-800 uppercase leading-[60px]">
                         <div className='pl-2' style={{ borderLeft: "6px solid #A52323" }}>
                             <h1 className=" text-[#363636]  uppercase   max-md:text-4xl ">Unlock your potential  with  Al HATHAIFA    <span style={{ color: "#A52323" }}></span></h1>
-
-
                         </div>
                     </div>
                     <div className="mt-6 w-full font-medium leading-6 text-justify text-black max-md:max-w-full">

@@ -81,7 +81,7 @@ const Solution = () => {
                         <img
                             loading="lazy"
                             src={SolutionImage}
-                            className="grow w-full h-[400px] aspect-[0.91] max-md:mt-10 max-md:max-w-full overflow:hidden object-cover"
+                            className="grow w-full aspect-[0.91] max-md:mt-10 max-md:max-w-full overflow:hidden object-cover"
                         />
                     </div>
                 </div>

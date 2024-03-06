@@ -1,5 +1,5 @@
 import React from 'react'
-import Benifits from "../assets/professional-business-team-workplace 1.png"
+import Benifits from "../assets/svg/business.svg"
 
 const BenifitsForCLient = () => {
     return (
@@ -9,7 +9,7 @@ const BenifitsForCLient = () => {
                     <img
                         loading="lazy"
                         src={Benifits}
-                        className="grow w-full aspect-[0.88] max-md:mt-5 max-md:max-w-full object-cover"
+                        className="grow w-full aspect-[0.88] max-md:mt-5 max-md:max-w-full"
                     />
                 </div>
                 <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">

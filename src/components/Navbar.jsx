@@ -69,41 +69,36 @@ export default function Navbar() {
           <nav className="hidden lg:flex space-x-8">
             <Link
               to="/"
-              className={`hover:text-red-600 transition-colors duration-300 ${
-                location.pathname === "/" ? "text-red-600" : ""
-              }`}
+              className={`hover:text-red-600 transition-colors duration-300 ${location.pathname === "/" ? "text-red-600" : ""
+                }`}
             >
               <p> HOME</p>
             </Link>
             <Link
               to="/about"
-              className={`hover:text-red-600 transition-colors duration-300 ${
-                location.pathname === "/about" ? "text-red-600" : ""
-              }`}
+              className={`hover:text-red-600 transition-colors duration-300 ${location.pathname === "/about" ? "text-red-600" : ""
+                }`}
             >
               <p> ABOUT US</p>
             </Link>
             <Link
               to="/service"
-              className={`hover:text-red-600 transition-colors duration-300 ${
-                location.pathname === "/service" ? "text-red-600" : ""
-              }`}
+              className={`hover:text-red-600 transition-colors duration-300 ${location.pathname === "/service" ? "text-red-600" : ""
+                }`}
             >
               <p> SERVICES</p>
             </Link>
             <Link
               to="/careers"
-              className={`hover:text-red-600 transition-colors duration-300 ${
-                location.pathname === "/careers" ? "text-red-600" : ""
-              }`}
+              className={`hover:text-red-600 transition-colors duration-300 ${location.pathname === "/careers" ? "text-red-600" : ""
+                }`}
             >
               <p> CAREERS</p>
             </Link>
             <Link
               to="/contact"
-              className={`hover:text-red-600 transition-colors duration-300 ${
-                location.pathname === "/contact" ? "text-red-600" : ""
-              }`}
+              className={`hover:text-red-600 transition-colors duration-300 ${location.pathname === "/contact" ? "text-red-600" : ""
+                }`}
             >
               <p> CONTACT US</p>
             </Link>

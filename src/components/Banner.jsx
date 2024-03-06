@@ -17,30 +17,32 @@ const Banner = ({ heading, description }) => {
                 <div className="mt-40 text-[18px] max-md:mt-20 text-center uppercase tracking-[4px]">
                     <p>Welcome to al HATHAIFA</p>
                 </div>
-                <div className={`mt-3 max-w-[1224px] text-[40px] font-outline-2 ${location.pathname === "/" ? "text-[#A52323] bannerStroke" : "text-white"} text-center uppercase leading-[60px]  max-md:max-w-full max-md:text-4xl max-md:leading-10`}>
+                {/* if you want stroke in banner heading then put this "bannerStroke" after text-[#] */}
+                {/* ${location.pathname === "/" ? "text-[#A52323] bannerStroke" : "text-white"}  */}
+                <div className={`mt-3 max-w-[1224px] text-[40px] font-outline-2 text-center uppercase leading-[60px]  max-md:max-w-full max-md:text-4xl max-md:leading-10`}>
                     <h1>{heading}</h1>
                 </div>
                 <div className="mt-3 text-[18px] text-center leading-[167%] max-md:max-w-full">
                     <p>{description}</p>
                 </div>
-
+                {/* 
                 {
                     !location.pathname === '/disclaimer' ||
                         !location.pathname === '/privacypolicy' ||
                         !location.pathname === '/termscondition' ?
-                        (
-                            <Link to="/contact">
-                                <div className="justify-center px-8 py-4 mt-8 mb-32 text-base   tracking-normal text-right uppercase whitespace-nowrap bg-[#a52323] max-md:px-5 max-md:mb-10">
-                                    <p>contact us</p>
-                                </div>
-                            </Link>
-                        ) :
+                        ( */}
+                <Link to="/contact">
+                    <div className="justify-center px-8 py-4 mt-8 mb-32 text-base   tracking-normal text-right uppercase whitespace-nowrap bg-[#a52323] max-md:px-5 max-md:mb-10">
+                        <p>contact us</p>
+                    </div>
+                </Link>
+                {/* ) :
                         (
                             <div className="justify-center px-8 py-4 mt-8 mb-32 text-base   tracking-normal text-right uppercase whitespace-nowrap bg-transparent max-md:px-5 max-md:mb-10">
                             </div>
                         )
 
-                }
+                } */}
 
             </div>
         </div>

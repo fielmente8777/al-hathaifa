@@ -9,7 +9,7 @@ const DisclaimerCard = ({ pageData }) => {
                 <div className='flex flex-col text-left items-start max-w-[1224px]'>
                     <div className='' style={{ borderLeft: "6px solid #A52323" }}>
                         <div className="pl-2 grow ">
-                            <h1> <span className="text-[40px] leading-8 max-md:leading-4 max-md:text-4xl uppercase text-[#363636]">
+                            <h1> <span className="text-[40px] leading-8 max-md:leading-0 max-md:text-4xl uppercase text-[#363636]">
                                 {pageData.heading}
                             </span></h1>
 

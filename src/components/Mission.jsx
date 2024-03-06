@@ -1,6 +1,6 @@
 import React from 'react'
-import MissonImage from "../assets/mage.png"
-import MissionVision from "../assets/missionvision.png"
+import MissonImage from "../assets/svg/mission.svg"
+import MissionVision from "../assets/svg/business-colleagues-watching-discussing-content 1.svg"
 import "../style/Mission.css"
 import { useLocation } from 'react-router-dom'
 const Mission = () => {

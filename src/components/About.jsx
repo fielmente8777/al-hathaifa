@@ -1,6 +1,6 @@
 import React from 'react'
 import "../style/About.css"
-import AboutImage from "../assets/image.png"
+import AboutImage from "../assets/svg/About.svg"
 import { Link } from "react-router-dom"
 const About = () => {
     return (

@@ -2,16 +2,16 @@ import React, { useEffect } from 'react'
 import ServicePageCard from '../components/ServicePageCard'
 import Banner from "../components/Banner"
 import Footer from '../components/Footer'
-import Sales from "../assets/SalesAndMarketing.png"
-import Operation from "../assets/Operation.png"
+import Sales from "../assets/svg/SalesAnd Marketing.svg"
+import Operation from "../assets/svg/opration.svg"
 import logis from "../assets/logisticsService.png"
 import Delivery from "../assets/Delivery.png"
-import recruit from "../assets/Recruitment.png"
+import recruit from "../assets/svg/R.svg"
 import support from "../assets/Support.png"
-import indus from "../assets/industrial.png"
-import facility from "../assets/facilityMgmt.png"
-import filed from "../assets/Corporate.png"
-import corpo from "../assets/corpo.png"
+import indus from "../assets/svg/indust.svg"
+import facility from "../assets/svg/hdjhfdjf.svg"
+import filed from "../assets/svg/force.svg"
+import corpo from "../assets/svg/handShake.svg"
 const Service = () => {
     useEffect(() => {
         window.scrollTo(0, 0); // Scroll the window to the top
