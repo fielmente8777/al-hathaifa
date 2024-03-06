@@ -1,6 +1,6 @@
 import React from 'react'
 import "../style/ChooseService.css"
-import ChooseServiceImage from "../assets/svg/Choose.svg"
+import ChooseServiceImage from "../assets/group-people-standing-table 2.png"
 import "../style/Mission.css"
 
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import Benifits from "../assets/svg/business.svg"
+import Benifits from "../assets/business 1.png"
 
 const BenifitsForCLient = () => {
     return (

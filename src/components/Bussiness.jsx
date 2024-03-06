@@ -1,6 +1,6 @@
 import React from 'react'
-import BussinessImg from "../assets/professional-business-team-workplace 1.png"
-import BussinessImage from "../assets/medium-shot-people-working-desk 1.png"
+import BussinessImg from "../assets/disabled-girl-muslims-informal-office-meeting 1.png"
+import BussinessImage from "../assets/happy-young-male-female-economists-discussing-financial-documents 1.png"
 
 const Bussiness = () => {
     return (

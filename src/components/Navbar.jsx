@@ -122,9 +122,9 @@ export default function Navbar() {
 
           {/* phone view */}
           <div className="lg:hidden md:block  h-28 z-10">
-            <Link to="/">
+            {/* <Link to="/">
               <img src={Logo} alt="Al Hathboor Group" class="h-28 top-0 z-10" />
-            </Link>
+            </Link> */}
           </div>
 
           <div className="lg:hidden block">

@@ -1,5 +1,5 @@
 import React from 'react'
-import SolutionImage from "../assets/Solution.png"
+import SolutionImage from "../assets/cheerful-young-caucasian-businessman 1.png"
 const Solution = () => {
     return (
         <div className="flex flex-col justify-center  pt-10 pb-0 items-center px-24 max-md:px-5">

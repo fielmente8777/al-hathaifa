@@ -1,10 +1,14 @@
 import React from "react";
 import ServiceCard from "./ServiceCard";
 import "../style/Service.css";
-import img1 from "../assets/svg/sales.svg";
-import img2 from "../assets/svg/management.svg";
-import img3 from "../assets/svg/logistics.svg";
-import img4 from "../assets/svg/delivery.svg";
+import img1 from "../assets/svg/Group 905.svg";
+import img2 from "../assets/Group 910.svg";
+import img3 from "../assets/svg/undraw_resume_re_hkth 1.svg";
+import img4 from "../assets/svg/undraw_connecting_teams_re_hno7 1.svg";
+import img5 from "../assets/svg/undraw_factory_dy-0-a 1.svg";
+import img6 from "../assets/svg/undraw_product_iteration_kjok 1.svg";
+import img7 from "../assets/svg/undraw_team_spirit_re_yl1v 1.svg";
+import img8 from "../assets/svg/undraw_pitching_re_fpgk 1.svg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
@@ -36,32 +40,32 @@ const Service = () => {
     //   description: `Our comprehensive delivery services ensure timely arrivals without compromising safety. Whether you're sending small parcels or large cargo, rely on AL Hathaifa for secure and efficient delivery. Focus on what matters to you while we handle your shipments with dedication and professionalism.`,
     // },
     {
-      url: img1,
+      url: img3,
       heading: "Recruitment Services",
       description: `Discover our wide range of sales and marketing strategies to elevate your brand, increase sales, and engage customers. Our innovative approach, combined with proven methods, delivers tangible results to drive your business success.`,
     },
     {
-      url: img2,
+      url: img4,
       heading: "F&B Support Services",
       description: `Whether you need to fill short-term or executive positions, we provide customized recruitment services to meet your needs. We focus on recommending candidates with the right skills, experience, and fit for your company.`,
     },
     {
-      url: img3,
+      url: img5,
       heading: "Industrial Technical Services",
       description: `Count on AL Hathaifa for reliable and cost-effective technical support, as our expertise and commitment to excellence will drive success in your industrial endeavors`,
     },
     {
-      url: img4,
+      url: img6,
       heading: "Facility Management Services",
       description: `With our proactive approach and attention to detail, AL Hathaifa creates a secure, pleasant, and efficient environment for your staff and clients. We go above and beyond to align with your business objectives and manage your facility with professionalism and expertise.`,
     },
     {
-      url: img2,
+      url: img7,
       heading: "Field Force Management",
       description: `At AL Hathaifa, we specialize in innovative field force management solutions that simplify operations, increase efficiency, and enhance performance. Our comprehensive approach covers scheduling, task assignment, tracking, and reporting, empowering organizations to effectively oversee their field teams and foster business growth.`,
     },
     {
-      url: img3,
+      url: img8,
       heading: "corporate event Management",
       description: `AL Hathaifa excels in managing corporate events and provides tailored solutions from start to finish. Our dedicated team guarantees flawless organization and execution for conferences, seminars, product launches, and gala dinners. We turn your vision into impactful experiences that leave a lasting impression. Rely on us for seamless events that exceed your expectations.`,
     },
