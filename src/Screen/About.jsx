@@ -32,7 +32,7 @@ const About = () => {
                 </div>
             </div>
 
-            <Partner />
+            {/* <Partner /> */}
 
             <Footer />
         </div>

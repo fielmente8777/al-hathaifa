@@ -66,16 +66,16 @@ const Partner = () => {
             </h1>
           </div>
         </div>
-        <div
+        {/* <div
           className="h-100 w-full lg:flex hidden justify-center items-center mt-16 "
           style={{ gap: "4rem" }}
         >
           <div style={{ padding: "2px", border: "1px solid #A52323" }}>
             <img src={PartnerImage} alt="partner" className="overflow-hidden" />
           </div>
-        </div>
+        </div> */}
       </div>
-      <div className="lg:hidden block px-4 py-4">
+      <div className="max-w-[1224px] mx-auto px-4 py-4">
         <Swiper
           loop={true}
           autoplay={{
@@ -89,20 +89,29 @@ const Partner = () => {
             nextEl: ".next",
             prevEl: ".prev",
           }}
-          slidesPerView={2}
+          slidesPerView={3}
           spaceBetween={5}
           breakpoints={{
-            640: {
-              slidesPerView: 3,
+
+            1024: {
+              slidesPerView: 5,
               spaceBetween: 10,
             },
             768: {
+              slidesPerView: 3,
+              spaceBetween: 10,
+            },
+
+            640: {
               slidesPerView: 2,
               spaceBetween: 10,
             },
+
+
           }}
           modules={[Autoplay, Navigation]}
-          className="border border-[#A52323] justify-center items-center"
+          // className="border border-[#A52323] justify-center items-center"
+          className=" justify-center items-center"
         >
           {clints.map((clint, index) => (
             <SwiperSlide key={index} className="flex justify-center items-center">
