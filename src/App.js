@@ -38,11 +38,11 @@ function App() {
         target="_blank"
         className="whatsapp-button inline-block fixed bottom-[20px] right-[20px] w-[50px] h-[50px] bg-[#4DC251] p-[12px]  rounded-full text-white z-10 text-[25px] overflow-hidden"
       >
-        <span className="sr-only">what's app</span> <FaWhatsapp />
+        <span className="sr-only">what's app</span><FaWhatsapp />;
       </Link>
 
       <Link to="tel:+968 2460 0572" className="whatsapp-button inline-block fixed bottom-[20px] left-[20px] w-[50px] h-[50px] bg-[#A52323] p-[12px]  rounded-full text-white z-10 text-[25px] overflow-hidden">
-        <span className="sr-only">call</span><FaPhone />
+        <span className="sr-only">call</span><FaPhone style={{ transform: 'rotate(100deg)' }} />
 
       </Link>
     </div>

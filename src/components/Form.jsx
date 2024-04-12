@@ -20,14 +20,15 @@ const Form = () => {
         })
     }
 
-    const url = "https://eazotel.eazotel.com/api/dashboard/editcontact"
+    const url = "https://nexon.eazotel.com/eazotel/addcontacts"
 
     const handleSubmit = async (e) => {
+
         e.preventDefault();
         try {
 
             const preparedData = {
-                Domain: "a13259932",
+                Domain: "al-hataifa",
                 email: formData.email,
                 Name: formData.username,
                 Contact: formData.phone,
@@ -35,23 +36,24 @@ const Form = () => {
             }
             const response = await axios.post(url, preparedData);
 
-            console.log(response.data)
+            console.log(response.data);
 
         } catch (error) {
-            console.log("Error: ", error)
+            console.log("Error: ", error);
         }
-        setFormData(formData)
+        setFormData(formData);
+
 
 
 
         console.log("form Data saved", formData)
+        setFormData({
+            username: '',
+            phone: '',
+            email: '',
+            message: '',
+        })
 
-        // setFormData({
-        //     name: '',
-        //     phone: '',
-        //     email: '',
-        //     message: '',
-        // })
 
     }
 
@@ -91,7 +93,7 @@ const Form = () => {
                         value={formData.message}
                         onChange={handleChnage}
                     />
-                    <button type='submit' className="justify-center self-start px-8 py-3 mt-6   tracking-normal text-right text-white uppercase whitespace-nowrap bg-red-800 leading-[150%] max-md:px-5">
+                    <button type='submit' className="flex justify-center self-start px-8 py-3 mt-6   tracking-normal text-right text-white uppercase whitespace-nowrap bg-red-800 leading-[150%] max-md:px-5">
                         <p>submit</p>
                     </button>
                 </form>
