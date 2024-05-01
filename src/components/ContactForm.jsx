@@ -27,7 +27,7 @@ const ContactForm = () => {
                         </div>
                         <div className="flex gap-3 mt-6 leading-6 text-black">
                             <img
-                                loading="lazy"
+                                loading="lazy" alt="icon"
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/9ee66c3ec2f864c6bff3c1548e3963684af70d7a3c428538c7b92441e7a8d570?"
                                 className="self-start aspect-[0.71] fill-red-800 w-[17px]"
                             />
@@ -38,7 +38,7 @@ const ContactForm = () => {
                         </div>
                         <div className="flex gap-3 mt-4 leading-[150%] text-black">
                             <img
-                                loading="lazy"
+                                loading="lazy" alt="icon"
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/917a940c774083ca1863be5bf8c351bfdf74ed2192ab7fc726cfb9f17b0481ef?"
                                 className="my-auto aspect-[0.71] fill-red-800 w-[15px]"
                             />
@@ -46,7 +46,7 @@ const ContactForm = () => {
                         </div>
                         <div className="flex gap-3 mt-4 whitespace-nowrap leading-[150%] text-black">
                             <img
-                                loading="lazy"
+                                loading="lazy" alt="icon"
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/f0c7acea966ab8cde2b011bc9748c4e06f1cfbbd8e2300ba55195759e08c7eae?"
                                 className="my-auto w-5 aspect-[1.25] fill-red-800"
                             />
@@ -56,7 +56,7 @@ const ContactForm = () => {
                 </div>
                 <Form />
             </div>
-            <iframe className=" w-full max-w-[1224px] h-[458px] max-md:h-[229px] aspect-[2.7] max-md:mt-5 max-md:max-w-full max-md:px-5" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7312.364105690263!2d58.446202!3d23.597803!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1707988951047!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe className=" w-full max-w-[1224px] h-[458px] max-md:h-[229px] aspect-[2.7] max-md:mt-5 max-md:max-w-full max-md:px-5" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7312.364105690263!2d58.446202!3d23.597803!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1707988951047!5m2!1sen!2sin" allowfullscreen="" loading="lazy" alt="icon" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
         </div>
     )

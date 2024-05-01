@@ -41,14 +41,14 @@ const Bussiness = () => {
                     <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
                         <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
                             <img
-                                loading="lazy"
+                                loading="lazy" alt="bussiness"
                                 src={BussinessImg}
                                 className="grow w-full aspect-[1.11] max-md:mt-5 max-md:max-w-full"
                             />
                         </div>
                         <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
                             <img
-                                loading="lazy"
+                                loading="lazy" alt="bussiness"
                                 src={BussinessImage}
                                 className="grow w-full aspect-[1.11] max-md:mt-5 max-md:max-w-full"
                             />

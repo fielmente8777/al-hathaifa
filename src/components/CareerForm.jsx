@@ -113,7 +113,7 @@ const CareerForm = () => {
                                             onChange={handleChnage}
                                             className="flex flex-col justify-center px-7 py-4 w-[90%] bg-white max-md:px-5 max-md:max-w-full" />
                                         <img
-                                            loading="lazy"
+                                            loading="lazy" alt="icon"
                                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/6bf8c1dc75d7e53c632bfcfda399f512fccd4d89b4d80872fc80955f6bec32e9?"
                                             className="my-auto w-7 aspect-[1.75] fill-red-800"
                                         />

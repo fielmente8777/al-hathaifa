@@ -8,6 +8,7 @@ const BenifitsForCLient = () => {
                 <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
                     <img
                         loading="lazy"
+                        alt='benifits'
                         src={Benifits}
                         className="grow w-full aspect-[0.88] max-md:mt-5 max-md:max-w-full"
                     />
@@ -24,6 +25,7 @@ const BenifitsForCLient = () => {
                         <div className="flex gap-3 self-start mt-6 font-bold text-justify whitespace-nowrap text-black">
                             <img
                                 loading="lazy"
+                                alt='dot'
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e5b5fc3fb77e0f3e80d88bf8b1b440d6770994dd058682b693bc65e95727944?"
                                 className="w-6 aspect-square fill-red-800"
                             />
@@ -47,6 +49,7 @@ const BenifitsForCLient = () => {
                         <div className="flex gap-3 self-start mt-4 font-semibold text-justify whitespace-nowrap  text-black">
                             <img
                                 loading="lazy"
+                                alt='dott'
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e5b5fc3fb77e0f3e80d88bf8b1b440d6770994dd058682b693bc65e95727944?"
                                 className="w-6 aspect-square fill-red-800"
                             />
@@ -64,6 +67,7 @@ const BenifitsForCLient = () => {
                         <div className="flex gap-3 self-start mt-4 font-semibold text-justify whitespace-nowrap  text-black">
                             <img
                                 loading="lazy"
+                                alt='red dot'
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e5b5fc3fb77e0f3e80d88bf8b1b440d6770994dd058682b693bc65e95727944?"
                                 className="w-6 aspect-square fill-red-800"
                             />
@@ -83,6 +87,7 @@ const BenifitsForCLient = () => {
                         <div className="flex gap-3 self-start mt-4 font-semibold text-justify whitespace-nowrap  text-black">
                             <img
                                 loading="lazy"
+                                alt='red point'
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e5b5fc3fb77e0f3e80d88bf8b1b440d6770994dd058682b693bc65e95727944?"
                                 className="w-6 aspect-square fill-red-800"
                             />
@@ -96,6 +101,7 @@ const BenifitsForCLient = () => {
                         <div className="flex gap-3 self-start mt-4 font-semibold text-justify whitespace-nowrap  text-black">
                             <img
                                 loading="lazy"
+                                alt='red poin'
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e5b5fc3fb77e0f3e80d88bf8b1b440d6770994dd058682b693bc65e95727944?"
                                 className="w-6 aspect-square fill-red-800"
                             />

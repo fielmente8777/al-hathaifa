@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom'
 import "../style/Banner.css"
+import banImg from "../assets/backgr.avif"
 
 const Banner = ({ heading, description }) => {
 
@@ -10,8 +11,9 @@ const Banner = ({ heading, description }) => {
         <div className=" flex overflow-hidden w-full relative flex-col justify-center text-lg font-semibold leading-7 text-white mt-0">
             <img
                 loading="lazy"
-                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/cbf6e79de79090ba08abbd79a7f927c4cc1b11bd6a9b1090d2fd1e041a758c6c?apiKey=c81aa461ed88497c9715fa37b92c8996&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/cbf6e79de79090ba08abbd79a7f927c4cc1b11bd6a9b1090d2fd1e041a758c6c?apiKey=c81aa461ed88497c9715fa37b92c8996&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/cbf6e79de79090ba08abbd79a7f927c4cc1b11bd6a9b1090d2fd1e041a758c6c?apiKey=c81aa461ed88497c9715fa37b92c8996&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/cbf6e79de79090ba08abbd79a7f927c4cc1b11bd6a9b1090d2fd1e041a758c6c?apiKey=c81aa461ed88497c9715fa37b92c8996&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/cbf6e79de79090ba08abbd79a7f927c4cc1b11bd6a9b1090d2fd1e041a758c6c?apiKey=c81aa461ed88497c9715fa37b92c8996&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/cbf6e79de79090ba08abbd79a7f927c4cc1b11bd6a9b1090d2fd1e041a758c6c?apiKey=c81aa461ed88497c9715fa37b92c8996&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/cbf6e79de79090ba08abbd79a7f927c4cc1b11bd6a9b1090d2fd1e041a758c6c?apiKey=c81aa461ed88497c9715fa37b92c8996&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/cbf6e79de79090ba08abbd79a7f927c4cc1b11bd6a9b1090d2fd1e041a758c6c?apiKey=c81aa461ed88497c9715fa37b92c8996&"
+                src={banImg}
                 className="object-cover absolute inset-0 size-full"
+                alt='banner'
             />
             <div className="flex relative flex-col items-center  py-24 max-md:py-0 w-full bg-black bg-opacity-40 max-md:px-5 max-md:max-w-full">
                 <div className="mt-40 text-[18px] max-md:mt-20 text-center uppercase tracking-[4px]">
@@ -31,7 +33,7 @@ const Banner = ({ heading, description }) => {
                         !location.pathname === '/privacypolicy' ||
                         !location.pathname === '/termscondition' ?
                         ( */}
-                <Link to="/contact">
+                <Link aria-label="contact" to="/contact">
                     <div className="justify-center px-8 py-4 mt-8 mb-32 text-base   tracking-normal text-right uppercase whitespace-nowrap bg-[#a52323] max-md:px-5 max-md:mb-10">
                         <p>contact us</p>
                     </div>

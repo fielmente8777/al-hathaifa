@@ -17,7 +17,7 @@ const OurSpeciality = () => {
                         <div className="flex flex-col grow text-base font-semibold leading-6 text-justify text-white max-md:mt-5 max-md:max-w-full">
                             <div className="flex gap-3 self-start whitespace-nowrap">
                                 <img
-                                    loading="lazy"
+                                    loading="lazy" alt="icon"
                                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d705407f0be3bbd6fc12e47deb5722856d449d74194f14ba1f2656bce0846e0?"
                                     className="w-7 aspect-square"
                                 />
@@ -30,7 +30,7 @@ const OurSpeciality = () => {
                             </div>
                             <div className="flex gap-3 self-start mt-6 whitespace-nowrap">
                                 <img
-                                    loading="lazy"
+                                    loading="lazy" alt="icon"
                                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d705407f0be3bbd6fc12e47deb5722856d449d74194f14ba1f2656bce0846e0?"
                                     className="w-7 aspect-square"
                                 />
@@ -46,7 +46,7 @@ const OurSpeciality = () => {
                         <div className="flex flex-col grow text-base font-semibold leading-6 text-justify text-white max-md:mt-5 max-md:max-w-full">
                             <div className="flex gap-3 self-start whitespace-nowrap">
                                 <img
-                                    loading="lazy"
+                                    loading="lazy" alt="icon"
                                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d705407f0be3bbd6fc12e47deb5722856d449d74194f14ba1f2656bce0846e0?"
                                     className="w-7 aspect-square"
                                 />
@@ -58,7 +58,7 @@ const OurSpeciality = () => {
                             </div>
                             <div className="flex gap-3 self-start mt-6 whitespace-nowrap">
                                 <img
-                                    loading="lazy"
+                                    loading="lazy" alt="icon"
                                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d705407f0be3bbd6fc12e47deb5722856d449d74194f14ba1f2656bce0846e0?"
                                     className="w-7 aspect-square"
                                 />

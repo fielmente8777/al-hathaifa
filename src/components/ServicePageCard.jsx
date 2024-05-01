@@ -26,7 +26,7 @@ const ServicePageCard = ({ serviceData, imageOrder }) => {
                         </div>
                         <div className="flex gap-3 justify-between mt-6 max-md:mt-2 max-md:max-w-full">
                             <img
-                                loading="lazy"
+                                loading="lazy" alt="service"
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d705407f0be3bbd6fc12e47deb5722856d449d74194f14ba1f2656bce0846e0?"
                                 className="self-start w-[1.75rem] aspect-square"
                             />
@@ -36,7 +36,7 @@ const ServicePageCard = ({ serviceData, imageOrder }) => {
                         </div>
                         <div className="flex gap-3 justify-between mt-2 max-md:max-w-full">
                             <img
-                                loading="lazy"
+                                loading="lazy" alt="service"
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d705407f0be3bbd6fc12e47deb5722856d449d74194f14ba1f2656bce0846e0?"
                                 className="self-start w-[1.75rem] aspect-square"
                             />
@@ -44,8 +44,8 @@ const ServicePageCard = ({ serviceData, imageOrder }) => {
                                 <p> {serviceData.point2}</p>
                             </div>
                         </div>
-                        {/* <Link to="/contact"> */}
-                        <Link to='/service' className="justify-center self-start px-8 py-4 mt-6   tracking-normal text-right text-white uppercase whitespace-nowrap bg-red-800 leading-[150%] max-md:px-5">
+                        {/* <Link aria-label="route" to="/contact"> */}
+                        <Link aria-label="route" to='/service' className="justify-center self-start px-8 py-4 mt-6   tracking-normal text-right text-white uppercase whitespace-nowrap bg-red-800 leading-[150%] max-md:px-5">
                             <p>Learn More</p>
                         </Link>
                         {/* </Link> */}
@@ -53,7 +53,7 @@ const ServicePageCard = ({ serviceData, imageOrder }) => {
                 </div>
                 <div className="flex flex-col max-md:ml-0 max-md:w-full">
                     <img
-                        loading="lazy"
+                        loading="lazy" alt="service"
                         src={serviceData.image}
                         className="self-stretch my-auto overflow-hidden object-cover h-[100%] w-full  max-md:mt-9 max-md:max-w-full"
                     />

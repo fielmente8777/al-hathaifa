@@ -25,7 +25,7 @@ const Solution = () => {
                             </div>
                             <div className="flex gap-3 mt-6 max-md:max-w-full ">
                                 <img
-                                    loading="lazy"
+                                    loading="lazy" alt="point"
                                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d705407f0be3bbd6fc12e47deb5722856d449d74194f14ba1f2656bce0846e0?"
                                     className="w-7 aspect-square"
                                 />
@@ -35,7 +35,7 @@ const Solution = () => {
                             </div>
                             <div className="flex gap-3 mt-4 leading-6 max-md:max-w-full">
                                 <img
-                                    loading="lazy"
+                                    loading="lazy" alt="point"
                                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d705407f0be3bbd6fc12e47deb5722856d449d74194f14ba1f2656bce0846e0?"
                                     className="self-start w-7 aspect-square"
                                 />
@@ -46,7 +46,7 @@ const Solution = () => {
                             </div>
                             <div className="flex gap-3 mt-4  max-md:max-w-full">
                                 <img
-                                    loading="lazy"
+                                    loading="lazy" alt="point"
                                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d705407f0be3bbd6fc12e47deb5722856d449d74194f14ba1f2656bce0846e0?"
                                     className="w-7 aspect-square"
                                 />
@@ -56,7 +56,7 @@ const Solution = () => {
                             </div>
                             <div className="flex gap-3 mt-4  max-md:max-w-full">
                                 <img
-                                    loading="lazy"
+                                    loading="lazy" alt="point"
                                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d705407f0be3bbd6fc12e47deb5722856d449d74194f14ba1f2656bce0846e0?"
                                     className="w-7 aspect-square"
                                 />
@@ -66,7 +66,7 @@ const Solution = () => {
                             </div>
                             <div className="flex gap-3 mt-4 leading-6  max-md:max-w-full">
                                 <img
-                                    loading="lazy"
+                                    loading="lazy" alt="point"
                                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d705407f0be3bbd6fc12e47deb5722856d449d74194f14ba1f2656bce0846e0?"
                                     className="self-start w-7 aspect-square"
                                 />
@@ -79,7 +79,7 @@ const Solution = () => {
                     </div>
                     <div className="flex flex-col ml-5 max-ml:ml-0 max-md:ml-0 max-md:w-full h-[50%] ">
                         <img
-                            loading="lazy"
+                            loading="lazy" alt="point"
                             src={SolutionImage}
                             className="grow w-full aspect-[0.91] max-md:mt-10 max-md:max-w-full overflow:hidden object-cover"
                         />

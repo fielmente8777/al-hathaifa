@@ -23,7 +23,7 @@ const About = () => {
                         <p className=" mt-3  text-black">AL HATHAIFA comprises the best, skilled, determined, innovative, and focused mindsets offering customized, effective, and result-oriented business solutions designed to fit your business needs.</p>
 
                     </div>
-                    <Link to="/about" className="mt-3">
+                    <Link aria-label="about" to="/about" className="mt-3">
                         <button className="flex items-center px-8 py-4 bg-[#a52323] hover:bg-red-700 transition-colors">
                             <div className="text-white text-base   uppercase tracking-[0.16] leading-[24px]">
                                 <p>About Us</p>

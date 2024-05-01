@@ -30,21 +30,21 @@ export default function Navbar() {
       <div className="bg-[#202020] text-white w-full ">
         <div className="h-16 mx-auto  py-5 flex justify-between items-center max-md:px-5 lg:max-w-[1224px] md:max-w-[720px] max-w-full relative">
           <div className="lg:hidden block">
-            <button className="" onClick={click}>
-              <FaBars className="text-3xl" />
-            </button>
+            <FaBars onClick={click} className="text-3xl" />
           </div>
           <div className="lg:flex hidden space-x-6 items-center ">
             <img src={Logo} alt="Al Hathboor Group" class="h-24 top-0 z-10" />
 
             <Link
               to="/" target="_blank"
+              aria-label="facebook"
               className="w-[35px] h-[35px] flex items-center justify-center duration-300 rounded-full border border-white text-white hover:bg-white hover:text-[#A52323]"
             >
               <FaFacebookF className="text-lg font-medium" />
             </Link>
             <Link
               to="/" target="_blank"
+              aria-label="instagram"
               className="w-[35px] h-[35px] flex items-center justify-center duration-300 rounded-full border border-white text-white hover:bg-white hover:text-[#A52323]"
             >
               <CiInstagram className="text-lg font-medium" />
@@ -61,6 +61,7 @@ export default function Navbar() {
             </Link> */}
             <Link
               to="/" target="_blank"
+              aria-label="linkedin"
               className="w-[35px] h-[35px] flex items-center justify-center duration-300 rounded-full border border-white text-white hover:bg-white hover:text-[#A52323]"
             >
               <FaLinkedinIn className="text-lg font-medium" />
@@ -106,6 +107,7 @@ export default function Navbar() {
 
           <div className="hidden lg:block">
             <a
+              aria-label="email"
               href="tel:+968 2460 0572"
               className="flex items-center px-6 py-3 bg-[#a52323] hover:bg-red-700 transition-colors"
             >
@@ -128,7 +130,7 @@ export default function Navbar() {
           </div>
 
           <div className="lg:hidden block">
-            <a href="tel:+968 2460 0572" className="text-decoration-none ">
+            <a aria-label="phone" href="tel:+968 2460 0572" className="text-decoration-none ">
               <img src={icon} alt="icon" />
             </a>
           </div>
@@ -149,6 +151,7 @@ export default function Navbar() {
               {navLink.map((item, i) => (
                 <li key={i}>
                   <Link
+                    aria-label="link"
                     to={item.link}
                     className="uppercase text-white active:text-red-600 text-base font-medium"
                     onClick={() => close(false)}

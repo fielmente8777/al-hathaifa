@@ -25,7 +25,7 @@ const FormMap = () => {
                                     their queries.</p>
                             </div>
 
-                            <iframe className="mt-20 w-full max-md:hidden aspect-[2.7] max-md:mt-10 max-md:max-w-full" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7312.364105690263!2d58.446202!3d23.597803!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1707988951047!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe title="map" className="mt-20 w-full max-md:hidden aspect-[2.7] max-md:mt-10 max-md:max-w-full" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7312.364105690263!2d58.446202!3d23.597803!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1707988951047!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                     <Form />
