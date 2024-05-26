@@ -1,17 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-import bannerImg from "../assets/client-img/banner1.jpeg";
 import "../style/Banner.css";
 
-const Banner = ({ heading, description }) => {
+const Banner = ({ banner, heading, description }) => {
 
   const location = useLocation()
   return (
     <div className=" flex overflow-hidden w-full relative flex-col justify-center text-lg font-semibold leading-7 text-white mt-0">
       <img
         loading="lazy"
-        src={bannerImg}
+        src={banner}
         className="object-cover absolute inset-0 size-full"
       />
       <div className="flex relative flex-col items-center  py-24 max-md:py-0 w-full bg-black bg-opacity-40 max-md:px-5 max-md:max-w-full">

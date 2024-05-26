@@ -1,5 +1,5 @@
 import React from "react";
-import SolutionImage from "../assets/client-img/solution.jpg";
+import SolutionImage from "../assets/client-img/sales_2_11zon.jpg";
 const Solution = () => {
   return (
     <div className="flex flex-col justify-center  pt-10 pb-0 items-center px-24 max-md:px-5">

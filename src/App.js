@@ -12,9 +12,12 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
 
 function App() {
+
   return (
 
     <div className="relative">
+
+
       <Navbar />
       <Routes>
         <Route index element={<Home />} />

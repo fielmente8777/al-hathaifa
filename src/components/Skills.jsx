@@ -1,5 +1,5 @@
 import React from "react";
-import SkillsImage from "../assets/client-img/skills.jpg";
+import SkillsImage from "../assets/client-img/skills_2_11zon.jpg";
 import "../style/skills.css";
 
 const Skills = () => {

@@ -1,6 +1,7 @@
 import React from "react";
-import BussinessImg from "../assets/client-img/purpose.jpg";
-import BussinessImage from "../assets/client-img/purpose2.jpg";
+import BussinessImg from "../assets/client-img/purpose_11zon.jpg";
+// import BussinessImage from "../assets/client-img/purpose2.jpg";
+import BussinessImage from "../assets/client-img/facilitymanagement_10_11zon.jpg";
 
 const Bussiness = () => {
   return (

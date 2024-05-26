@@ -1,6 +1,6 @@
 import React from "react";
-import MissonImage from "../assets/client-img/mission.jpeg";
-import MissionVision from "../assets/client-img/mission2.jpg";
+import MissonImage from "../assets/client-img/mission_7_11zon.jpeg";
+import MissionVision from "../assets/client-img/logistic_5_11zon.jpg";
 import "../style/Mission.css";
 import { useLocation } from "react-router-dom";
 const Mission = () => {

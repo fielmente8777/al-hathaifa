@@ -1,5 +1,5 @@
 import React from "react";
-import Benifits from "../assets/client-img/client.jpeg";
+import Benifits from "../assets/client-img/client_7_11zon.jpeg";
 
 const BenifitsForCLient = () => {
   return (
