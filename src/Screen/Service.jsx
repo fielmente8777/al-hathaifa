@@ -5,10 +5,10 @@ import Footer from "../components/Footer";
 import Sales from "../assets/client-img/sales_2_11zon.jpg";
 import Operation from "../assets/client-img/meeting_6_11zon.jpg";
 import recruit from "../assets/client-img/recruitment_1_11zon.jpg";
-import support from "../assets/client-img/support_4_11zon.jpg";
+import support from "../assets/client-img/midsection-man-holding-umbrella-against-white-background_11zon.jpg";
 import indus from "../assets/client-img/delivery_9_11zon.jpeg";
-import facility from "../assets/client-img/facilitymanagement_10_11zon.jpg";
-import filed from "../assets/client-img/forcemangement_4_11zon.jpg";
+import facility from "../assets/client-img/engineering-technology-industry-4-0-smart-factory-concept_11zon.jpg";
+import filed from "../assets/client-img/abstract-networking-concept-still-life-arrangement_11zon.jpg";
 import corpo from "../assets/client-img/coporate_8_11zon.jpg";
 
 
