@@ -18,7 +18,7 @@ const About = () => {
           <div className="" style={{ borderLeft: "6px solid #A52323" }}>
             <div className="pl-2 grow ">
               <h1 className=" max-md:text-4xl uppercase text-[#363636]">
-                Where vision meets reality, we are at your service!
+                Where Vision Meets Reality, Working for Your TOMORROW
                 <span style={{ color: "#A52323" }}></span>
               </h1>
             </div>
@@ -26,18 +26,13 @@ const About = () => {
 
           <div className="mt-3 text-justify">
             <p className=" mt-3  text-neutral-400">
-              AL HATHAIFA is a trusted brand in Oman with a decade-plus of
-              competitive business solutions providers in the Technology,
-              Staffing, and Talent Management Sectors. Established in 2009, AL
-              HATHAIFA has built strong and trusted partnerships and feels proud
-              to say that "Our clients are more than just customers, they are
-              our business partners."
+              AL HATHAIFA is a decade-plus experienced company in Oman providing competitive business solutions in the technology, staffing, and talent management sectors. AL HATHAIFA expertise in building strong and trusted partnerships & its commitment to client satisfaction and fostering long-term relationships.
             </p>
             <p className=" mt-3  text-neutral-400">
-              AL HATHAIFA comprises the best, skilled, determined, innovative,
-              and focused mindsets offering customized, effective, and
-              result-oriented business solutions designed to fit your business
-              needs.
+              The emphasis is on having the best, skilled, determined, innovative, and focused mindsets within our which is always dedicated to excellence and delivering top-notch services. The focus is always on customization & delivering result-oriented solutions tailored to individual business needs further underscoring the company’s commitment to client success
+            </p>
+            <p className=" mt-3  text-neutral-400">
+              We believe Our clients are more than JUST customers, they are our “BUSINESS PARTNERS"
             </p>
           </div>
           <Link to="/about" className="mt-3">

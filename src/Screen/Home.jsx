@@ -15,7 +15,7 @@ import Solution from '../components/Solution'
 import OurSpeciality from '../components/OurSpeciality'
 import BenifitsForCLient from '../components/BenifitsForCLient'
 import MarketAnalysis from '../components/MarketAnalysis'
-import img3 from "../assets/BannerImage/banner1.avif"
+import img3 from "../assets/BannerImage/adil-riyami-fqPNvcjlk5E-unsplash.avif"
 
 
 

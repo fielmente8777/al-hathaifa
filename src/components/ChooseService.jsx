@@ -26,7 +26,7 @@ const ChooseService = () => {
               </p>
             </div>
             <div className="flex gap-5 mt-12 font-semibold text-justify  leading-[150%] max-md:flex-col max-md:mt-10 max-md:max-w-full">
-              <div className="flex gap-3 justify-between w-[250px] max-md:w-full">
+              <div className="flex gap-3 justify-between w-[250px] max-md:w-full ">
                 <img
                   alt="Customer"
                   loading="lazy"
@@ -104,7 +104,7 @@ const ChooseService = () => {
         <div className="max-md:flex max-md:justify-center mb-5 lg:flex relative justify-end">
           <div className="absolute experiencecard flex z-10 flex-col object-center self-stretch h-max px-7 py-9 my-auto uppercase bg-white rounded-3xl max-md:px-5">
             <div className="text-red-800 leading-[59.92px] max-md:text-4xl">
-              <p className="text-6xl">8+</p>
+              <p className="text-6xl">10+</p>
             </div>
             <div className="mt-2 text-2xl leading-7 text-black">
               <p>

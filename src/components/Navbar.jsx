@@ -36,7 +36,7 @@ export default function Navbar() {
             <Link
               to="/"
               aria-label="facebook">
-              <img src={Logo} alt="Al Hathboor Group" class="h-24 top-0 z-10" />
+              <img src={Logo} alt="Al Hathboor Group" class="h-24 top-0 z-[9999]" />
 
             </Link>
 

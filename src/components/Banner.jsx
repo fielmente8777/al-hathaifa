@@ -7,14 +7,14 @@ const Banner = ({ banner, heading, description }) => {
 
   const location = useLocation()
   return (
-    <div className=" flex overflow-hidden w-full relative flex-col justify-center text-lg font-semibold leading-7 text-white mt-0">
+    <div className=" flex overflow-hidden w-full relative flex-col md:h-[90vh] justify-center text-lg font-semibold leading-7 text-white mt-0">
       <img
         loading="lazy"
         src={banner}
         className="object-cover absolute inset-0 size-full"
       />
-      <div className="flex relative flex-col items-center  py-24 max-md:py-0 w-full bg-black bg-opacity-40 max-md:px-5 max-md:max-w-full">
-        <div className="mt-40 text-[18px] max-md:mt-20 text-center uppercase tracking-[4px]">
+      <div className="flex md:h-[90vh] relative flex-col justify-center items-center  py-24 max-md:pb-16 max-md:py-0 w-full bg-black bg-opacity-40 max-md:px-5 max-md:max-w-full">
+        <div className="text-[18px] max-md:mt-20 text-center uppercase tracking-[4px]">
           <p>Welcome to al HATHAIFA</p>
         </div>
         <div
@@ -28,11 +28,11 @@ const Banner = ({ banner, heading, description }) => {
         <div className="mt-3 text-[18px] text-center leading-[167%] max-md:max-w-full">
           <p>{description}</p>
         </div>
-        <Link to="/contact">
+        {/* <Link to="/contact">
           <div className="justify-center px-8 py-4 mt-8 mb-32 text-base   tracking-normal text-right uppercase whitespace-nowrap bg-[#a52323] max-md:px-5 max-md:mb-10">
             <p>contact us</p>
           </div>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
