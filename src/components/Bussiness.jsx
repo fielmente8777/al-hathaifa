@@ -15,7 +15,7 @@ const Bussiness = () => {
             </h1>
           </div>
         </div>
-        <div className="mt-12 w-full text-base font-medium leading-6 text-justify text-neutral-400 max-md:mt-10 max-md:max-w-full">
+        <div className="mt-12 w-full text-base font-medium leading-6 text-justify text-black max-md:mt-10 max-md:max-w-full">
           <p>
             Al HATHAIFA is a trusted brand in Oman with a decade-plus of
             competitive business solutions providers in the Technology,
@@ -27,7 +27,7 @@ const Bussiness = () => {
               business partners.&quot;
             </strong>
           </p>
-          <p className="mt-4">
+          <p className="mt-4 text-black">
             AL HATHAIFA comprises the best, skilled, determined, innovative, and
             focused mindsets offering customized, effective, and result-oriented
             business solutions designed to fit your business needs.
@@ -39,19 +39,19 @@ const Bussiness = () => {
               <img
                 loading="lazy"
                 src={BussinessImg}
-                className="grow w-full aspect-[1.11] max-md:mt-5 max-md:max-w-full object-cover"
+                className=" w-full aspect-[1.11] max-md:mt-5 max-md:max-w-full object-cover object-left"
               />
             </div>
             <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
               <img
                 loading="lazy"
                 src={BussinessImage}
-                className="grow w-full aspect-[1.11] max-md:mt-5 max-md:max-w-full object-cover"
+                className=" w-full aspect-[1.11] max-md:mt-5 max-md:max-w-full object-cover object-right"
               />
             </div>
           </div>
         </div>
-        <div className="mt-12 w-full text-base font-medium leading-6 text-justify text-neutral-400 max-md:mt-10 max-md:max-w-full">
+        <div className="mt-12 w-full text-base font-medium leading-6 text-justify text-black max-md:mt-10 max-md:max-w-full">
           <p>
             {" "}
             With a commitment to excellence, integrity, and professionalism, our

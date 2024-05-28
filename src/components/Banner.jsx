@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import "../style/Banner.css";
-import Logo from "../assets/svg/Final-logo 1.svg";
+import Logo from "../assets/Final-logo_1-removebg-preview.png";
 
 const Banner = ({ banner, heading, description }) => {
 
@@ -14,7 +14,7 @@ const Banner = ({ banner, heading, description }) => {
         src={banner}
         className="object-cover absolute inset-0 size-full"
       />
-      <div className="flex md:h-[90vh] flex-col justify-center relative  max-md:pb-16 max-md:py-0 w-full bg-black bg-opacity-40 max-md:px-5 max-md:max-w-full">
+      <div className="flex md:h-[90vh] flex-col justify-center relative  max-md:pb-16 max-md:py-0 w-full  max-md:px-5 max-md:max-w-full">
         <Link
           to="/"
           aria-label="facebook"

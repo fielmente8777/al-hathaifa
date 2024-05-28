@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa6";
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
-import Logo from "../assets/svg/Final-logo 1.svg";
+import Logo from "../assets/Final-logo_1-removebg-preview.png";
 // import { FaTimes } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
 

@@ -13,7 +13,7 @@ const BenifitsForCLient = () => {
           />
         </div>
         <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
-          <div className="flex flex-col grow pl-2 max-md:pl-0 text-base font-medium leading-6 text-neutral-400 max-md:mt-5 max-md:max-w-full">
+          <div className="flex flex-col grow pl-2 max-md:pl-0 text-base font-medium leading-6 text-black max-md:mt-5 max-md:max-w-full">
             <div className="flex text-4xl text-red-800 uppercase leading-[60px] max-md:flex-wrap max-md:max-w-full">
               <div className="" style={{ borderLeft: "6px solid #A52323" }}>
                 <div className="pl-2 grow text-[#363636]   max-md:text-4xl">
@@ -25,7 +25,7 @@ const BenifitsForCLient = () => {
                 </div>
               </div>
             </div>
-            <div className="flex gap-3 self-start mt-6 font-semibold text-justify whitespace-nowrap text-neutral-700">
+            <div className="flex gap-3 self-start mt-6 font-semibold text-justify whitespace-nowrap text-black">
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e5b5fc3fb77e0f3e80d88bf8b1b440d6770994dd058682b693bc65e95727944?"
@@ -35,20 +35,20 @@ const BenifitsForCLient = () => {
                 <p>Ensuring Sellout and Productivity</p>
               </div>
             </div>
-            <div className="flex pl-2  text-neutral-400 mt-4 max-md:max-w-full">
+            <div className="flex pl-2  text-black mt-4 max-md:max-w-full">
               <li></li>
               <p>We work with Daily/Weekly/Monthly Targets.</p>
             </div>
-            <div className="flex pl-2  text-neutral-400 mt-2 max-md:max-w-full">
+            <div className="flex pl-2  text-black mt-2 max-md:max-w-full">
               {" "}
               <li></li>
               <p> Discuss, Agree and Work with Customer defined KPIs.</p>
             </div>
-            <div className=" flex pl-2  text-neutral-400  mt-2 max-md:max-w-full">
+            <div className=" flex pl-2  text-black  mt-2 max-md:max-w-full">
               <li></li>
               <p> Complete Management of SalesForce by Al-Hathaifa.</p>
             </div>
-            <div className="flex gap-3 self-start mt-4 font-semibold text-justify whitespace-nowrap text-neutral-700">
+            <div className="flex gap-3 self-start mt-4 font-semibold text-justify whitespace-nowrap text-black">
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e5b5fc3fb77e0f3e80d88bf8b1b440d6770994dd058682b693bc65e95727944?"
@@ -58,7 +58,7 @@ const BenifitsForCLient = () => {
                 <p>Target-Based Payment (TBP)</p>
               </div>
             </div>
-            <div className="flex pl-2  text-neutral-400 mt-4 leading-6 max-md:max-w-full">
+            <div className="flex pl-2  text-black mt-4 leading-6 max-md:max-w-full">
               <li> </li>
               <p>
                 {" "}
@@ -66,11 +66,11 @@ const BenifitsForCLient = () => {
                 link between results and pay.
               </p>
             </div>
-            <div className="flex pl-2  text-neutral-400 mt-2 max-md:max-w-full">
+            <div className="flex pl-2  text-black mt-2 max-md:max-w-full">
               <li> </li>
               <p> Simplified Payment Structures</p>
             </div>
-            <div className="flex gap-3 self-start mt-4 font-semibold text-justify whitespace-nowrap text-neutral-700">
+            <div className="flex gap-3 self-start mt-4 font-semibold text-justify whitespace-nowrap text-black">
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e5b5fc3fb77e0f3e80d88bf8b1b440d6770994dd058682b693bc65e95727944?"
@@ -80,7 +80,7 @@ const BenifitsForCLient = () => {
                 <p>Comprehensive Retail Network</p>
               </div>
             </div>
-            <div className="flex pl-2  text-neutral-400 mt-4 leading-6 max-md:max-w-full">
+            <div className="flex pl-2  text-black mt-4 leading-6 max-md:max-w-full">
               {" "}
               <li> </li>
               <p>
@@ -89,7 +89,7 @@ const BenifitsForCLient = () => {
                 hypermarkets and malls.
               </p>
             </div>
-            <div className="flex pl-2  text-neutral-400 mt-2 max-md:max-w-full">
+            <div className="flex pl-2  text-black mt-2 max-md:max-w-full">
               <li></li>
               <p>
                 {" "}
@@ -97,7 +97,7 @@ const BenifitsForCLient = () => {
                 paperwork.
               </p>
             </div>
-            <div className="flex gap-3 self-start mt-4 font-semibold text-justify whitespace-nowrap text-neutral-700">
+            <div className="flex gap-3 self-start mt-4 font-semibold text-justify whitespace-nowrap text-black">
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e5b5fc3fb77e0f3e80d88bf8b1b440d6770994dd058682b693bc65e95727944?"
@@ -108,7 +108,7 @@ const BenifitsForCLient = () => {
                 <p>FlexiblePromoter Scheduling</p>
               </div>
             </div>
-            <div className="flex pl-2  text-neutral-400 mt-4 leading-6 max-md:max-w-full">
+            <div className="flex pl-2  text-black mt-4 leading-6 max-md:max-w-full">
               <li></li>
               <p>
                 {" "}
@@ -116,7 +116,7 @@ const BenifitsForCLient = () => {
                 peak hours, or as required.
               </p>
             </div>
-            <div className="flex gap-3 self-start mt-4 font-semibold text-justify whitespace-nowrap text-neutral-700">
+            <div className="flex gap-3 self-start mt-4 font-semibold text-justify whitespace-nowrap text-black">
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e5b5fc3fb77e0f3e80d88bf8b1b440d6770994dd058682b693bc65e95727944?"
@@ -126,7 +126,7 @@ const BenifitsForCLient = () => {
                 <p>Contract Flexibility</p>
               </div>
             </div>
-            <div className="flex pl-2  text-neutral-400 mt-4 leading-6 max-md:max-w-full">
+            <div className="flex pl-2  text-black mt-4 leading-6 max-md:max-w-full">
               {" "}
               <li></li>
               <p>
