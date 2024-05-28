@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa6";
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
-import Logo from "../assets/Final-logo_1-removebg-preview.png";
+import Logo from "../assets/Final-logo 1.png";
 // import { FaTimes } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
 
@@ -28,17 +28,19 @@ export default function Navbar() {
   return (
     <>
       <div className="bg-[#202020] text-white w-full ">
-        <div className="h-16 mx-auto  py-5 flex justify-between items-center max-md:px-5 lg:max-w-[1224px] md:max-w-[720px] max-w-full relative">
+        <div className="h-20 mx-auto  py-5 flex justify-between items-center max-md:px-5 lg:max-w-[1224px] md:max-w-[720px] max-w-full relative">
           <div className="lg:hidden block">
             <FaBars onClick={click} className="text-3xl" />
           </div>
           <div className="lg:flex hidden space-x-6 items-center ">
-            {/* <Link
-              to="/"
-              aria-label="facebook">
-              <img src={Logo} alt="Al Hathboor Group" class="h-24 top-0 z-[9999]" />
+            <div className="h-[100px]">
+              <Link
+                to="/"
+                aria-label="facebook">
+                <img src={Logo} alt="Al Hathboor Group" class="h-full mt-2 z-[999999]" />
 
-            </Link> */}
+              </Link>
+            </div>
 
             <Link
               to="/" target="_blank"

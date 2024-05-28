@@ -66,14 +66,14 @@ const Service = () => {
     },
     {
       url: img8,
-      heading: "corporate event Management",
+      heading: "Corporate Event Management",
       description: `AL Hathaifa excels in managing corporate events and provides tailored solutions from start to finish. Our dedicated team guarantees flawless organization and execution for conferences, seminars, product launches, and gala dinners. We turn your vision into impactful experiences that leave a lasting impression. Rely on us for seamless events that exceed your expectations.`,
     },
   ];
   return (
     <div className="service bg-no-repeat bg-cover pt-10 lg:pb-16 flex flex-col justify-center items-center">
-      <div className="pl-2 text-[40px] uppercase max-md:text-4xl" style={{ borderLeft: "6px solid #A52323" }}>
-        <h1><span className="text-[#fff]  ">OUR  </span>
+      <div className="pl-2 text-[40px] max-md:text-4xl" style={{ borderLeft: "6px solid #A52323" }}>
+        <h1><span className="text-[#fff]  ">Our  </span>
           <span className="text-red-800">Service</span>
         </h1>
       </div>

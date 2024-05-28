@@ -14,7 +14,7 @@ const ServiceCard = ({ title, imgUrl, desc, btnName }) => {
       <div>
         <img src={imgUrl} className="" alt="service-img" loading="lazy" />
       </div>
-      <div className="mt-4 text-2xl leading-9 text-center uppercase text-neutral-700 lg:min-h-[7rem] min-h-[6rem]:">
+      <div className="mt-4 text-2xl leading-9 text-center text-neutral-700 lg:min-h-[7rem] min-h-[6rem]:">
         <h style={{ fontSize: '24px' }}>{title}</h>
       </div>
       <div className="mt-2 max-md:mt-6 font-medium leading-6 text-left text-black min-h-[13rem]">

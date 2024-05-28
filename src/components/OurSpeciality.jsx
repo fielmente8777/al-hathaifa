@@ -4,10 +4,10 @@ import "../style/Special.css"
 const OurSpeciality = () => {
     return (
         <div className="flex justify-center special bg-cover bg-center bg-no-repeat  overflow-hidden flex-col px-24 py-11 max-md:py-5 min-h-[429px] max-md:px-5">
-            <div className="flex gap-3 self-center max-md:self-start text-4xl text-justify text-red-800 uppercase whitespace-nowrap leading-[60px]">
+            <div className="flex gap-3 self-center max-md:self-start text-4xl text-justify text-red-800 whitespace-nowrap leading-[60px]">
                 <div className='' style={{ borderLeft: "6px solid #A52323" }}>
                     <div className="pl-2 grow text-[#fff]   max-md:text-4xl">
-                        <h1>    our <span className="text-red-800">speciality</span></h1>
+                        <h1>    Our <span className="text-red-800">Speciality</span></h1>
                     </div>
                 </div>
             </div>

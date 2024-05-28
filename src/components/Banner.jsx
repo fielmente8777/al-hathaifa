@@ -11,11 +11,11 @@ const Banner = ({ banner, heading, description }) => {
       <img
         loading="lazy"
         src={banner}
-        className="object-cover absolute inset-0 size-full"
+        className="object-cover absolute inset-0 size-full -z-20"
       />
 
-      <div className="relative md:h-[650px] bg-black/40">
-        <div className="relative max-w-[1224px] max-md:px-5 mt-5 w-full mx-auto ">
+      <div className="relative md:h-[650px] bg-black/40 -z-20">
+        {/* <div className="relative max-w-[1224px] max-md:px-5 mt-5 w-full mx-auto ">
           <Link
             to="/"
             aria-label="facebook"
@@ -23,8 +23,9 @@ const Banner = ({ banner, heading, description }) => {
           >
             <img src={Logo} alt="Al Hathboor Group" class="" />
           </Link>
-        </div>
-        <div className="flex md:h-[650px]  flex-col items-center md:mt-[80px] lg:mt-[120px] relative  max-md:pb-16 max-md:py-0 w-full bg-opacity-40 max-md:px-5 max-md:max-w-full">
+        </div> */}
+        {/* <div className="flex md:h-[650px]  flex-col items-center md:mt-[80px] lg:mt-[120px] relative  max-md:pb-16 max-md:py-0 w-full bg-opacity-40 max-md:px-5 max-md:max-w-full"> */}
+        <div className="flex md:h-[650px]  flex-col items-center justify-center relative  max-md:pb-16 max-md:py-0 w-full bg-opacity-40 max-md:px-5 max-md:max-w-full">
           <div className="flex flex-col justify-center items-center max-md:mt-20">
             <div className="text-[18px] max-md:mt-5 text-center uppercase tracking-[4px]">
               <p>Welcome to al HATHAIFA</p>

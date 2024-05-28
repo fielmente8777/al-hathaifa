@@ -20,8 +20,8 @@ const Mission = () => {
             }`}
         >
           <div className="pl-2" style={{ borderLeft: "6px solid #A52323" }}>
-            <h1 className="text-white uppercase max-md:text-4xl">
-              OUR MISSION & <span style={{ color: "#A52323" }}>VISION</span>
+            <h1 className="text-white  max-md:text-4xl">
+              Our Mission & <span style={{ color: "#A52323" }}>Vision</span>
             </h1>
           </div>
 

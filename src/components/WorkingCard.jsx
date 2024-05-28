@@ -6,7 +6,7 @@ const WorkingCard = ({ WorkingCardData }) => {
             <div className='bg-red-700 p-4'>
                 <img src={WorkingCardData.img} alt='light image' className='h-14 w-14' />
             </div>
-            <div className='py-4 text-2xl   uppercase text-[#363636]'>
+            <div className='py-4 text-2xl text-[#363636]'>
                 <h2 >{WorkingCardData.heading}</h2>
             </div>
             <div className='text-md text-center  text-black '>

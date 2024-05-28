@@ -14,12 +14,12 @@ const BenifitsForCLient = () => {
         </div>
         <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
           <div className="flex flex-col grow pl-2 max-md:pl-0 text-base font-medium leading-6 text-black max-md:mt-5 max-md:max-w-full">
-            <div className="flex text-4xl text-red-800 uppercase leading-[60px] max-md:flex-wrap max-md:max-w-full">
+            <div className="flex text-4xl text-red-800 leading-[60px] max-md:flex-wrap max-md:max-w-full">
               <div className="" style={{ borderLeft: "6px solid #A52323" }}>
                 <div className="pl-2 grow text-[#363636]   max-md:text-4xl">
                   <h1>
                     {" "}
-                    Benefits for Our{" "}
+                    Benefits For Our{" "}
                     <span className="text-red-800">Clients</span>
                   </h1>
                 </div>

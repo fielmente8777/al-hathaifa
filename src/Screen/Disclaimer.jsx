@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import Banner from "../components/Banner"
 import Footer from '../components/Footer'
 import DisclaimerCard from '../components/DisclaimerCard';
+import img3 from "../assets/BannerImage/sultan-qaboos-grand-mosque-muscat-oman_11zon.jpg"
 const Disclaimer = () => {
     useEffect(() => {
         window.scrollTo(0, 0); // Scroll the window to the top
@@ -10,38 +11,38 @@ const Disclaimer = () => {
 
     const data = [
         {
-            "heading": "AL HATHAIFA GROUP DISCLAIMER",
+            "heading": "al hathaifa group disclaimer",
             "description1": `"The information transmitted is intended only for the person or entity to rely on the information.,which it is addressed to and may contain privileged material. Please do not copy or deliver this message. Al-Hathaifa accepts no liability for any damage caused by this website information due to viruses, interference, interception, corruption or any unauthorized access."`,
             "description2": `The information provided by Al Hathaifa Group (“Company”, “we”, “our”, “us”) on https://al-hathaifa.com/ (the “Site”) is for general informational purposes only. All information on the Site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the Site.`,
             "description3": `UNDER NO CIRCUMSTANCE SHALL WE HAVE ANY LIABILITY TO YOU FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF THE SITE OR RELIANCE ON ANY INFORMATION PROVIDED ON THE SITE. YOUR USE OF THE SITE AND YOUR RELIANCE ON ANY INFORMATION ON THE SITE IS SOLELY AT YOUR OWN RISK.`,
         },
         {
-            "heading": "EXTERNAL LINKS DISCLAIMER",
+            "heading": "external links disclaimer",
             "description1": `The Site may contain (or you may be sent through the Site) links to other websites or content belonging to or originating from third parties or links to websites and features. Such external links are not investigated, monitored, or checked for accuracy, adequacy, validity, reliability, availability or completeness by us.`,
             "description2": `WE DO NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR THE ACCURACY OR RELIABILITY OF ANY INFORMATION OFFERED BY THIRD-PARTY WEBSITES LINKED THROUGH THE SITE OR ANY WEBSITE OR FEATURE LINKED IN ANY BANNER OR OTHER ADVERTISING. WE WILL NOT BE A PARTY TO OR IN ANY WAY BE RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES`,
             "description3": ``,
         },
         {
-            "heading": "PROFESSIONAL DISCLAIMER",
+            "heading": "professional disclaimer",
             "description1": `The Site cannot and does not contain legal advice. The information is provided for general informational and educational purposes only and is not a substitute for professional legal advice. Accordingly, before taking any actions based upon such information, we encourage you to consult with the appropriate professionals. We do not provide any kind of legal advice.`,
             "description2": `Content published on https://al-hathaifa.com/ is intended to be used and must be used for informational purposes only. It is very important to do your own analysis before making any decision based on your own personal circumstances. You should take independent legal advice from a professional or independently research and verify any information that you find on our Website and wish to rely upon. THE USE OR RELIANCE OF ANY INFORMATION CONTAINED ON THIS SITE IS SOLELY AT YOUR OWN RISK.`,
             "description3": ``,
         },
         {
-            "heading": "AFFILIATES DISCLAIMER",
+            "heading": "affiliates disclaimer",
             "description1": `The Site may contain links to affiliate websites, and we may receive an affiliate commission for any purchases or actions made by you on the affiliate websites using such links.`,
             "description2": ``,
             "description3": ``,
         },
         {
-            "heading": "TESTIMONIALS DISCLAIMER",
+            "heading": "testimonials disclaimer",
             "description1": `The Site may contain testimonials by users of our products and/or services. These testimonials reflect the real-life experiences and opinions of such users. However, the experiences are personal to those particular users, and may not necessarily be representative of all users of our products and/or services. We do not claim, and you should not assume that all users will have the same experiences.`,
             "description2": ``,
             "description3": ``,
         },
         {
             "heading": "",
-            "subheading": "YOUR INDIVIDUAL RESULTS MAY VARY",
+            "subheading": "your individual results may vary",
             "description1": `The testimonials on the Site are submitted in various forms such as text, audio and/or video, and are reviewed by us before being posted. They appear on the Site verbatim as given by the users, except for the correction of grammar or typing errors. Some testimonials may have been shortened for the sake of brevity, where the full testimonial contained extraneous information not relevant to the general public.`,
             "description2": `The views and opinions contained in the testimonials belong solely to the individual user and do not reflect our views and opinions.`,
             "description3": ``,
@@ -53,13 +54,13 @@ const Disclaimer = () => {
             "description3": ``,
         },
         {
-            "heading": "LOGOS AND TRADEMARKS DISCLAIMER",
+            "heading": "errors and omissions disclaimer",
             "description1": `All logos and trademarks of third parties referenced on https://al-hathaifa.com/ are the trademarks and logos of their respective owners. Any inclusion of such trademarks or logos does not imply or constitute any approval, endorsement or sponsorship of Al Hathaifa Group by such owners.`,
             "description2": ``,
             "description3": ``,
         },
         {
-            "heading": "CONTACT US",
+            "heading": "contact us",
             "description1": `Should you have any feedback, comments, requests for technical support or other inquiries, please contact us by email: Jobs@al-hathaifa.com.`,
             "description2": ``,
             "description3": ``,
@@ -72,6 +73,7 @@ const Disclaimer = () => {
             <Banner
                 heading="Disclaimer"
                 description=""
+                banner={img3}
             />
             {
                 data.map((desData, index) => (

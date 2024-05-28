@@ -15,12 +15,12 @@ const WorkingProcess = () => {
         },
         {
             img: light1,
-            heading: "Effective & innovative",
+            heading: "Effective & Innovative",
             description: "By utilizing cutting-edge techniques, we blend efficiency and creativity to fulfill your needs and propel your company towards success."
         },
         {
             img: light3,
-            heading: "result oriented",
+            heading: "Result Oriented",
             description: "Our tailored solutions are laser-focused on achieving tangible outcomes that make a real impact on your bottom line."
         }
     ]
@@ -28,9 +28,9 @@ const WorkingProcess = () => {
         <div className='py-[3rem] '>
             <div className='flex justify-center mb-5 pb-5 max-md:px-5'>
                 <div className='' style={{ borderLeft: "6px solid #A52323" }}>
-                    <div className="pl-2 text-[40px] grow uppercase max-md:text-4xl">
-                        <h1><span className="text-[#363636] ">OUR Working  </span>
-                            <span className="text-red-800">process</span>
+                    <div className="pl-2 text-[40px] grow  max-md:text-4xl">
+                        <h1><span className="text-[#363636] ">Our Working   </span>
+                            <span className="text-red-800">Process</span>
                         </h1>
                     </div>
                 </div>
