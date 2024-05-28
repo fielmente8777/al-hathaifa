@@ -45,9 +45,9 @@ const ServicePageCard = ({ serviceData, imageOrder }) => {
                             </div>
                         </div>
                         {/* <Link aria-label="route" to="/contact"> */}
-                        <Link aria-label="route" to='/service' className="justify-center self-start px-8 py-4 mt-6   tracking-normal text-right text-white uppercase whitespace-nowrap bg-red-800 leading-[150%] max-md:px-5">
+                        {/* <Link aria-label="route" to='/service' className="justify-center self-start px-8 py-4 mt-6   tracking-normal text-right text-white uppercase whitespace-nowrap bg-red-800 leading-[150%] max-md:px-5">
                             <p>Learn More</p>
-                        </Link>
+                        </Link> */}
                         {/* </Link> */}
                     </div>
                 </div>

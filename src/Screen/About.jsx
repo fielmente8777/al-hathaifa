@@ -5,7 +5,7 @@ import Mission from '../components/Mission'
 import OurGoals from '../components/OurGoals'
 import Partner from '../components/Partner'
 import Footer from "../components/Footer"
-import img4 from "../assets/BannerImage/anfal-shamsudeen-n8MmkmHcR3Y-unsplash.avif"
+import img4 from "../assets/BannerImage/6c8a14ff5c.jpeg"
 
 
 const About = () => {

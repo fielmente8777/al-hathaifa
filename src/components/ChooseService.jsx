@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/ChooseService.css";
-import ChooseServiceImage from "../assets/client-img/chooseourservices2_6_11zon.jpg";
+import ChooseServiceImage from "../assets/client-img/chooseourservices_3_11zon.jpg";
 import "../style/Mission.css";
 
 const ChooseService = () => {

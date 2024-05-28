@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Banner from "../components/Banner"
 import ContactForm from '../components/ContactForm'
 import Footer from '../components/Footer'
-import img5 from "../assets/BannerImage/banner1.avif"
+import img5 from "../assets/BannerImage/adil-riyami-fqPNvcjlk5E-unsplash.avif"
 
 
 const Contact = () => {

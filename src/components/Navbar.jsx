@@ -33,12 +33,12 @@ export default function Navbar() {
             <FaBars onClick={click} className="text-3xl" />
           </div>
           <div className="lg:flex hidden space-x-6 items-center ">
-            <Link
+            {/* <Link
               to="/"
               aria-label="facebook">
               <img src={Logo} alt="Al Hathboor Group" class="h-24 top-0 z-[9999]" />
 
-            </Link>
+            </Link> */}
 
             <Link
               to="/" target="_blank"

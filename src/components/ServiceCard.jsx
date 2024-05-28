@@ -29,9 +29,9 @@ const ServiceCard = ({ title, imgUrl, desc, btnName }) => {
           </>
         )}</p>
       </div>
-      <div className="justify-center self-center px-8 py-4 mt-4   tracking-normal text-right text-white uppercase whitespace-nowrap bg-red-800 leading-[150%]">
+      {/* <div className="justify-center self-center px-8 py-4 mt-4   tracking-normal text-right text-white uppercase whitespace-nowrap bg-red-800 leading-[150%]">
         <Link aria-label="route" to="/service"><p className="btn">{btnName}</p> </Link>
-      </div>
+      </div> */}
     </div>
   );
 };

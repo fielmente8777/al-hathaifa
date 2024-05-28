@@ -9,10 +9,10 @@ import support from "../assets/client-img/midsection-man-holding-umbrella-agains
 import indus from "../assets/client-img/delivery_9_11zon.jpeg";
 import facility from "../assets/client-img/engineering-technology-industry-4-0-smart-factory-concept_11zon.jpg";
 import filed from "../assets/client-img/abstract-networking-concept-still-life-arrangement_11zon.jpg";
-import corpo from "../assets/client-img/coporate_8_11zon.jpg";
+import corpo from "../assets/client-img/abstract-blur-wedding-hall (1).jpg";
 
 
-import img from "../assets/BannerImage/819e626f16.avif"
+import img from "../assets/BannerImage/banner1.avif"
 const Service = () => {
 
 
