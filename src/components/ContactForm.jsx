@@ -8,9 +8,9 @@ const ContactForm = () => {
                 <div className="flex flex-col w-[61%]  max-md:ml-0 max-md:w-full">
                     <div className="flex flex-col items-start leading-[60px]  max-md:mt-10 max-md:max-w-full">
                         <div className='' style={{ borderLeft: "6px solid #A52323" }}>
-                            <div className="pl-2 grow text-[40px] text-[#363636] capitalize  max-md:text-4xl">
-                                <h1>
-                                    Where to Find <span style={{ color: "#A52323" }}>US </span></h1>
+                            <div className="pl-2 !font-medium text-[40px] text-[#363636] capitalize  max-md:text-4xl">
+                                <h1 className='!font-medium  '>
+                                    Where to Find <span className='!font-medium' style={{ color: "#A52323" }}>US </span></h1>
 
                             </div>
                         </div>
@@ -21,9 +21,9 @@ const ContactForm = () => {
                                 are a dynamic team, always ready to help our clients with all
                                 their queries.</p>
                         </div>
-                        <div className="mt-12 text-4xl max-md:text-3xl text-justif capitalize max-md:mt-10">
-                            <span className="text-[#363636]">Contact</span>{" "}
-                            <span className="text-red-800">US</span>
+                        <div className="mt-12 text-4xl max-md:text-3xl   text-justify capitalize max-md:mt-10">
+                            <span className="font-medium   text-[#363636]">Contact</span>{" "}
+                            <span className="font-medium  text-red-800">US</span>
                         </div>
                         <div className="flex gap-3 mt-6 leading-6 text-black">
                             <img

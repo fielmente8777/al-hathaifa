@@ -9,7 +9,7 @@ const Bussiness = () => {
       <div className="flex flex-col max-w-[1224px]">
         <div className="flex justify-between text-red-800 leading-[60px] max-md:flex-wrap max-md:max-w-full">
           <div className="" style={{ borderLeft: "6px solid #A52323" }}>
-            <h1 className="pl-2 max-md:text-4xl capitalize text-[#363636]">
+            <h1 className="pl-2 font-medium max-md:text-4xl capitalize text-[#363636]">
               A New Era Of Business standards shaped by the fusion of passion
               and purpose<span style={{ color: "#A52323" }}></span>
             </h1>

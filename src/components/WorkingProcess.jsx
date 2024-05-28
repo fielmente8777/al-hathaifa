@@ -29,8 +29,8 @@ const WorkingProcess = () => {
             <div className='flex justify-center mb-5 pb-5 max-md:px-5'>
                 <div className='' style={{ borderLeft: "6px solid #A52323" }}>
                     <div className="pl-2 text-[40px] grow  max-md:text-4xl">
-                        <h1><span className="text-[#363636] ">Our Working   </span>
-                            <span className="text-red-800">Process</span>
+                        <h1><span className="font-medium text-[#363636] ">Our Working   </span>
+                            <span className="font-medium text-red-800">Process</span>
                         </h1>
                     </div>
                 </div>

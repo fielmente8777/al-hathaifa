@@ -7,7 +7,7 @@ const OurSpeciality = () => {
             <div className="flex gap-3 self-center max-md:self-start text-4xl text-justify text-red-800 whitespace-nowrap leading-[60px]">
                 <div className='' style={{ borderLeft: "6px solid #A52323" }}>
                     <div className="pl-2 grow text-[#fff]   max-md:text-4xl">
-                        <h1>    Our <span className="text-red-800">Speciality</span></h1>
+                        <h1 className='font-medium'>Our <span className="font-medium text-red-800">Speciality</span></h1>
                     </div>
                 </div>
             </div>

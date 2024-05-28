@@ -22,6 +22,16 @@ import lextra from "../assets/client-img/l-extra.png";
 import emax from "../assets/client-img/emax.png";
 import carrefour from "../assets/client-img/carrefour.png";
 import techmart from "../assets/client-img/techmart.png";
+import samsung from "../assets/client-img/samsung-logo-1993.jpg";
+import Riverbed from "../assets/client-img/riverbed.png";
+import Goodyear from "../assets/client-img/goodyearpng.png";
+import Bridgestone from "../assets/client-img/New-Bridgestone-Logo-Design-2011-BPO.jpg";
+import Karchar from "../assets/client-img/Karcher-Logo.png"
+import Roche from "../assets/client-img/rochepng.png"
+import Hisense from "../assets/client-img/hisense-600.png"
+import Kenwood from "../assets/client-img/kenwood.png"
+import Tafal from "../assets/client-img/tafal.png"
+import APHL from "../assets/client-img/aphl.png"
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
@@ -32,6 +42,16 @@ import "swiper/css/navigation";
 
 const Partner = () => {
   const clints = [
+    { img: samsung },
+    { img: Riverbed },
+    { img: Goodyear },
+    { img: Bridgestone },
+    { img: Karchar },
+    { img: Roche },
+    { img: Hisense },
+    { img: Kenwood },
+    { img: Tafal },
+    { img: APHL },
     { img: hpimg1 },
     { img: thesultancenter },
     { img: mcdonalds },
@@ -53,16 +73,16 @@ const Partner = () => {
     { img: lextra },
     { img: emax },
     { img: carrefour },
-    { img: techmart },
+
   ];
   return (
     <section>
       <div className="flex flex-col justify-center items-center w-100 py-10 max-md:px-5 max-md:py-0 max-md:mt-10">
         <div className="" style={{ borderLeft: "6px solid #A52323" }}>
           <div className="pl-2 grow text-[40px] text-[#363636]   max-md:text-4xl">
-            <h1>
+            <h1 className="font-medium">
               Our Partners &
-              <span className="text-red-800"> Clients</span>
+              <span className="text-red-800 font-medium"> Clients</span>
             </h1>
           </div>
         </div>

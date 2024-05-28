@@ -143,7 +143,7 @@ const Footer = () => {
                                                             className="my-auto aspect-[0.71] fill-white w-[15px]"
                                                         />
                                                         <div className="flex-auto">
-                                                            <Link aria-label="route" to="tel:+968 2460 0572" className="hover:text-red-600 transition-colors duration-300"><p>+968 2460 0572</p></Link>
+                                                            <Link aria-label="route" to="tel:+96822700070" className="hover:text-red-600 transition-colors duration-300"><p>+96822700070</p></Link>
                                                         </div>
                                                     </div>
                                                     <div className="flex gap-3 justify-between mt-4 text-base font-medium leading-6 text-white whitespace-nowrap">

@@ -6,8 +6,8 @@ const Management = () => {
             <div className=" flex flex-col justify-center border-3 w-full max-w-[1224px] py-14 max-md:px-5 max-md:py-8">
                 <div className='' style={{ borderLeft: "6px solid #A52323" }}>
                     <div className="pl-2 grow text-[40px] max-md:text-4xl">
-                        <h1><span className="text-white    ">Message From </span>
-                            <span className="text-red-800">Management</span>
+                        <h1><span className="text-white  font-medium    ">Message From </span>
+                            <span className="text-red-800 font-medium  ">Management</span>
                         </h1>
                     </div>
                 </div>

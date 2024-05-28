@@ -28,16 +28,16 @@ export default function Navbar() {
   return (
     <>
       <div className="bg-[#202020] text-white w-full ">
-        <div className="h-20 mx-auto  py-5 flex justify-between items-center max-md:px-5 lg:max-w-[1224px] md:max-w-[720px] max-w-full relative">
+        <div className=" mx-auto flex justify-between items-center max-md:px-5 lg:max-w-[1224px] md:max-w-[720px] max-w-full relative">
           <div className="lg:hidden block">
             <FaBars onClick={click} className="text-3xl" />
           </div>
           <div className="lg:flex hidden space-x-6 items-center ">
-            <div className="h-[100px]">
+            <div className="">
               <Link
                 to="/"
                 aria-label="facebook">
-                <img src={Logo} alt="Al Hathboor Group" class="h-full mt-2 z-[999999]" />
+                <img src={Logo} alt="Al Hathboor Group" class="h-full z-[999999]" />
 
               </Link>
             </div>
@@ -115,7 +115,7 @@ export default function Navbar() {
           <div className="hidden lg:block">
             <a
               aria-label="email"
-              href="tel:+968 2460 0572"
+              href="tel:+96822700070"
               className="flex items-center px-6 py-3 bg-[#a52323] hover:bg-red-700 transition-colors"
             >
               <img
@@ -137,7 +137,7 @@ export default function Navbar() {
           </div>
 
           <div className="lg:hidden block">
-            <a aria-label="phone" href="tel:+968 2460 0572" className="text-decoration-none ">
+            <a aria-label="phone" href="tel:+96822700070" className="text-decoration-none ">
               <img src={icon} alt="icon" />
             </a>
           </div>

@@ -11,8 +11,8 @@ const ServicePageCard = ({ serviceData, imageOrder }) => {
                     <div className="flex  leading-[60px] max-md:flex-wrap max-md:max-w-full">
                         <div className='' style={{ borderLeft: "6px solid #A52323" }}>
                             <div className="pl-2 grow text-[#363636] capitalize  max-md:text-4xl">
-                                <h1>
-                                    <span>{serviceData.heading} </span>
+                                <h1 className='font-medium'>
+                                    {serviceData.heading}
                                 </h1>
                             </div>
                         </div>

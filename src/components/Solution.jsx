@@ -6,9 +6,9 @@ const Solution = () => {
       <div className="flex gap-3 px-5 max-md:px-0 self-center text-red-800  leading-[60px] max-md:flex-wrap max-md:max-w-full">
         <div className="" style={{ borderLeft: "6px solid #A52323" }}>
           <div className="pl-2 grow text-[#363636]   max-md:text-4xl">
-            <h1>
+            <h1 className="font-medium">
               {" "}
-              Omani Sales Force <span className="text-red-800">Solutions</span>
+              Omani Sales Force <span className="text-red-800 font-medium">Solutions</span>
             </h1>
           </div>
         </div>
@@ -21,8 +21,8 @@ const Solution = () => {
                 <div className="" style={{ borderLeft: "6px solid #A52323" }}>
                   <div className="pl-2 grow text-[#363636] max-md:text-2xl">
                     <h1 className=" ">
-                      <span className="text-neutral-700">What We </span>
-                      <span className="text-red-800">Offer</span>
+                      <span className="text-neutral-700 font-medium">What We </span>
+                      <span className="text-red-800 font-medium">Offer</span>
                     </h1>
                   </div>
                 </div>

@@ -36,7 +36,7 @@ const Banner = ({ banner, heading, description }) => {
                 : "text-white"
                 } text-center uppercase leading-[60px]  max-md:max-w-full max-md:text-4xl max-md:leading-10`}
             >
-              <h1>{heading}</h1>
+              <h1 className="font-medium">{heading}</h1>
             </div>
             <div className="mt-3 text-[18px] text-center leading-[167%] max-md:max-w-full">
               <p>{description}</p>

@@ -11,8 +11,8 @@ const FormMap = () => {
                                 <div className='' style={{ borderLeft: "6px solid #A52323" }}>
                                     <div className="pl-2 text-[40px] grow text-start text-[#363636]   max-md:text-4xl">
                                         <h1>
-                                            <span>Where To Find</span>
-                                            <span className="text-red-800"> Us</span>
+                                            <span className="font-medium  ">Where To Find</span>
+                                            <span className="font-medium  text-red-800"> Us</span>
                                         </h1>
                                     </div>
                                 </div>

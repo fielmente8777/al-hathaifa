@@ -17,7 +17,7 @@ const About = () => {
         <div className=" flex flex-col justify-start ">
           <div className="" style={{ borderLeft: "6px solid #A52323" }}>
             <div className="pl-2 grow ">
-              <h1 className=" max-md:text-4xl text-[#363636]">
+              <h1 className=" max-md:text-4xl font-medium text-[#363636]">
                 Where Vision Meets Reality, Working for Your Tomorrow
                 <span style={{ color: "#A52323" }}></span>
               </h1>

@@ -73,8 +73,9 @@ const Service = () => {
   return (
     <div className="service bg-no-repeat bg-cover pt-10 lg:pb-16 flex flex-col justify-center items-center">
       <div className="pl-2 text-[40px] max-md:text-4xl" style={{ borderLeft: "6px solid #A52323" }}>
-        <h1><span className="text-[#fff]  ">Our  </span>
-          <span className="text-red-800">Service</span>
+        <h1>
+          <span className="text-[#fff]  font-medium">Our  </span>
+          <span className="text-red-800 font-medium">Service</span>
         </h1>
       </div>
 

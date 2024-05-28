@@ -62,7 +62,7 @@ const Form = () => {
             <div className="flex relative flex-col grow justify-center text-base max-md:mt-10 max-md:max-w-full">
                 <form onSubmit={handleSubmit} className="flex flex-col px-10 py-8 bg-[#202020] border-solid shadow-sm border-[0.5px] border-[color:var(--Secondary,#A52323)] max-md:px-5 max-md:max-w-full" style={{ boxShadow: "12px 12px 1px #A52323" }}>
                     <div className="text-4xl  leading-[60px]   text-black">
-                        <h1 className="text-white">Get <span className="text-[#A52323]"> In Touch</span></h1>
+                        <h1 className="text-white font-medium  ">Get <span className="text-[#A52323] font-medium  "> In Touch</span></h1>
                     </div>
                     <input className="flex flex-col justify-center items-start py-3 pr-6 pl-6 mt-6 w-full bg-white border-solid border-[0.5px] border-[color:var(--Secondary,#A52323)] max-md:px-5"
                         type='text'
