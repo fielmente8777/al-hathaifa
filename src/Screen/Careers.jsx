@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Banner from "../components/Banner"
 import CareerForm from '../components/CareerForm'
 import Footer from "../components/Footer"
-import img2 from "../assets/BannerImage/0ba264069b.jpeg"
+import img2 from "../assets/BannerImage/0ba264069b_11zon.jpeg"
 const Careers = () => {
 
 

@@ -15,7 +15,7 @@ import Solution from '../components/Solution'
 import OurSpeciality from '../components/OurSpeciality'
 import BenifitsForCLient from '../components/BenifitsForCLient'
 import MarketAnalysis from '../components/MarketAnalysis'
-import img3 from "../assets/BannerImage/sultan-qaboos-grand-mosque-muscat-oman.jpg"
+import img3 from "../assets/BannerImage/sultan-qaboos-grand-mosque-muscat-oman_11zon.jpg"
 
 
 

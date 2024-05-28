@@ -137,7 +137,7 @@ const CareerForm = () => {
                                 <div className="flex flex-col justify-center px-7 py-2.5 bg-white max-md:px-5 max-md:max-w-full">
                                     <div className="flex gap-5 justify-end max-md:flex-wrap max-md:max-w-full">
                                         <div type='file' className="flex-auto my-auto font-medium text-black" >
-                                            <span className='text-[16px]'>{selectedFile ? selectedFile.name : "Upload Resume"}</span>
+                                            <span className='text-[16px] text-black font-semibold'>{selectedFile ? selectedFile.name : "Upload Resume"}</span>
                                         </div>
 
                                         <label className="flex justify-end items-center px-4 py-1.5 bg-red-800 text-white uppercase cursor-pointer max-md:px-5 max-md:max-w-full">
