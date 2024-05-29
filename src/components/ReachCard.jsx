@@ -64,7 +64,7 @@ const ReachCard = () => {
                                 <div className="flex flex-col grow justify-center text-center text-white">
                                     <div className="flex flex-col px-10 py-10 bg-[#A52323] border-[#D1D0A3] border-solid border-t-[6px] max-md:px-5">
                                         <div className="self-center text-4xl font-semibold leading-10 uppercase">
-                                            {dat.count}
+                                            {dat.count}+
                                         </div>
                                         <div className="mt-2.5 text-base font-medium leading-6">
                                             {dat.para}
@@ -77,7 +77,7 @@ const ReachCard = () => {
                                     <div className="flex flex-col grow justify-center text-center text-white">
                                         <div className="flex flex-col px-10 py-10 border-[#D1D0A3] border-solid bg-[#202020] border-b-[6px] max-md:px-5">
                                             <div className="self-center text-4xl font-semibold leading-10 uppercase">
-                                                {dat.count}
+                                                {dat.count}+
                                             </div>
                                             <div className="mt-2.5 text-base font-medium leading-6">
                                                 {dat.para}
