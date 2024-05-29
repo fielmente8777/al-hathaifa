@@ -1,5 +1,5 @@
 import React from "react";
-import BussinessImg from "../assets/client-img/purpose_11zon.jpg";
+import BussinessImg from "../assets/client-img/businessman-touching-red-icon-connected_11zon (1).jpg";
 // import BussinessImage from "../assets/client-img/purpose2.jpg";
 import BussinessImage from "../assets/client-img/management-coaching-business-dealing-mentor-concept_11zon.jpg";
 
