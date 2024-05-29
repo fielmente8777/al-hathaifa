@@ -18,7 +18,7 @@ const ChooseService = () => {
 
             <div className="mt-2 text-justify text-lg">
               <p className=" mt-2 text-white ">
-                At AL HATHAIFA, we take pride in our exceptional team of experts
+                At Al Hathaifa, we take pride in our exceptional team of experts
                 who possess the best skills, unwavering determination, and a
                 forward-thinking mindset. Our primary goal is to provide
                 customized, impact, and outcome-oriented business solutions that
@@ -45,7 +45,7 @@ const ChooseService = () => {
                   className="w-6 aspect-square fill-red-800"
                 />
                 <div className=" grow text-white text-md">
-                  <p>Promote local businesses during COVID</p>
+                  <p>Promote local businesses</p>
                 </div>
               </div>
             </div>

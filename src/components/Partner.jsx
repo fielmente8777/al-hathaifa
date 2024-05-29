@@ -1,6 +1,5 @@
 import React from "react";
-import PartnerImage from "../assets/Partner.png";
-import hpimg1 from "../assets/client-img/hp.png";
+import hpimg1 from "../assets/client-img/640_hp.jpg";
 import thesultancenter from "../assets/client-img/the-sultan-center.png";
 import mcdonalds from "../assets/client-img/mcdonalds.png";
 import ms from "../assets/client-img/microsoft.png";
@@ -81,8 +80,8 @@ const Partner = () => {
         <div className="" style={{ borderLeft: "6px solid #A52323" }}>
           <div className="pl-2 grow text-[40px] text-[#363636]   max-md:text-4xl">
             <h1 className="font-medium">
-              Our Partners &
-              <span className="text-red-800 font-medium"> Clients</span>
+              Our Business
+              <span className="text-red-800 font-medium"> Partners </span>
             </h1>
           </div>
         </div>
@@ -114,12 +113,12 @@ const Partner = () => {
           breakpoints={{
 
             1024: {
-              slidesPerView: 5,
-              spaceBetween: 10,
+              slidesPerView: 6,
+              spaceBetween: 20,
             },
             768: {
               slidesPerView: 3,
-              spaceBetween: 10,
+              spaceBetween: 20,
             },
 
             640: {
@@ -135,8 +134,8 @@ const Partner = () => {
         >
           {clints.map((clint, index) => (
             <SwiperSlide key={index} className="flex justify-center items-center">
-              <div className="flex justify-center items-center">
-                <img src={clint.img} className="h-[5rem]" alt="clint-img" />
+              <div className="flex justify-center items-center h-[4rem]">
+                <img src={clint.img} className="h-[100%]" alt="clint-img" />
               </div>
             </SwiperSlide>
           ))}

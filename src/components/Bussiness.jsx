@@ -17,7 +17,7 @@ const Bussiness = () => {
         </div>
         <div className="mt-12 w-full text-base font-medium leading-6 text-justify text-black max-md:mt-10 max-md:max-w-full">
           <p>
-            Al HATHAIFA is a trusted brand in Oman with a decade-plus of
+            Al Hathaifa is a trusted brand in Oman with a decade-plus of
             competitive business solutions providers in the Technology,
             Staffing, and Talent Management Sectors. Established in 2009, AL
             HATHAIFA has built strong and trusted partnerships and feels proud
@@ -28,7 +28,7 @@ const Bussiness = () => {
             </strong>
           </p>
           <p className="mt-4 text-black">
-            AL HATHAIFA comprises the best, skilled, determined, innovative, and
+            Al Hathaifa comprises the best, skilled, determined, innovative, and
             focused mindsets offering customized, effective, and result-oriented
             business solutions designed to fit your business needs.
           </p>

@@ -24,9 +24,9 @@ const OurSpeciality = () => {
                                 <div className="grow my-auto"><p>Commitment to Local Roots</p></div>
                             </div>
                             <div className="mt-4 font-medium leading-6 max-md:max-w-full">
-                                <p>  We are 100%Omani-owned SME with more than a decade experience of
+                                <li>  We are 100%Omani-owned SME with more than a decade experience of
                                     Sales (Direct & Indirect) with national and International
-                                    Brands.</p>
+                                    Brands.</li>
                             </div>
                             <div className="flex gap-3 self-start mt-6 whitespace-nowrap">
                                 <img
@@ -37,8 +37,8 @@ const OurSpeciality = () => {
                                 <div className="grow my-auto"><p>Expert Omani Supervision</p></div>
                             </div>
                             <div className="mt-4 font-medium leading-6 max-md:max-w-full">
-                                <p> We have expert Omani supervisors focused on high-quality
-                                    promotions and maximizing staff productivity.</p>
+                                <li> We have expert Omani supervisors focused on high-quality
+                                    promotions and maximizing staff productivity.</li>
                             </div>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ const OurSpeciality = () => {
                                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d705407f0be3bbd6fc12e47deb5722856d449d74194f14ba1f2656bce0846e0?"
                                     className="w-7 aspect-square"
                                 />
-                                <div className="grow my-auto"><p>100% Omani Sales Team</p></div>
+                                <div className="grow my-auto"><li>100% Omani Sales Team</li></div>
                             </div>
                             <div className="mt-4 font-medium leading-6 max-md:max-w-full">
                                 <p>We can provide 100% Omani Sales Team across Oman, ensuring a
@@ -65,9 +65,9 @@ const OurSpeciality = () => {
                                 <div className="grow my-auto"><p>Strategic Local Staffing</p></div>
                             </div>
                             <div className="mt-4 font-medium leading-6 max-md:max-w-full">
-                                <p>Employing staff residing near their operational stores,
+                                <li>Employing staff residing near their operational stores,
                                     fostering an intimate knowledge of the local community and
-                                    customer base.</p>
+                                    customer base.</li>
                             </div>
                         </div>
                     </div>

@@ -32,7 +32,7 @@ const ContactForm = () => {
                                 className="self-start aspect-[0.71] fill-red-800 w-[17px]"
                             />
                             <div className="flex-auto">
-                                <p> AL HATHAIFA GROUP , 3rd floor, Majan Tower, Goubra, Near Spar
+                                <p> Al Hathaifa GROUP , 3rd floor, Majan Tower, Goubra, Near Spar
                                     Hyper Market, Muscat, Oman</p>
                             </div>
                         </div>

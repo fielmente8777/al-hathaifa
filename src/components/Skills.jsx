@@ -37,9 +37,9 @@ const Skills = () => {
 
           <div className="mt-3 text-justify text-lg">
             <p className=" mt-3  text-black ">
-              AL HATHAIFA is a trusted name in Oman with over a decade of
+              Al Hathaifa is a trusted name in Oman with over a decade of
               offering competitive Business solutions in Technology, Staffing
-              and Talent Sectors. Established in 2009, we at AL HATHAIFA believe
+              and Talent Sectors. Established in 2009, we at Al Hathaifa believe
               in maintaining strong trusted partnerships within and outside our
               organisation and hence we proudly say that ‘Our Clients are our
               Partners’.

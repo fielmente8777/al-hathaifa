@@ -14,15 +14,9 @@ const MarketAnalysis = () => {
                     </div>
                 </div>
                 <div className="mt-10 w-full font-medium leading-6 text-center max-md:text-justify  text-black max-md:max-w-full">
-                    <p>Oman’s economy is growing exponentially, and with each business comes a
-                        professional problem. AL HATHAIFA offers complete business solutions to
-                        ensure that we can contribute and boost Oman’s market to new heights of
-                        growth.
+                    <p>Oman's economy is expanding at a rapid pace & each new enterprise has its own set of professional challenges. Al Hathaifa provides comprehensive business solutions to ensure that we can participate and propel Oman's market to new heights of growth.
                     </p>
-                    <p className='mt-5'>   We are driven by a long-term ambition of becoming global leaders in our
-                        industry and taking our business to higher accuracy, profitability and
-                        brand assurance. We hold all the major clients in our sector and are on
-                        our road to exploring new territories
+                    <p className='mt-5'>  We are motivated by a long-term goal of becoming worldwide industry leaders and improving our business' accuracy, profitability, and brand assurance. We have all of the key clients in our field and are on our way to exploring new territory.
                     </p>
                 </div>
             </div>

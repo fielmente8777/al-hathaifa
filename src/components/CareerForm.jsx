@@ -58,11 +58,11 @@ const CareerForm = () => {
                 <div className="flex flex-col text-base ">
                     <div className="flex gap-3 self-start text-4xl text-red-800 uppercase leading-[60px]">
                         <div className='pl-2' style={{ borderLeft: "6px solid #A52323" }}>
-                            <h1 className=" text-[#363636]  capitalize font-medium   max-md:text-4xl ">Unlock your potential  with  Al HATHAIFA    <span style={{ color: "#A52323" }}></span></h1>
+                            <h1 className=" text-[#363636]  capitalize font-medium   max-md:text-4xl ">Unlock your potential  with  Al Hathaifa    <span style={{ color: "#A52323" }}></span></h1>
                         </div>
                     </div>
                     <div className="mt-6 w-full font-medium leading-6 text-justify text-black max-md:max-w-full">
-                        <p>If you are seeking a fulfilling career opportunity with a prominent business solutions provider in Oman, we encourage you to take a look at the job positions available at Al HATHAIFA and submit your application today.
+                        <p>If you are seeking a fulfilling career opportunity with a prominent business solutions provider in Oman, we encourage you to take a look at the job positions available at Al Hathaifa and submit your application today.
                         </p>
                     </div>
                     <form onSubmit={handleSubmit} className="flex flex-col px-11 py-8 mt-14  w-full bg-neutral-800 leading-[150%] max-md:px-5 max-md:mt-10 max-md:max-w-full">

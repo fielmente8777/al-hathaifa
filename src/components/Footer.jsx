@@ -131,7 +131,7 @@ const Footer = () => {
                                                         <div>
                                                             <p>
                                                                 {" "}
-                                                                AL HATHAIFA GROUP , 3rd floor, Majan Tower,
+                                                                Al Hathaifa GROUP , 3rd floor, Majan Tower,
                                                                 Goubra, Near Spar Hyper Market, Muscat, Oman
                                                             </p>
                                                         </div>

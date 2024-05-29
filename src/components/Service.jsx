@@ -27,17 +27,17 @@ const Service = () => {
     {
       url: img2,
       heading: "Operations Management",
-      description: `AL Hathaifa offers comprehensive operations management solutions tailored to your business needs. Our seasoned professionals fine-tune processes and enhance productivity for seamless operations.`,
+      description: `Al Hathaifa offers comprehensive operations management solutions tailored to your business needs. Our seasoned professionals fine-tune processes and enhance productivity for seamless operations.`,
     },
     // {
     //   url: img3,
     //   heading: "Logistics Services",
-    //   description: `At AL Hathaifa, we provide customized solutions to meet the unique needs of each business, optimizing transportation routes, managing inventory, and enhancing distribution channels. Our focus on adaptability and innovation empowers businesses to thrive in today's competitive marketplace.`,
+    //   description: `At Al Hathaifa, we provide customized solutions to meet the unique needs of each business, optimizing transportation routes, managing inventory, and enhancing distribution channels. Our focus on adaptability and innovation empowers businesses to thrive in today's competitive marketplace.`,
     // },
     // {
     //   url: img4,
     //   heading: "DELIVERY Services",
-    //   description: `Our comprehensive delivery services ensure timely arrivals without compromising safety. Whether you're sending small parcels or large cargo, rely on AL Hathaifa for secure and efficient delivery. Focus on what matters to you while we handle your shipments with dedication and professionalism.`,
+    //   description: `Our comprehensive delivery services ensure timely arrivals without compromising safety. Whether you're sending small parcels or large cargo, rely on Al Hathaifa for secure and efficient delivery. Focus on what matters to you while we handle your shipments with dedication and professionalism.`,
     // },
     {
       url: img3,
@@ -52,22 +52,22 @@ const Service = () => {
     {
       url: img5,
       heading: "Industrial Technical Services",
-      description: `Count on AL Hathaifa for reliable and cost-effective technical support, as our expertise and commitment to excellence will drive success in your industrial endeavors`,
+      description: `Count on Al Hathaifa for reliable and cost-effective technical support, as our expertise and commitment to excellence will drive success in your industrial endeavors`,
     },
     {
       url: img6,
       heading: "Facility Management Services",
-      description: `With our proactive approach and attention to detail, AL Hathaifa creates a secure, pleasant, and efficient environment for your staff and clients. We go above and beyond to align with your business objectives and manage your facility with professionalism and expertise.`,
+      description: `With our proactive approach and attention to detail, Al Hathaifa creates a secure, pleasant, and efficient environment for your staff and clients. We go above and beyond to align with your business objectives and manage your facility with professionalism and expertise.`,
     },
     {
       url: img7,
       heading: "Field Force Management",
-      description: `At AL Hathaifa, we specialize in innovative field force management solutions that simplify operations, increase efficiency, and enhance performance. Our comprehensive approach covers scheduling, task assignment, tracking, and reporting, empowering organizations to effectively oversee their field teams and foster business growth.`,
+      description: `At Al Hathaifa, we specialize in innovative field force management solutions that simplify operations, increase efficiency, and enhance performance. Our comprehensive approach covers scheduling, task assignment, tracking, and reporting, empowering organizations to effectively oversee their field teams and foster business growth.`,
     },
     {
       url: img8,
       heading: "Corporate Event Management",
-      description: `AL Hathaifa excels in managing corporate events and provides tailored solutions from start to finish. Our dedicated team guarantees flawless organization and execution for conferences, seminars, product launches, and gala dinners. We turn your vision into impactful experiences that leave a lasting impression. Rely on us for seamless events that exceed your expectations.`,
+      description: `Al Hathaifa excels in managing corporate events and provides tailored solutions from start to finish. Our dedicated team guarantees flawless organization and execution for conferences, seminars, product launches, and gala dinners. We turn your vision into impactful experiences that leave a lasting impression. Rely on us for seamless events that exceed your expectations.`,
     },
   ];
   return (
@@ -75,7 +75,7 @@ const Service = () => {
       <div className="pl-2 text-[40px] max-md:text-4xl" style={{ borderLeft: "6px solid #A52323" }}>
         <h1>
           <span className="text-[#fff]  font-medium">Our  </span>
-          <span className="text-red-800 font-medium">Service</span>
+          <span className="text-red-800 font-medium">Services</span>
         </h1>
       </div>
 

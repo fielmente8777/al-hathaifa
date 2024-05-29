@@ -26,7 +26,7 @@ const About = () => {
 
           <div className="mt-3 text-justify">
             <p className=" mt-3  text-black">
-              AL HATHAIFA is a decade-plus experienced company in Oman providing competitive business solutions in the technology, staffing, and talent management sectors. AL HATHAIFA expertise in building strong and trusted partnerships & its commitment to client satisfaction and fostering long-term relationships.
+              Al Hathaifa is a decade-plus experienced company in Oman providing competitive business solutions in the technology, staffing, and talent management sectors. Al Hathaifa expertise in building strong and trusted partnerships & its commitment to client satisfaction and fostering long-term relationships.
             </p>
             <p className=" mt-3  text-black">
               The emphasis is on having the best, skilled, determined, innovative, and focused mindsets within our which is always dedicated to excellence and delivering top-notch services. The focus is always on customization & delivering result-oriented solutions tailored to individual business needs further underscoring the company’s commitment to client success

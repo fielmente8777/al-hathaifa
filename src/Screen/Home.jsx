@@ -16,6 +16,7 @@ import OurSpeciality from '../components/OurSpeciality'
 import BenifitsForCLient from '../components/BenifitsForCLient'
 import MarketAnalysis from '../components/MarketAnalysis'
 import img3 from "../assets/BannerImage/sultan-qaboos-grand-mosque-muscat-oman_11zon.jpg"
+import ReachCard from '../components/ReachCard'
 
 
 
@@ -52,9 +53,10 @@ const Home = () => {
             <Banner
                 banner={img3}
                 heading="Where expertise meets opportunity"
-                description="Innovation, integrity, impact – discover the AL HATHAIFA difference."
+                description="INNOVATION - INTEGRITY - IMPACT . Discover The Al Hathaifa Difference."
             />
 
+            <ReachCard />
             <About />
 
             <Mission />
