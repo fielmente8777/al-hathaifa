@@ -50,11 +50,11 @@ const OurSpeciality = () => {
                                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d705407f0be3bbd6fc12e47deb5722856d449d74194f14ba1f2656bce0846e0?"
                                     className="w-7 aspect-square"
                                 />
-                                <div className="grow my-auto"><li>100% Omani Sales Team</li></div>
+                                <div className="grow my-auto"><p>100% Omani Sales Team</p></div>
                             </div>
                             <div className="mt-4 font-medium leading-6 max-md:max-w-full">
-                                <p>We can provide 100% Omani Sales Team across Oman, ensuring a
-                                    deep understanding of local markets and customer needs.</p>
+                                <li>We can provide 100% Omani Sales Team across Oman, ensuring a
+                                    deep understanding of local markets and customer needs.</li>
                             </div>
                             <div className="flex gap-3 self-start mt-6 whitespace-nowrap">
                                 <img
