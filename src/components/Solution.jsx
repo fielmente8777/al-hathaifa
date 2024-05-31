@@ -34,7 +34,7 @@ const Solution = () => {
                   className="w-7 aspect-square"
                 />
                 <div className="grow max-md:max-w-full">
-                  <p>
+                  <p className="max-md:text-justify">
                     {" "}
                     Omani Sales Promoters for Business To Customers (B2C)
                     Models.
@@ -48,7 +48,7 @@ const Solution = () => {
                   className="self-start w-7 aspect-square"
                 />
                 <div className="max-md:max-w-full">
-                  <p>
+                  <p className="max-md:text-justify">
                     {" "}
                     Omani Business Development Executives for Business to
                     Business (B2B) Model.
@@ -62,7 +62,7 @@ const Solution = () => {
                   className="w-7 aspect-square"
                 />
                 <div className="grow max-md:max-w-full">
-                  <p> Flexible Timings for our services across Oman</p>
+                  <p className="max-md:text-justify"> Flexible Timings for our services across Oman</p>
                 </div>
               </div>
               <div className="flex gap-3 mt-4  max-md:max-w-full">
@@ -72,7 +72,7 @@ const Solution = () => {
                   className="w-7 aspect-square"
                 />
                 <div className="grow max-md:max-w-full">
-                  <p> Solutions with Targets Based Payment(TBP) Models</p>
+                  <p className="max-md:text-justify"> Solutions with Targets Based Payment(TBP) Models</p>
                 </div>
               </div>
               <div className="flex gap-3 mt-4 leading-6  max-md:max-w-full">
@@ -82,7 +82,7 @@ const Solution = () => {
                   className="self-start w-7 aspect-square"
                 />
                 <div className="max-md:max-w-full flex items-center flex-grow">
-                  <p>
+                  <p className="max-md:text-justify">
                     {" "}
                     Supervision to achieve Targets with Daily/Monthly reports as
                     per Client’s Requirements

@@ -32,21 +32,21 @@ const BenifitsForCLient = () => {
                 className="w-6 aspect-square fill-red-800"
               />
               <div className="grow">
-                <p>Ensuring Sellout and Productivity</p>
+                <p className="max-md:text-justify">Ensuring Sellout and Productivity</p>
               </div>
             </div>
             <div className="flex pl-2  text-black mt-4 max-md:max-w-full">
               <li></li>
-              <p>We work with Daily/Weekly/Monthly Targets.</p>
+              <p className="max-md:text-justify">We work with Daily/Weekly/Monthly Targets.</p>
             </div>
             <div className="flex pl-2  text-black mt-2 max-md:max-w-full">
               {" "}
               <li></li>
-              <p> Discuss, Agree and Work with Customer defined KPIs.</p>
+              <p className="max-md:text-justify"> Discuss, Agree and Work with Customer defined KPIs.</p>
             </div>
             <div className=" flex pl-2  text-black  mt-2 max-md:max-w-full">
               <li></li>
-              <p> Complete Management of SalesForce by Al-Hathaifa.</p>
+              <p className="max-md:text-justify"> Complete Management of SalesForce by Al-Hathaifa.</p>
             </div>
             <div className="flex gap-3 self-start mt-4 font-semibold text-justify whitespace-nowrap text-black">
               <img
@@ -55,12 +55,12 @@ const BenifitsForCLient = () => {
                 className="w-6 aspect-square fill-red-800"
               />
               <div className="grow">
-                <p>Target-Based Payment (TBP)</p>
+                <p className="max-md:text-justify">Target-Based Payment (TBP)</p>
               </div>
             </div>
             <div className="flex pl-2  text-black mt-4 leading-6 max-md:max-w-full">
               <li> </li>
-              <p>
+              <p className="max-md:text-justify">
                 {" "}
                 Compensation directly tied to targets, ensuring a clear and fair
                 link between results and pay.
@@ -68,7 +68,7 @@ const BenifitsForCLient = () => {
             </div>
             <div className="flex pl-2  text-black mt-2 max-md:max-w-full">
               <li> </li>
-              <p> Simplified Payment Structures</p>
+              <p className="max-md:text-justify"> Simplified Payment Structures</p>
             </div>
             <div className="flex gap-3 self-start mt-4 font-semibold text-justify whitespace-nowrap text-black">
               <img
@@ -77,13 +77,13 @@ const BenifitsForCLient = () => {
                 className="w-6 aspect-square fill-red-800"
               />
               <div className="grow">
-                <p>Comprehensive Retail Network</p>
+                <p className="max-md:text-justify">Comprehensive Retail Network</p>
               </div>
             </div>
             <div className="flex pl-2  text-black mt-4 leading-6 max-md:max-w-full">
               {" "}
               <li> </li>
-              <p>
+              <p className="max-md:text-justify">
                 {" "}
                 Strong Retail Partnerships: Effective product placement in major
                 hypermarkets and malls.
@@ -91,7 +91,7 @@ const BenifitsForCLient = () => {
             </div>
             <div className="flex pl-2  text-black mt-2 max-md:max-w-full">
               <li></li>
-              <p>
+              <p className="max-md:text-justify">
                 {" "}
                 Efficient Documentation Management: Handling all necessary
                 paperwork.
@@ -105,12 +105,12 @@ const BenifitsForCLient = () => {
               />
               <div className="grow">
                 {" "}
-                <p>FlexiblePromoter Scheduling</p>
+                <p className="max-md:text-justify">FlexiblePromoter Scheduling</p>
               </div>
             </div>
             <div className="flex pl-2  text-black mt-4 leading-6 max-md:max-w-full">
               <li></li>
-              <p>
+              <p className="max-md:text-justify">
                 {" "}
                 Customizable Hours: Availability for 9-hour shifts, weekends,
                 peak hours, or as required.
@@ -123,13 +123,13 @@ const BenifitsForCLient = () => {
                 className="w-6 aspect-square fill-red-800"
               />
               <div className="grow">
-                <p>Contract Flexibility</p>
+                <p className="max-md:text-justify">Contract Flexibility</p>
               </div>
             </div>
             <div className="flex pl-2  text-black mt-4 leading-6 max-md:max-w-full">
               {" "}
               <li></li>
-              <p>
+              <p className="max-md:text-justify">
                 {" "}
                 Fixed and On-Demand Basis: Catering to ongoing or specific
                 promotional needs.

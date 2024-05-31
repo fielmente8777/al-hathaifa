@@ -129,7 +129,7 @@ const Footer = () => {
                                                             className="self-start aspect-[0.71] fill-white w-[17px]"
                                                         />
                                                         <div>
-                                                            <p>
+                                                            <p className="max-md:text-justify">
                                                                 {" "}
                                                                 Al Hathaifa GROUP , 3rd floor, Majan Tower,
                                                                 Goubra, Near Spar Hyper Market, Muscat, Oman

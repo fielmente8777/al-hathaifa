@@ -31,7 +31,7 @@ const ContactForm = () => {
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/9ee66c3ec2f864c6bff3c1548e3963684af70d7a3c428538c7b92441e7a8d570?"
                                 className="self-start aspect-[0.71] fill-red-800 w-[17px]"
                             />
-                            <div className="flex-auto">
+                            <div className="flex-auto max-md:text-justify">
                                 <p> Al Hathaifa GROUP , 3rd floor, Majan Tower, Goubra, Near Spar
                                     Hyper Market, Muscat, Oman</p>
                             </div>

@@ -106,6 +106,7 @@ const Service = () => {
               nextEl: ".next",
               prevEl: ".prev",
             }}
+            spaceBetween={20}
             breakpoints={{
               640: {
                 slidesPerView: 1,
