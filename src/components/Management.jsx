@@ -14,8 +14,8 @@ const Management = () => {
 
                 <p className=" mt-6 text-white max-md:text-justify ">Al Hathaifa Group believes in critical brainstorming before taking any action. We believe in people's power who strengthen our work and play a key role in success. We share a mindset that foresees an objective of becoming our stakeholder's most desired partner with consistency, determination, and hard work. We pursue excellence by inducing empowering and sustainable growth to enrich the Oman economy.</p>
 
-                <h1 className='mt-6 text-white text-2xl  '>Ms Ward Alman Ji</h1>
-                <p className='mt-2 text-white text-md'>Chairman, Al Hathaifa Group.</p>
+                <h1 className='mt-6 text-white text-2xl  '>Ms. Warda Al Manji</h1>
+                <p className='mt-2 text-white text-md'>CEO, Al Hathaifa Group.</p>
 
 
             </div>

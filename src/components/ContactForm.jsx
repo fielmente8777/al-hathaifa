@@ -1,6 +1,7 @@
 import React from 'react'
 import Form from './Form'
 
+import { Link } from "react-router-dom"
 const ContactForm = () => {
     return (
         <div className='flex flex-col justify-center items-center'>
@@ -32,18 +33,21 @@ const ContactForm = () => {
                                 className="self-start aspect-[0.71] fill-red-800 w-[17px]"
                             />
                             <div className="flex-auto max-md:text-justify">
-                                <p> Al Hathaifa GROUP , 3rd floor, Majan Tower, Goubra, Near Spar
-                                    Hyper Market, Muscat, Oman</p>
+                                <p> Al Hathaifa Group
+                                    Office No. 31,
+                                    Majan Tower, Building No. 2522,
+                                    Al Ghubrah,  Muscat,
+                                    Sultanate of Oman</p>
                             </div>
                         </div>
-                        <div className="flex gap-3 mt-4 leading-[150%] text-black">
+                        <Link to="tel:+96822700070" className="flex gap-3 mt-4 leading-[150%] text-black">
                             <img
                                 loading="lazy" alt="icon"
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/917a940c774083ca1863be5bf8c351bfdf74ed2192ab7fc726cfb9f17b0481ef?"
                                 className="my-auto aspect-[0.71] fill-red-800 w-[15px]"
                             />
-                            <div className="flex-auto"><p>+968 2460 0572</p></div>
-                        </div>
+                            <div className="flex-auto"><p>+968 22 7000 70</p></div>
+                        </Link>
                         <div className="flex gap-3 mt-4 whitespace-nowrap leading-[150%] text-black">
                             <img
                                 loading="lazy" alt="icon"
