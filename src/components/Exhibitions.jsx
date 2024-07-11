@@ -58,7 +58,7 @@ const Exhibitions = () => {
                     We offer end-to-end services for exhibition booth stalls, handling every
                     detail from concept to execution. Our services include all below:
                 </p>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-4">
                     {data.map((data, i) => (
                         <div key={i} className='text-2xl'>
                             <div className="flex gap-3 uppercase items-start flex-nowrap">
@@ -71,9 +71,9 @@ const Exhibitions = () => {
                                     {data.head}
                                 </div>
                             </div>
-                            <div className="mt-4 ml-3 flex text-base font-medium max-md:max-w-full">
+                            <div className="mt-4 ml-3 flex">
                                 <li></li>
-                                <p>
+                                <p className=' text-base font-medium leading-6 text-[#363636] max-md:mt-1 max-md:text-justify'>
                                     {data.para}
                                 </p>
 
