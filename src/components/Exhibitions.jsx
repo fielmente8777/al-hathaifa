@@ -41,10 +41,10 @@ const Exhibitions = () => {
             <div className='max-w-[1224px] mx-auto flex flex-col items-center gap-3 md:gap-6 py-10 max-md:px-5'>
 
 
-                <div className="flex gap-3 self-center max-md:self-start text-4xl  text-red-800 uppercase  leading-[60px]">
+                <div className="flex gap-3 self-center max-md:self-start text-4xl text-red-800 uppercase  leading-[60px]">
                     <div className='' style={{ borderLeft: "6px solid #A52323" }}>
                         <div className="pl-2 grow text-[#363636]   max-md:text-4xl">
-                            <h1>Exhibitions & <span className="text-red-800">Events</span></h1>
+                            <h1 className='font-medium'>Exhibitions & <span className="text-red-800 font-medium">Events</span></h1>
                         </div>
                     </div>
                 </div>
@@ -67,13 +67,13 @@ const Exhibitions = () => {
                                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d705407f0be3bbd6fc12e47deb5722856d449d74194f14ba1f2656bce0846e0?"
                                     className="shrink-0 max-md:mt-1 w-7 aspect-square "
                                 />
-                                <div className="max-md:max-w-full">
+                                <h3 className="max-md:max-w-full font-normal text-black capitalize">
                                     {data.head}
-                                </div>
+                                </h3>
                             </div>
-                            <div className="mt-4 ml-3 flex">
+                            <div className="mt-4 text-base font-medium ml-3 flex">
                                 <li></li>
-                                <p className=' text-base font-medium leading-6 text-[#363636] max-md:mt-1 max-md:text-justify'>
+                                <p className='text-base font-medium leading-6 text-[#363636]  max-md:text-justify'>
                                     {data.para}
                                 </p>
 
