@@ -15,6 +15,7 @@ import Solution from '../components/Solution'
 import OurSpeciality from '../components/OurSpeciality'
 import BenifitsForCLient from '../components/BenifitsForCLient'
 import MarketAnalysis from '../components/MarketAnalysis'
+import Exhibitions from '../components/Exhibitions'
 
 const Home = () => {
     useEffect(() => {
@@ -49,6 +50,8 @@ const Home = () => {
             </div>
 
             <Solution />
+
+            <Exhibitions />
 
             <OurSpeciality />
 
