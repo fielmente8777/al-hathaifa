@@ -1,6 +1,7 @@
 import React from 'react'
 import Form from './Form'
 
+import { Link } from "react-router-dom"
 const ContactForm = () => {
     return (
         <div className='flex flex-col justify-center items-center'>
@@ -8,9 +9,9 @@ const ContactForm = () => {
                 <div className="flex flex-col w-[61%]  max-md:ml-0 max-md:w-full">
                     <div className="flex flex-col items-start leading-[60px]  max-md:mt-10 max-md:max-w-full">
                         <div className='' style={{ borderLeft: "6px solid #A52323" }}>
-                            <div className="pl-2 grow text-[40px] text-[#363636] uppercase  max-md:text-4xl">
-                                <h1>
-                                    Where to Find <span style={{ color: "#A52323" }}>US </span></h1>
+                            <div className="pl-2 !font-medium text-[40px] text-[#363636] capitalize  max-md:text-4xl">
+                                <h1 className='!font-medium  '>
+                                    Where to Find <span className='!font-medium' style={{ color: "#A52323" }}>US </span></h1>
 
                             </div>
                         </div>
@@ -21,9 +22,9 @@ const ContactForm = () => {
                                 are a dynamic team, always ready to help our clients with all
                                 their queries.</p>
                         </div>
-                        <div className="mt-12 text-4xl max-md:text-3xl text-justif uppercase max-md:mt-10">
-                            <span className="text-[#363636]">CONTACT</span>{" "}
-                            <span className="text-red-800">US</span>
+                        <div className="mt-12 text-4xl max-md:text-3xl   text-justify capitalize max-md:mt-10">
+                            <span className="font-medium   text-[#363636]">Contact</span>{" "}
+                            <span className="font-medium  text-red-800">US</span>
                         </div>
                         <div className="flex gap-3 mt-6 leading-6 text-black">
                             <img
@@ -31,19 +32,22 @@ const ContactForm = () => {
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/9ee66c3ec2f864c6bff3c1548e3963684af70d7a3c428538c7b92441e7a8d570?"
                                 className="self-start aspect-[0.71] fill-red-800 w-[17px]"
                             />
-                            <div className="flex-auto">
-                                <p> AL HATHAIFA GROUP , 3rd floor, Majan Tower, Goubra, Near Spar
-                                    Hyper Market, Muscat, Oman</p>
+                            <div className="flex-auto max-md:text-justify">
+                                <p> Al Hathaifa Group
+                                    Office No. 31,
+                                    Majan Tower, Building No. 2522,
+                                    Al Ghubrah,  Muscat,
+                                    Sultanate of Oman</p>
                             </div>
                         </div>
-                        <div className="flex gap-3 mt-4 leading-[150%] text-black">
+                        <Link to="tel:+96822700070" className="flex gap-3 mt-4 leading-[150%] text-black">
                             <img
                                 loading="lazy" alt="icon"
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/917a940c774083ca1863be5bf8c351bfdf74ed2192ab7fc726cfb9f17b0481ef?"
                                 className="my-auto aspect-[0.71] fill-red-800 w-[15px]"
                             />
-                            <div className="flex-auto"><p>+968 2460 0572</p></div>
-                        </div>
+                            <div className="flex-auto"><p>+968 22 7000 70</p></div>
+                        </Link>
                         <div className="flex gap-3 mt-4 whitespace-nowrap leading-[150%] text-black">
                             <img
                                 loading="lazy" alt="icon"

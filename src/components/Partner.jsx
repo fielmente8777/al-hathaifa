@@ -1,6 +1,5 @@
 import React from "react";
-import PartnerImage from "../assets/Partner.png";
-import hpimg1 from "../assets/client-img/hp.png";
+import hpimg1 from "../assets/client-img/640_hp.jpg";
 import thesultancenter from "../assets/client-img/the-sultan-center.png";
 import mcdonalds from "../assets/client-img/mcdonalds.png";
 import ms from "../assets/client-img/microsoft.png";
@@ -22,6 +21,16 @@ import lextra from "../assets/client-img/l-extra.png";
 import emax from "../assets/client-img/emax.png";
 import carrefour from "../assets/client-img/carrefour.png";
 import techmart from "../assets/client-img/techmart.png";
+import samsung from "../assets/client-img/samsung-logo-1993.jpg";
+import Riverbed from "../assets/client-img/riverbed.png";
+import Goodyear from "../assets/client-img/goodyearpng.png";
+import Bridgestone from "../assets/client-img/New-Bridgestone-Logo-Design-2011-BPO.jpg";
+import Karchar from "../assets/client-img/Karcher-Logo.png"
+import Roche from "../assets/client-img/rochepng.png"
+import Hisense from "../assets/client-img/hisense-600.png"
+import Kenwood from "../assets/client-img/kenwood.png"
+import Tafal from "../assets/client-img/tafal.png"
+import APHL from "../assets/client-img/aphl.png"
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
@@ -32,6 +41,16 @@ import "swiper/css/navigation";
 
 const Partner = () => {
   const clints = [
+    { img: samsung },
+    { img: Riverbed },
+    { img: Goodyear },
+    { img: Bridgestone },
+    { img: Karchar },
+    { img: Roche },
+    { img: Hisense },
+    { img: Kenwood },
+    { img: Tafal },
+    { img: APHL },
     { img: hpimg1 },
     { img: thesultancenter },
     { img: mcdonalds },
@@ -53,16 +72,16 @@ const Partner = () => {
     { img: lextra },
     { img: emax },
     { img: carrefour },
-    { img: techmart },
+
   ];
   return (
     <section>
       <div className="flex flex-col justify-center items-center w-100 py-10 max-md:px-5 max-md:py-0 max-md:mt-10">
         <div className="" style={{ borderLeft: "6px solid #A52323" }}>
-          <div className="pl-2 grow text-[40px] text-[#363636] uppercase   max-md:text-4xl">
-            <h1>
-              OUR partners &
-              <span className="text-red-800"> clients</span>
+          <div className="pl-2 grow text-[40px] text-[#363636]   max-md:text-4xl">
+            <h1 className="font-medium">
+              Our Business
+              <span className="text-red-800 font-medium"> Partners </span>
             </h1>
           </div>
         </div>
@@ -94,12 +113,12 @@ const Partner = () => {
           breakpoints={{
 
             1024: {
-              slidesPerView: 5,
-              spaceBetween: 10,
+              slidesPerView: 6,
+              spaceBetween: 20,
             },
             768: {
               slidesPerView: 3,
-              spaceBetween: 10,
+              spaceBetween: 20,
             },
 
             640: {
@@ -115,8 +134,8 @@ const Partner = () => {
         >
           {clints.map((clint, index) => (
             <SwiperSlide key={index} className="flex justify-center items-center">
-              <div className="flex justify-center items-center">
-                <img src={clint.img} className="h-[5rem]" alt="clint-img" />
+              <div className="flex justify-center items-center h-[4rem]">
+                <img src={clint.img} className="h-[100%]" alt="clint-img" />
               </div>
             </SwiperSlide>
           ))}

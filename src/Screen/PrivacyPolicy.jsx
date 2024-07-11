@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import Banner from '../components/Banner'
 import Footer from '../components/Footer'
 import DisclaimerCard from '../components/DisclaimerCard';
+import img3 from "../assets/BannerImage/sultan-qaboos-grand-mosque-muscat-oman_11zon.jpg"
 
 const PrivacyPolicy = () => {
     useEffect(() => {
@@ -12,7 +13,7 @@ const PrivacyPolicy = () => {
 
     const data = [
         {
-            "heading": "AL HATHAIFA GROUP DISCLAIMER",
+            "heading": "al hathaifa group disclaimer",
             "description1": `"The information transmitted is intended only for the person or entity to rely on the information.,which it is addressed to and may contain privileged material. Please do not copy or deliver this message. Al-Hathaifa accepts no liability for any damage caused by this website information due to viruses, interference, interception, corruption or any unauthorized access."`,
             "description2": `The information provided by Al Hathaifa Group (“Company”, “we”, “our”, “us”) on https://al-hathaifa.com/ (the “Site”) is for general informational purposes only. All information on the Site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the Site.`,
             "description3": `UNDER NO CIRCUMSTANCE SHALL WE HAVE ANY LIABILITY TO YOU FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF THE SITE OR RELIANCE ON ANY INFORMATION PROVIDED ON THE SITE. YOUR USE OF THE SITE AND YOUR RELIANCE ON ANY INFORMATION ON THE SITE IS SOLELY AT YOUR OWN RISK.`,
@@ -24,6 +25,7 @@ const PrivacyPolicy = () => {
             <Banner
                 heading="Privacy Policy"
                 description=""
+                banner={img3}
             />
             {
                 data.map((desData, index) => (

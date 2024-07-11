@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/ChooseService.css";
-import ChooseServiceImage from "../assets/client-img/chooseourservices2.jpg";
+import ChooseServiceImage from "../assets/client-img/chooseourservices_3_11zon.jpg";
 import "../style/Mission.css";
 
 const ChooseService = () => {
@@ -10,15 +10,15 @@ const ChooseService = () => {
         <div className="max-md:order-2 max-md:mt-24">
           <div className=" flex flex-col justify-center border-3 ">
             <div className="border-[#A52323] max-md:border-l-[6px] lg:border-r-[6px]">
-              <h1 className=" max-md:pl-2 max-md:text-4xl text-white uppercase  ">
-                why you should choose our{" "}
-                <span style={{ color: "#A52323" }}> services? </span>
+              <h1 className=" max-md:pl-2 max-md:text-4xl font-medium   text-white  ">
+                Why You Should Choose our{" "}
+                <span style={{ color: "#A52323" }} className="font-medium  "> Services? </span>
               </h1>
             </div>
 
             <div className="mt-2 text-justify text-lg">
               <p className=" mt-2 text-white ">
-                At AL HATHAIFA, we take pride in our exceptional team of experts
+                At Al Hathaifa, we take pride in our exceptional team of experts
                 who possess the best skills, unwavering determination, and a
                 forward-thinking mindset. Our primary goal is to provide
                 customized, impact, and outcome-oriented business solutions that
@@ -26,7 +26,7 @@ const ChooseService = () => {
               </p>
             </div>
             <div className="flex gap-5 mt-12 font-semibold text-justify  leading-[150%] max-md:flex-col max-md:mt-10 max-md:max-w-full">
-              <div className="flex gap-3 justify-between w-[250px] max-md:w-full">
+              <div className="flex gap-3 justify-between w-[250px] max-md:w-full ">
                 <img
                   alt="Customer"
                   loading="lazy"
@@ -45,7 +45,7 @@ const ChooseService = () => {
                   className="w-6 aspect-square fill-red-800"
                 />
                 <div className=" grow text-white text-md">
-                  <p>Promote local businesses during COVID</p>
+                  <p>Promote local businesses</p>
                 </div>
               </div>
             </div>
@@ -104,7 +104,7 @@ const ChooseService = () => {
         <div className="max-md:flex max-md:justify-center mb-5 lg:flex relative justify-end">
           <div className="absolute experiencecard flex z-10 flex-col object-center self-stretch h-max px-7 py-9 my-auto uppercase bg-white rounded-3xl max-md:px-5">
             <div className="text-red-800 leading-[59.92px] max-md:text-4xl">
-              <p className="text-6xl">8+</p>
+              <p className="text-6xl">10+</p>
             </div>
             <div className="mt-2 text-2xl leading-7 text-black">
               <p>

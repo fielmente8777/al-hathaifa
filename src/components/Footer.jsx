@@ -129,10 +129,13 @@ const Footer = () => {
                                                             className="self-start aspect-[0.71] fill-white w-[17px]"
                                                         />
                                                         <div>
-                                                            <p>
+                                                            <p className="max-md:text-justify">
                                                                 {" "}
-                                                                AL HATHAIFA GROUP , 3rd floor, Majan Tower,
-                                                                Goubra, Near Spar Hyper Market, Muscat, Oman
+                                                                Al Hathaifa Group
+                                                                Office No. 31,
+                                                                Majan Tower, Building No. 2522,
+                                                                Al Ghubrah,  Muscat,
+                                                                Sultanate of Oman
                                                             </p>
                                                         </div>
                                                     </div>
@@ -143,7 +146,7 @@ const Footer = () => {
                                                             className="my-auto aspect-[0.71] fill-white w-[15px]"
                                                         />
                                                         <div className="flex-auto">
-                                                            <Link aria-label="route" to="tel:+968 2460 0572" className="hover:text-red-600 transition-colors duration-300"><p>+968 2460 0572</p></Link>
+                                                            <Link aria-label="route" to="tel:+96822700070" className="hover:text-red-600 transition-colors duration-300"><p>+968 22 7000 70</p></Link>
                                                         </div>
                                                     </div>
                                                     <div className="flex gap-3 justify-between mt-4 text-base font-medium leading-6 text-white whitespace-nowrap">

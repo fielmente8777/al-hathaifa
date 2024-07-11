@@ -14,10 +14,10 @@ const ServiceCard = ({ title, imgUrl, desc, btnName }) => {
       <div>
         <img src={imgUrl} className="" alt="service-img" loading="lazy" />
       </div>
-      <div className="mt-4 text-2xl leading-9 text-center uppercase text-neutral-700 lg:min-h-[7rem] min-h-[6rem]:">
+      <div className="mt-4 text-2xl leading-9 text-center text-neutral-700 lg:min-h-[7rem] min-h-[6rem]:">
         <h style={{ fontSize: '24px' }}>{title}</h>
       </div>
-      <div className="mt-2 max-md:mt-6 font-medium leading-6 text-justify  text-black min-h-[13rem]">
+      <div className="mt-2 max-md:mt-6 font-medium leading-6 text-left text-black min-h-[13rem]">
         <p>{showFullDescription ? (
           <>
             {desc}
@@ -29,9 +29,9 @@ const ServiceCard = ({ title, imgUrl, desc, btnName }) => {
           </>
         )}</p>
       </div>
-      <div className="justify-center self-center px-8 py-4 mt-4   tracking-normal text-right text-white uppercase whitespace-nowrap bg-red-800 leading-[150%]">
+      {/* <div className="justify-center self-center px-8 py-4 mt-4   tracking-normal text-right text-white uppercase whitespace-nowrap bg-red-800 leading-[150%]">
         <Link aria-label="route" to="/service"><p className="btn">{btnName}</p> </Link>
-      </div>
+      </div> */}
     </div>
   );
 };

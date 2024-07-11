@@ -1,22 +1,23 @@
 import React from "react";
-import BussinessImg from "../assets/client-img/purpose.jpg";
-import BussinessImage from "../assets/client-img/purpose2.jpg";
+import BussinessImg from "../assets/client-img/businessman-touching-red-icon-connected_11zon (1).jpg";
+// import BussinessImage from "../assets/client-img/purpose2.jpg";
+import BussinessImage from "../assets/client-img/management-coaching-business-dealing-mentor-concept_11zon.jpg";
 
 const Bussiness = () => {
   return (
     <div className="px-24 flex justify-center py-10 max-md:px-5">
       <div className="flex flex-col max-w-[1224px]">
-        <div className="flex justify-between text-red-800 uppercase leading-[60px] max-md:flex-wrap max-md:max-w-full">
+        <div className="flex justify-between text-red-800 leading-[60px] max-md:flex-wrap max-md:max-w-full">
           <div className="" style={{ borderLeft: "6px solid #A52323" }}>
-            <h1 className="pl-2 max-md:text-4xl   uppercase text-[#363636]">
-              A new era of business standards shaped by the fusion of passion
+            <h1 className="pl-2 font-medium max-md:text-4xl capitalize text-[#363636]">
+              A New Era Of Business standards shaped by the fusion of passion
               and purpose<span style={{ color: "#A52323" }}></span>
             </h1>
           </div>
         </div>
-        <div className="mt-12 w-full text-base font-medium leading-6 text-justify text-neutral-400 max-md:mt-10 max-md:max-w-full">
+        <div className="mt-12 w-full text-base font-medium leading-6 text-justify text-black max-md:mt-10 max-md:max-w-full">
           <p>
-            Al HATHAIFA is a trusted brand in Oman with a decade-plus of
+            Al Hathaifa is a trusted brand in Oman with a decade-plus of
             competitive business solutions providers in the Technology,
             Staffing, and Talent Management Sectors. Established in 2009, AL
             HATHAIFA has built strong and trusted partnerships and feels proud
@@ -26,8 +27,8 @@ const Bussiness = () => {
               business partners.&quot;
             </strong>
           </p>
-          <p className="mt-4">
-            AL HATHAIFA comprises the best, skilled, determined, innovative, and
+          <p className="mt-4 text-black">
+            Al Hathaifa comprises the best, skilled, determined, innovative, and
             focused mindsets offering customized, effective, and result-oriented
             business solutions designed to fit your business needs.
           </p>
@@ -38,19 +39,19 @@ const Bussiness = () => {
               <img
                 loading="lazy"
                 src={BussinessImg}
-                className="grow w-full aspect-[1.11] max-md:mt-5 max-md:max-w-full object-cover"
+                className=" w-full aspect-[1.11] max-md:mt-5 max-md:max-w-full object-cover object-left"
               />
             </div>
             <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
               <img
                 loading="lazy"
                 src={BussinessImage}
-                className="grow w-full aspect-[1.11] max-md:mt-5 max-md:max-w-full object-cover"
+                className=" w-full aspect-[1.11] max-md:mt-5 max-md:max-w-full object-cover object-right"
               />
             </div>
           </div>
         </div>
-        <div className="mt-12 w-full text-base font-medium leading-6 text-justify text-neutral-400 max-md:mt-10 max-md:max-w-full">
+        <div className="mt-12 w-full text-base font-medium leading-6 text-justify text-black max-md:mt-10 max-md:max-w-full">
           <p>
             {" "}
             With a commitment to excellence, integrity, and professionalism, our

@@ -1,6 +1,6 @@
 import React from "react";
-import MissonImage from "../assets/client-img/mission.jpeg";
-import MissionVision from "../assets/client-img/mission2.jpg";
+import MissonImage from "../assets/client-img/mission_7_11zon.jpeg";
+import MissionVision from "../assets/client-img/logistic_5_11zon.jpg";
 import "../style/Mission.css";
 import { useLocation } from "react-router-dom";
 const Mission = () => {
@@ -20,8 +20,8 @@ const Mission = () => {
             }`}
         >
           <div className="pl-2" style={{ borderLeft: "6px solid #A52323" }}>
-            <h1 className="text-white uppercase max-md:text-4xl">
-              OUR MISSION & <span style={{ color: "#A52323" }}>VISION</span>
+            <h1 className="text-white font-medium max-md:text-4xl">
+              Our Mission & <span className="font-medium" style={{ color: "#A52323" }}>Vision</span>
             </h1>
           </div>
 

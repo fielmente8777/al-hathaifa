@@ -1,5 +1,5 @@
 import React from "react";
-import SkillsImage from "../assets/client-img/skills.jpg";
+import SkillsImage from "../assets/client-img/skills_2_11zon.jpg";
 import "../style/skills.css";
 
 const Skills = () => {
@@ -29,17 +29,17 @@ const Skills = () => {
         <div className=" flex flex-col justify-center item-center ">
           <div className="" style={{ borderLeft: "6px solid #A52323" }}>
             <div className="pl-2 grow ">
-              <h1 className="   uppercase text-[#363636] max-md:text-4xl">
-                OUR <span style={{ color: "#A52323" }}>SKills </span>
+              <h1 className="font-medium text-[#363636] max-md:text-4xl">
+                Our <span className="font-medium" style={{ color: "#A52323" }}>Skills </span>
               </h1>
             </div>
           </div>
 
           <div className="mt-3 text-justify text-lg">
-            <p className=" mt-3  text-neutral-400 ">
-              AL HATHAIFA is a trusted name in Oman with over a decade of
+            <p className=" mt-3  text-black ">
+              Al Hathaifa is a trusted name in Oman with over a decade of
               offering competitive Business solutions in Technology, Staffing
-              and Talent Sectors. Established in 2009, we at AL HATHAIFA believe
+              and Talent Sectors. Established in 2009, we at Al Hathaifa believe
               in maintaining strong trusted partnerships within and outside our
               organisation and hence we proudly say that ‘Our Clients are our
               Partners’.
