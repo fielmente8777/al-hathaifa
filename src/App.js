@@ -39,15 +39,15 @@ function App() {
       <Link
         to={`https://wa.me/${encodeURIComponent("+96822700070")}`}
         target="_blank"
-        className="whatsapp-button inline-block fixed bottom-[20px] right-[20px] w-[50px] h-[50px] bg-[#4DC251] p-[12px]  rounded-full text-white z-10 text-[25px] overflow-hidden"
+        className="whatsapp-button inline-block fixed bottom-[40px] left-[20px] w-[50px] h-[50px] bg-[#4DC251] p-[12px]  rounded-full text-white z-10 text-[25px] overflow-hidden"
       >
         <span className="sr-only">what's app</span><FaWhatsapp />;
       </Link>
 
-      <Link to="tel:+968227000700" className="whatsapp-button inline-block fixed bottom-[20px] left-[20px] w-[50px] h-[50px] bg-[#A52323] p-[12px]  rounded-full text-white z-10 text-[25px] overflow-hidden">
+      {/* <Link to="tel:+968227000700" className="whatsapp-button inline-block fixed bottom-[20px] left-[20px] w-[50px] h-[50px] bg-[#A52323] p-[12px]  rounded-full text-white z-10 text-[25px] overflow-hidden">
         <span className="sr-only">call</span><FaPhone style={{ transform: 'rotate(100deg)' }} />
 
-      </Link>
+      </Link> */}
     </div>
 
   );
